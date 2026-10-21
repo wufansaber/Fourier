@@ -1,0 +1,38 @@
+{
+  "case": "stripes",
+  "tag": "none_fine",
+  "n": 8192,
+  "window_mm": 1.024,
+  "dx_um": 0.125,
+  "sensor_quadrature_order": 3,
+  "intensity_unit": "I/I_ref (dimensionless)",
+  "intensity_reference": 0.9857451908016286,
+  "reference_definition": "uniform unit-amplitude object, no rods, same illumination and detector line height",
+  "design": {
+    "core_width_mm": 0,
+    "b_mm": 0,
+    "profile": "none",
+    "threshold": 0,
+    "orders": []
+  },
+  "derived": {
+    "pupil_mm": 36.0,
+    "relay_magnification": 1.0,
+    "f_ff_mm": 30.0,
+    "filter_pupil_mm": 36.0,
+    "mechanical_clear_diameter_mm": 50.0,
+    "alpha_mm2": 0.01065,
+    "order_pitch_mm": 0.5325,
+    "cutoff_per_mm": 1690.1408450704225,
+    "pixel_object_mm": 0.00025,
+    "line_height_object_mm": 0.00025,
+    "tooth_first_order_shift_um": 14.200000000000001
+  },
+  "reference_energy": 0.07425539876443983,
+  "actual_energy": 0.0742613473268609,
+  "defect_energies": [
+    2.830469494394626e-07,
+    1.1330897097293047e-06,
+    4.532360413775156e-06
+  ]
+}

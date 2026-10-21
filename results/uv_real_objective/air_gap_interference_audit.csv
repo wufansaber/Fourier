@@ -1,0 +1,7 @@
+﻿gap,first_surface,second_surface,common_radius_mm,vertex_gap_mm,minimum_physical_gap_mm,minimum_at_radius_mm
+E1-E2,2,3,11.3,0.6724,0.6724,0.0
+E2-E3,4,5,16.9,0.6724,0.6724,0.0
+E3-E4,6,7,18.7,0.6724,0.6724,0.0
+E4-E5,8,9,14.1,18.9853509546087,8.078456621163202,14.1
+E5-stop,10,11,17.6,0.3362,0.3362,0.0
+stop-E6,11,12,18.0,0.3362,0.3362,0.0

@@ -1,0 +1,62 @@
+{
+  "confirmed_coordinates": {
+    "X": "camera long edge and illumination-line long axis",
+    "Y": "TDI scan/charge transfer/narrow acceptance",
+    "rod_long_axis": "Fourier Y",
+    "rod_positioning": "Fourier X"
+  },
+  "simulation": {
+    "illumination": "75 deg from normal, projected +Y, Ch3 collection",
+    "scan_model": "pixel-matched one-to-one TDI sampling; no overlap and no convolution",
+    "image_evaluation": "raw common-scale irradiance; no periodic-background subtraction",
+    "accepted_serration_orders": [
+      0
+    ],
+    "rod_core_mm": 1.0,
+    "tooth_depth_each_side_mm": 0.5,
+    "tooth_pitch_mm": 0.75
+  },
+  "rows": [
+    {
+      "configuration": "No rods",
+      "rod_count": 0,
+      "rod_spacing_mm": "",
+      "background_suppression_db": 0.0,
+      "particle_energy_retention_percent": 100.0,
+      "raw_local_particle_contrast_db": 23.17561541052513,
+      "worst_x_replica_peak_db_relative_centre": -40.31473740159235,
+      "ringing_energy_outside_0p65um_core_percent": 1.2144621247331446
+    },
+    {
+      "configuration": "3 rods",
+      "rod_count": 3,
+      "rod_spacing_mm": 15.0,
+      "background_suppression_db": 17.30389449159486,
+      "particle_energy_retention_percent": 92.09239482879639,
+      "raw_local_particle_contrast_db": 37.24141526582231,
+      "worst_x_replica_peak_db_relative_centre": -23.356061934022794,
+      "ringing_energy_outside_0p65um_core_percent": 6.990881418368389
+    },
+    {
+      "configuration": "5 rods",
+      "rod_count": 5,
+      "rod_spacing_mm": 15.0,
+      "background_suppression_db": 20.382546894768897,
+      "particle_energy_retention_percent": 89.17742371559143,
+      "raw_local_particle_contrast_db": 37.91527673820454,
+      "worst_x_replica_peak_db_relative_centre": -20.077713465108072,
+      "ringing_energy_outside_0p65um_core_percent": 9.106157321627027
+    },
+    {
+      "configuration": "7 rods",
+      "rod_count": 7,
+      "rod_spacing_mm": 15.0,
+      "background_suppression_db": 300.0,
+      "particle_energy_retention_percent": 88.84540796279907,
+      "raw_local_particle_contrast_db": 44.409656771707525,
+      "worst_x_replica_peak_db_relative_centre": -19.362866180430387,
+      "ringing_energy_outside_0p65um_core_percent": 9.354058045016616
+    }
+  ],
+  "interpretation": "TDI rejects serration k!=0 along Y. Residual replicas are produced along X by the equally spaced k=0 rod-notch comb; they are not TDI smear or leaked serration orders."
+}

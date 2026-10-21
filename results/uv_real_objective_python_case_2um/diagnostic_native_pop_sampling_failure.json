@@ -1,0 +1,26 @@
+{
+  "status": "native object-to-image POP result is invalid for image comparison",
+  "start_surface_intensity_correlation": 0.9999999999999467,
+  "bfp_expected_order_centres_mm": [
+    -15.496990102237959,
+    -10.331326734825305,
+    -5.165663367412653,
+    0.0,
+    5.165663367412653,
+    10.331326734825305,
+    15.496990102237959
+  ],
+  "bfp_intensity_ratios_to_zero_order": {
+    "-3": 2.1633848233119412e-11,
+    "-2": 6.882898383273173e-11,
+    "-1": 8.404218133561086e-10,
+    "0": 0.9371705708380864,
+    "1": 8.404218133554456e-10,
+    "2": 6.882898383290714e-11,
+    "3": 2.1633848233094264e-11
+  },
+  "manual_bfp_grid_width_mm": 40.0,
+  "minimum_square_samples_for_two_points_per_2um_period": 40000,
+  "reason": "surface-to-surface POP resampling suppresses the 2 um carrier before the real BFP; the final smooth image and its filter metrics are therefore not physical",
+  "valid_artifact": "the ZBF input itself is verified against the Python field"
+}

@@ -1,0 +1,36 @@
+{
+  "coarse_n": 4096,
+  "fine_n": 8192,
+  "window_mm": 1.024,
+  "metrics": {
+    "unfiltered": {
+      "relative_intensity_l2": 8.347935818164842e-07,
+      "max_absolute_I_over_Iref": 0.00010609626770019531
+    },
+    "filtered": {
+      "relative_intensity_l2": 6.351598585752072e-06,
+      "max_absolute_I_over_Iref": 8.26120376586914e-05
+    },
+    "background": {
+      "relative_intensity_l2": 4.077296296145505e-07,
+      "max_absolute_I_over_Iref": 3.8743019104003906e-07
+    },
+    "defects_only": {
+      "relative_intensity_l2": 3.415413084439933e-05,
+      "max_absolute_I_over_Iref": 8.618831634521484e-05
+    },
+    "d1": {
+      "relative_intensity_l2": 0.00012430881906766444,
+      "max_absolute_I_over_Iref": 8.618831634521484e-05
+    },
+    "d2": {
+      "relative_intensity_l2": 2.1445086417770653e-07,
+      "max_absolute_I_over_Iref": 1.7881393432617188e-07
+    },
+    "d3": {
+      "relative_intensity_l2": 2.639671663473564e-07,
+      "max_absolute_I_over_Iref": 2.384185791015625e-07
+    }
+  },
+  "caveat": "Continuous analytic object transforms; complex-field upsampling before intensity and sinc pixel integration. Same physical pupil, window and final coordinates."
+}

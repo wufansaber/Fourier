@@ -1,0 +1,73 @@
+{
+  "engine": "Local OpticStudio 221026",
+  "wavelength_nm": 355.0,
+  "objective_material": "SILICA on every real glass volume",
+  "objective_surfaces": 17,
+  "tube_lens": "ideal Paraxial Lens, f=600 mm",
+  "coatings": "not modeled by request",
+  "target": {
+    "f_objective_mm": 30.0,
+    "object_na": 0.6,
+    "full_object_field_mm": 0.5,
+    "magnification": -20.0
+  },
+  "first_order_operands": {
+    "EFFL": 34.90367337891068,
+    "ENPP": -39.60017278558162,
+    "EXPP": -663.3057282881254,
+    "EPDI": 54.90025917837242,
+    "EXPD": 54.8501716993354,
+    "ISNA": 0.03574643159746376,
+    "PMAG": 20.96770602178525
+  },
+  "field_validation": [
+    {
+      "field_hy": 0.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -0.0,
+      "centroid_x_mm": 3.542749695282519e-17,
+      "centroid_y_mm": 1.133679902490406e-15,
+      "rms_spot_um": 22572.751643213072,
+      "opd_rms_waves": 396.0433304995547,
+      "opd_pv_waves": 1403.3054387028722
+    },
+    {
+      "field_hy": 0.5,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -2.5,
+      "centroid_x_mm": -3.542749695282519e-17,
+      "centroid_y_mm": -2.5033414179509075,
+      "rms_spot_um": 22571.536934921412,
+      "opd_rms_waves": 396.14406838870246,
+      "opd_pv_waves": 1427.9152447591237
+    },
+    {
+      "field_hy": 1.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -5.0,
+      "centroid_x_mm": -3.542749695282519e-17,
+      "centroid_y_mm": -5.0070826838658125,
+      "rms_spot_um": 22567.889910392372,
+      "opd_rms_waves": 396.44607982713893,
+      "opd_pv_waves": 1452.240269917596
+    }
+  ],
+  "abbe_sine": {
+    "definition": "sin(u_object) - M*sin(u_image)",
+    "nominal_magnification": -20.0,
+    "best_fit_magnification": 33.4035106810501,
+    "valid_meridional_rays": 401,
+    "nominal_residual_rms": 0.568844836539019,
+    "nominal_residual_max_abs": 0.7386121590559468,
+    "nominal_equivalent_fsin_rms_um": 17065.345096170568,
+    "nominal_equivalent_fsin_max_um": 22158.364771678403,
+    "best_fit_residual_rms": 0.1618340367737258,
+    "best_fit_residual_max_abs": 0.48835261166252253,
+    "best_fit_equivalent_fsin_rms_um": 4855.021103211774,
+    "best_fit_equivalent_fsin_max_um": 14650.578349875675
+  },
+  "optimization": []
+}

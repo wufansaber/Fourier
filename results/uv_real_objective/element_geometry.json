@@ -1,0 +1,50 @@
+[
+  {
+    "element": 1,
+    "front": 1,
+    "back": 2,
+    "common_clear_radius_mm": 4.2,
+    "center_thickness_mm": 16.8100068658222,
+    "edge_thickness_at_common_radius_mm": 16.6694944230738
+  },
+  {
+    "element": 2,
+    "front": 3,
+    "back": 4,
+    "common_clear_radius_mm": 13.0,
+    "center_thickness_mm": 16.8100066136606,
+    "edge_thickness_at_common_radius_mm": 14.490836944896989
+  },
+  {
+    "element": 3,
+    "front": 5,
+    "back": 6,
+    "common_clear_radius_mm": 18.1,
+    "center_thickness_mm": 19.3045292537253,
+    "edge_thickness_at_common_radius_mm": 14.527287281426764
+  },
+  {
+    "element": 4,
+    "front": 7,
+    "back": 8,
+    "common_clear_radius_mm": 14.3,
+    "center_thickness_mm": 19.9070105618081,
+    "edge_thickness_at_common_radius_mm": 21.62136874319802
+  },
+  {
+    "element": 5,
+    "front": 9,
+    "back": 10,
+    "common_clear_radius_mm": 14.1,
+    "center_thickness_mm": 11.6131126393079,
+    "edge_thickness_at_common_radius_mm": 14.041656009511614
+  },
+  {
+    "element": 6,
+    "front": 12,
+    "back": 13,
+    "common_clear_radius_mm": 18.2,
+    "center_thickness_mm": 9.89492371017093,
+    "edge_thickness_at_common_radius_mm": 8.057797713343255
+  }
+]

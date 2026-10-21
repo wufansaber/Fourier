@@ -1,0 +1,25 @@
+{
+  "case": "stripes",
+  "n": 8192,
+  "dx_um": 0.125,
+  "kmax": 12,
+  "display_roi_half_um": 45.0,
+  "intensity_unit": "I/I_ref",
+  "intensity_reference": 0.9857451908016286,
+  "source_sampling": "Analytic continuous stripes/disk transforms. Disk edge taper is per-disk center amplitude.",
+  "detector_integration": "Bandlimited complex-field upsample before squaring if needed; exact sinc response of rectangular y pixel.",
+  "background_suppression_roi_db": 11.42425537109375,
+  "isolated_defect_retention_roi": [
+    0.8532108068466187,
+    0.7195625305175781,
+    0.6356492042541504
+  ],
+  "background_suppression_full_y_db": 10.459681278379042,
+  "isolated_defect_retention_full_y": [
+    0.8674012309494576,
+    0.7806830489803961,
+    0.717460713374998
+  ],
+  "energy_integration": "Full 1.024 mm y window, scan x +/-45 um. Display ROI energy is separate.",
+  "caveat": "Total-zero-order two-layer field; finite-line-height integration; display ROI energy is not full-plane energy."
+}

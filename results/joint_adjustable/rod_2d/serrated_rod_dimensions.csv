@@ -1,0 +1,6 @@
+﻿part_variant,support_span_mm,nominal_core_mm,one_side_depth_mm,ideal_envelope_mm,tooth_pitch_mm,minimum_flat_mm,foil_thickness_mm,quantity,release_status
+L1,62.0,0.1,0.05,0.2,0.75,0.02,0.05,2,concept / DFM required
+L2,82.0,0.1,0.05,0.2,0.75,0.02,0.05,2,concept / DFM required
+L3,102.0,0.1,0.05,0.2,0.75,0.02,0.05,2,concept / DFM required
+L4,122.0,0.1,0.05,0.2,0.75,0.02,0.05,2,concept / DFM required
+L5,142.0,0.1,0.05,0.2,0.75,0.02,0.05,1,concept / DFM required

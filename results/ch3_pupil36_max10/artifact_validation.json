@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "physical_rods": 9,
+  "candidate_count": 18256,
+  "maximum_candidate_rods": 9,
+  "optical_pupil_mm": 36,
+  "camera_intensity_reference": 0.9857451908016286,
+  "intensity_unit": "I/I_ref (dimensionless)",
+  "linear_colour_limits": [
+    0,
+    1.2
+  ],
+  "all_three_defects_in_common_frame": true,
+  "local_links_checked": 44,
+  "image_array_checks": [
+    {
+      "case": "dots",
+      "choice": "none_fine",
+      "array": "actual",
+      "maximum": 1.1290115118026733
+    },
+    {
+      "case": "dots",
+      "choice": "none_fine",
+      "array": "reference",
+      "maximum": 1.1290115118026733
+    },
+    {
+      "case": "dots",
+      "choice": "none_fine",
+      "array": "defects_only",
+      "maximum": 0.9910762906074524
+    },
+    {
+      "case": "dots",
+      "choice": "none_fine",
+      "array": "isolated",
+      "maximum": 0.9910762906074524
+    },
+    {
+      "case": "dots",
+      "choice": "selected_fine",
+      "array": "actual",
+      "maximum": 0.7155770659446716
+    },
+    {
+      "case": "dots",
+      "choice": "selected_fine",
+      "array": "reference",
+      "maximum": 0.4271497428417206
+    },
+    {
+      "case": "dots",
+      "choice": "selected_fine",
+      "array": "defects_only",
+      "maximum": 0.7155770659446716
+    },
+    {
+      "case": "dots",
+      "choice": "selected_fine",
+      "array": "isolated",
+      "maximum": 0.7155770659446716
+    },
+    {
+      "case": "stripes",
+      "choice": "none_fine",
+      "array": "actual",
+      "maximum": 1.1211425065994263
+    },
+    {
+      "case": "stripes",
+      "choice": "none_fine",
+      "array": "reference",
+      "maximum": 1.1211367845535278
+    },
+    {
+      "case": "stripes",
+      "choice": "none_fine",
+      "array": "defects_only",
+      "maximum": 0.9910763502120972
+    },
+    {
+      "case": "stripes",
+      "choice": "none_fine",
+      "array": "isolated",
+      "maximum": 0.9910762906074524
+    },
+    {
+      "case": "stripes",
+      "choice": "selected_fine",
+      "array": "actual",
+      "maximum": 0.6556535959243774
+    },
+    {
+      "case": "stripes",
+      "choice": "selected_fine",
+      "array": "reference",
+      "maximum": 0.46815812587738037
+    },
+    {
+      "case": "stripes",
+      "choice": "selected_fine",
+      "array": "defects_only",
+      "maximum": 0.7155770659446716
+    },
+    {
+      "case": "stripes",
+      "choice": "selected_fine",
+      "array": "isolated",
+      "maximum": 0.7155770659446716
+    }
+  ],
+  "limitations": "Does not prove high-NA vector accuracy or hardware manufacturability; numerical grid differences remain reported."
+}

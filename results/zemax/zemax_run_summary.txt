@@ -1,0 +1,21 @@
+Zemax POP Fourier-filter proof run
+wavelength_um=0.355
+objective_focal_length_mm=50.0
+tube_lens_focal_length_mm=1000.0
+magnification=20.0
+objective_na=0.1
+object_fov_mm=0.5
+pupil_relay_magnification=5.0
+filter_pupil_diameter_mm=50.0
+order_spacing_mm=4.4375
+linear_rod_width_mm=1.0
+fuzzy_width_range_mm=1.1..4.0
+serration_pitch_mm=0.75
+zemax_filter_plane=original objective BFP
+zemax_mask_dimensions=hardware dimensions divided by 5
+
+Metrics use Zemax irradiance grids. Defect retention is based on RMS intensity difference,
+so it is not numerically identical to the complex-field metric used by the Python FFT model.
+metric=filter:unfiltered,regular_power:7.17689159e-05,periodic_suppression_db:0,defect_difference_rms:1.62069509e-07,intensity_defect_retention_percent:100,relative_visibility:0.151635828,visibility_gain:1
+metric=filter:hard,regular_power:5.24015697e-06,periodic_suppression_db:11.3659209,defect_difference_rms:9.51175771e-08,intensity_defect_retention_percent:58.6893719,relative_visibility:0.68862152,visibility_gain:4.54128505
+metric=filter:hybrid,regular_power:4.81969499e-06,periodic_suppression_db:11.7291683,defect_difference_rms:8.53788931e-08,intensity_defect_retention_percent:52.6804169,relative_visibility:0.679300735,visibility_gain:4.47981682

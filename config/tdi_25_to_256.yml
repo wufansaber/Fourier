@@ -1,0 +1,19 @@
+tdi:
+  baseline_stages: 25
+  comparison_stages: 256
+  row_pitch_image_mm: 0.005
+  illumination_intensity_fwhm_object_mm: 0.00625
+  narrow_line_sensitivity_fwhm_object_mm: 0.001
+  illumination_note: "Assumption: Gaussian FWHM matches the 25-row projected height; fixed when changing to 256 rows. Not a measured camera/illumination parameter."
+  mode: "Ideal motion-synchronised charge integration; fixed lab-frame line illumination"
+  image_rows_per_clock: 1.0
+  charge_rows_per_clock: 1.0
+  motion_note: "Perfectly matched motion. Stage count changes charge gain, not output pixel pitch or a spatial blur kernel. Optical acceptance is a separate comparison."
+numerics:
+  n: 8192
+  window_mm: 1.024
+  max_tooth_order: 8
+  check_max_tooth_order: 4
+  crop_half_x_mm: 0.060
+  crop_half_y_mm: 0.050
+  output_pixel_object_mm: 0.00025

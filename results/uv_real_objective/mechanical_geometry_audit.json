@@ -1,0 +1,16 @@
+{
+  "interference": false,
+  "minimum_glass_thickness_mm": 8.057797713343255,
+  "minimum_lens_to_lens_air_gap_mm": 0.6724,
+  "minimum_stop_side_gap_mm": 0.3362,
+  "minimum_conic_domain_margin_mm": 4.980859182622256,
+  "maximum_clear_radius_over_abs_radius": 0.7375620186585022,
+  "maximum_edge_slope_deg": 47.588896873556905,
+  "engineering_assessment": {
+    "glass_thickness": "PASS: all six elements exceed 7 mm minimum thickness",
+    "lens_interference": "PASS: all lens-to-lens physical air gaps remain positive",
+    "conic_domain": "PASS: every declared clear aperture is inside its real sag domain",
+    "curvature": "PASS with fabrication review: strongest surface is steep but not singular",
+    "stop_mount": "TIGHT: 0.3362 mm vertex clearance on each side of a zero-thickness stop plane; use a thin foil stop or increase/re-optimize the gap for a rigid carrier"
+  }
+}

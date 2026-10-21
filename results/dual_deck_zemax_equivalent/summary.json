@@ -1,0 +1,59 @@
+{
+  "engine": "Local OpticStudio 2022 R2.02 native POP",
+  "scope": "ideal equivalent pupil of current dual-deck scheme; not a real anamorphic relay prescription",
+  "parameters": {
+    "wavelength_nm": 355,
+    "objective_focal_length_mm": 30.0,
+    "objective_na": 0.6,
+    "tube_lens_focal_length_mm": 600.0,
+    "image_magnification": 20.0,
+    "hardware_y_pupil_magnification": 2.816901408450704,
+    "hardware_order_spacing_mm": 1.5,
+    "equivalent_bfp_order_spacing_mm": 0.5325000000000001,
+    "hardware_deck_gap_mm": 4.0,
+    "equivalent_bfp_deck_gap_mm": 0.5041000000000001,
+    "core_hardware_mm": 1.0,
+    "tooth_depth_each_side_hardware_mm": 0.5,
+    "tooth_pitch_x_mm": 0.75
+  },
+  "metrics": [
+    {
+      "mode": "open",
+      "regular_power_W": 0.0008632161963346499,
+      "background_suppression_db": 0.0,
+      "defect_difference_rms_W_per_mm2": 0.0008396727116977527,
+      "defect_difference_retention_percent": 100.00000000000001,
+      "regular_peak_W_per_mm2": 0.04845547006168744,
+      "defect_peak_W_per_mm2": 0.05517127708375729
+    },
+    {
+      "mode": "balanced7",
+      "regular_power_W": 4.4324459344259924e-06,
+      "background_suppression_db": 22.89476133404156,
+      "defect_difference_rms_W_per_mm2": 6.475303559484918e-06,
+      "defect_difference_retention_percent": 0.7711699414873635,
+      "regular_peak_W_per_mm2": 0.00018260848116243215,
+      "defect_peak_W_per_mm2": 0.0001934351650236686
+    },
+    {
+      "mode": "all9",
+      "regular_power_W": 4.4324459344259924e-06,
+      "background_suppression_db": 22.89476133404156,
+      "defect_difference_rms_W_per_mm2": 6.475303559484918e-06,
+      "defect_difference_retention_percent": 0.7711699414873635,
+      "regular_peak_W_per_mm2": 0.00018260848116243215,
+      "defect_peak_W_per_mm2": 0.0001934351650236686
+    }
+  ],
+  "messages": {
+    "regular_open_s6": [],
+    "defect_open_s6": [],
+    "regular_balanced7_s6": [],
+    "defect_balanced7_s6": [],
+    "regular_all9_s6": [],
+    "defect_all9_s6": [],
+    "defect_open_s3": [],
+    "defect_balanced7_s3": [],
+    "defect_balanced7_s4": []
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "configuration": "No rods",
+    "rod_pitch_mm": null,
+    "background_suppression_db": -0.0,
+    "particle_energy_retention_percent": 100.0
+  },
+  {
+    "configuration": "1.0 mm projected pitch",
+    "rod_pitch_mm": 1.0,
+    "background_suppression_db": 5.88591171792669,
+    "particle_energy_retention_percent": 86.97139024734497
+  },
+  {
+    "configuration": "1.5 mm projected pitch",
+    "rod_pitch_mm": 1.5,
+    "background_suppression_db": 5.88591171792669,
+    "particle_energy_retention_percent": 82.00210332870483
+  },
+  {
+    "configuration": "15 mm pitch: matched to 2 um",
+    "rod_pitch_mm": 15.0,
+    "background_suppression_db": 300.0,
+    "particle_energy_retention_percent": 88.84540796279907
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "confirmed_axes": {
+    "X": "camera long edge and illumination-line long axis",
+    "Y": "TDI scan, charge transfer and effective narrow acceptance",
+    "rod_long_axis": "Fourier Y",
+    "rod_independent_positioning": "Fourier X",
+    "illumination_sample_projection": "+Y"
+  },
+  "optics": {
+    "wavelength_nm": 355,
+    "objective_f_mm": 30.0,
+    "NA": 0.6,
+    "magnification": 20.0,
+    "incidence_deg_from_normal": 75.0
+  },
+  "pattern": {
+    "period_um": 2.0,
+    "type": "2-D periodic amplitude pattern",
+    "bright_dark_width_ratio": "4:3 in each periodic coordinate"
+  },
+  "rods": {
+    "active_m_columns": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "count": 7,
+    "centres_mechanical_X_mm": [
+      -45.0,
+      -30.0,
+      -15.0,
+      0.0,
+      15.0,
+      30.0,
+      45.0
+    ],
+    "spacing_mm": 15.0,
+    "core_mm": 1.0,
+    "tooth_depth_each_side_mm": 0.5,
+    "tooth_pitch_mm": 0.75
+  },
+  "tdi": {
+    "stages": 25,
+    "image_pixel_um": 5.0,
+    "Y_width_image_um": 125.0,
+    "Y_width_object_um": 6.25,
+    "serration_order_spacing_object_um": 14.199999999999998,
+    "serration_order_spacing_image_um": 283.99999999999994,
+    "accepted_serration_orders": [
+      0
+    ]
+  },
+  "single_particle_FWHM_um": {
+    "X": 0.38630415183412636,
+    "Y": 0.3861496372793258,
+    "X_over_Y": 1.0004001416546426
+  },
+  "evaluation": "raw intensity, common before/after reference, no background subtraction"
+}

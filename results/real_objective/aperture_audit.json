@@ -1,0 +1,227 @@
+{
+  "surfaces": [
+    {
+      "surface": 0,
+      "type": "0",
+      "semi_diameter_mm": 0.25
+    },
+    {
+      "surface": 1,
+      "type": "10",
+      "semi_diameter_mm": 1.25341316473132
+    },
+    {
+      "surface": 2,
+      "type": "10",
+      "semi_diameter_mm": 1.63002634394252
+    },
+    {
+      "surface": 3,
+      "type": "0",
+      "semi_diameter_mm": 4.43689284610313
+    },
+    {
+      "surface": 4,
+      "type": "10",
+      "semi_diameter_mm": 4.50275256688456
+    },
+    {
+      "surface": 5,
+      "type": "10",
+      "semi_diameter_mm": 9.19346582915043
+    },
+    {
+      "surface": 6,
+      "type": "10",
+      "semi_diameter_mm": 10.8321769259064
+    },
+    {
+      "surface": 7,
+      "type": "10",
+      "semi_diameter_mm": 12.5081758600719
+    },
+    {
+      "surface": 8,
+      "type": "10",
+      "semi_diameter_mm": 13.1169727212525
+    },
+    {
+      "surface": 9,
+      "type": "10",
+      "semi_diameter_mm": 13.1256677552915
+    },
+    {
+      "surface": 10,
+      "type": "10",
+      "semi_diameter_mm": 13.1256677552915
+    },
+    {
+      "surface": 11,
+      "type": "10",
+      "semi_diameter_mm": 11.9922141617665
+    },
+    {
+      "surface": 12,
+      "type": "10",
+      "semi_diameter_mm": 11.3741957302508
+    },
+    {
+      "surface": 13,
+      "type": "10",
+      "semi_diameter_mm": 8.45307893905566
+    },
+    {
+      "surface": 14,
+      "type": "10",
+      "semi_diameter_mm": 8.16992722068571
+    },
+    {
+      "surface": 15,
+      "type": "10",
+      "semi_diameter_mm": 9.96163755569244
+    },
+    {
+      "surface": 16,
+      "type": "10",
+      "semi_diameter_mm": 10.4106995955612
+    },
+    {
+      "surface": 17,
+      "type": "0",
+      "semi_diameter_mm": 9.81768544670423
+    },
+    {
+      "surface": 18,
+      "type": "10",
+      "semi_diameter_mm": 10.3213529094658
+    },
+    {
+      "surface": 19,
+      "type": "10",
+      "semi_diameter_mm": 10.5581080595769
+    },
+    {
+      "surface": 20,
+      "type": "10",
+      "semi_diameter_mm": 10.7087427064286
+    },
+    {
+      "surface": 21,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 22,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 23,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 24,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 25,
+      "type": "0",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 26,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 27,
+      "type": "10",
+      "semi_diameter_mm": 16.0
+    },
+    {
+      "surface": 28,
+      "type": "0",
+      "semi_diameter_mm": 2.5164154923973507
+    }
+  ],
+  "outside_pupil_rays": [
+    {
+      "py": 1.0,
+      "trace": {
+        "success": 1.0,
+        "error": 0.0,
+        "vignette": 0.0,
+        "x": 0.0,
+        "y": -0.022685549646793035,
+        "z": 0.0,
+        "l": 0.0,
+        "m": -0.050021423570161275,
+        "n": 0.9987481450215651,
+        "ln": 0.0,
+        "mn": 0.0,
+        "nn": -1.0,
+        "opd": 905.8216732608721,
+        "intensity": 1.0
+      }
+    },
+    {
+      "py": 1.01,
+      "trace": {
+        "success": 1.0,
+        "error": 0.0,
+        "vignette": 0.0,
+        "x": 0.0,
+        "y": -0.024138991494480067,
+        "z": 0.0,
+        "l": 0.0,
+        "m": -0.05039619964977012,
+        "n": 0.9987293041965175,
+        "ln": 0.0,
+        "mn": 0.0,
+        "nn": -1.0,
+        "opd": 905.8217462379235,
+        "intensity": 1.0
+      }
+    },
+    {
+      "py": 1.1,
+      "trace": {
+        "success": 1.0,
+        "error": 0.0,
+        "vignette": 15.0,
+        "x": 0.0,
+        "y": -0.03861984583910605,
+        "z": 0.0,
+        "l": 0.0,
+        "m": -0.05364513192662136,
+        "n": 0.9985600632012941,
+        "ln": 0.0,
+        "mn": 0.0,
+        "nn": -1.0,
+        "opd": 905.822500424133,
+        "intensity": 1.0
+      }
+    },
+    {
+      "py": 1.2,
+      "trace": {
+        "success": 1.0,
+        "error": 0.0,
+        "vignette": 14.0,
+        "x": 0.0,
+        "y": -0.05640706549375629,
+        "z": 0.0,
+        "l": 0.0,
+        "m": -0.05699979630375982,
+        "n": 0.9983741899815559,
+        "ln": 0.0,
+        "mn": 0.0,
+        "nn": -1.0,
+        "opd": 905.8234850480795,
+        "intensity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "real_regular_open",
+  "end_surface": 28,
+  "sampling": 2048,
+  "input_window_mm": 1.024,
+  "beam": "TopHat",
+  "waist_x_mm": 0.55,
+  "waist_y_mm": 0.55,
+  "polarization": false,
+  "messages": [],
+  "elapsed_s": 144.6504247188568,
+  "data_grids": 1,
+  "nx": 2048,
+  "ny": 2048,
+  "dx_mm": 0.005001567752186426,
+  "dy_mm": 0.005001567752186426,
+  "power_W": 0.10784395395390087,
+  "peak_W_per_mm2": 0.025185869226998534,
+  "x_min_mm": -5.1216053782389,
+  "x_max_mm": 5.116603810486714
+}

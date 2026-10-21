@@ -1,0 +1,21 @@
+{
+  "wavelength_nm": 355,
+  "ff_focal_length_mm": 30.0,
+  "magnification": 20.0,
+  "tooth_pitch_mm": 0.75,
+  "order_shift_object_um": 14.200000000000003,
+  "order_shift_image_um": 284.00000000000006,
+  "row_pitch_um": 5.0,
+  "current_serration_order_direction": "image x, parallel to TDI scan/charge transfer",
+  "current_rod_width_diffraction_direction": "image y, parallel to the 2048-pixel TDI camera line",
+  "illumination_line_direction": "image y, parallel to the TDI camera long edge",
+  "illumination_line_width_direction": "image x, parallel to TDI scan/charge transfer",
+  "camera_line_length_um": 10240.0,
+  "image_field_x_um": 10000.0,
+  "illumination_fwhm_image_um": 125.0,
+  "illumination_99pct_width_um": 273.46349766559837,
+  "no_margin_Hmax_99pct_um": 294.53650233440175,
+  "no_margin_rows_99pct": 58.90730046688035,
+  "max_illumination_width_for_25_rows_no_margin_um": 443.0000000000001,
+  "note": "Camera long edge is Y and scan is X. Rod is perpendicular to camera, so X-periodic teeth diffract along scan X and Hmax applies. Rod-width diffraction is continuous along line Y and is not removed by the TDI scan width."
+}

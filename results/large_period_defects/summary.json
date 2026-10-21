@@ -1,0 +1,80 @@
+{
+  "parameters": {
+    "wavelength_nm": 355,
+    "objective_focal_length_mm": 30.0,
+    "objective_na": 0.6,
+    "current_fourier_y_magnification": 2.816901408450704,
+    "rod_core_mm": 1.0,
+    "tooth_depth_each_side_mm": 0.5,
+    "tooth_pitch_mm": 0.75,
+    "grid": [
+      2048,
+      2048
+    ],
+    "object_fov_mm": 1.2
+  },
+  "period_results": [
+    {
+      "period_um": 100.0,
+      "current_order_spacing_mm": 0.3,
+      "required_My_for_1p5mm_spacing": 14.084507042253524,
+      "required_expanded_pupil_y_mm": 507.0422535211268,
+      "background_suppression_db": 10.753420921348791,
+      "mixed_defect_field_energy_retention": 0.5941628038286134
+    },
+    {
+      "period_um": 150.0,
+      "current_order_spacing_mm": 0.2,
+      "required_My_for_1p5mm_spacing": 21.12676056338028,
+      "required_expanded_pupil_y_mm": 760.5633802816901,
+      "background_suppression_db": 14.426966004349035,
+      "mixed_defect_field_energy_retention": 0.5934290458147891
+    },
+    {
+      "period_um": 200.0,
+      "current_order_spacing_mm": 0.15,
+      "required_My_for_1p5mm_spacing": 28.169014084507047,
+      "required_expanded_pupil_y_mm": 1014.0845070422536,
+      "background_suppression_db": 16.89824594317608,
+      "mixed_defect_field_energy_retention": 0.5936305686651754
+    }
+  ],
+  "defect_type_results_at_150um": [
+    {
+      "period_um": 150.0,
+      "defect_type": "isolated_dark_hole",
+      "defect_field_energy_retention": 0.6745047978312942,
+      "r90_open_um": 3.7445028067196495,
+      "r90_filtered_um": 10.97816102684097
+    },
+    {
+      "period_um": 150.0,
+      "defect_type": "isolated_bright_point",
+      "defect_field_energy_retention": 0.6745049433824192,
+      "r90_open_um": 3.744502806719655,
+      "r90_filtered_um": 10.97816102684097
+    },
+    {
+      "period_um": 150.0,
+      "defect_type": "elliptical_hole",
+      "defect_field_energy_retention": 0.6748226910300199,
+      "r90_open_um": 5.855988604758592,
+      "r90_filtered_um": 11.16900640619221
+    },
+    {
+      "period_um": 150.0,
+      "defect_type": "close_hole_pair",
+      "defect_field_energy_retention": 0.7504742359118441,
+      "r90_open_um": 12.109374999999991,
+      "r90_filtered_um": 13.332850129590637
+    },
+    {
+      "period_um": 150.0,
+      "defect_type": "irregular_hole",
+      "defect_field_energy_retention": 0.5008527554866262,
+      "r90_open_um": 10.62973814389671,
+      "r90_filtered_um": 19.33988280457075
+    }
+  ],
+  "model_scope": "ideal coherent scalar 2-D model; horizontal grooves are the 90-degree-rotated equivalent of the supplied vertical-groove references"
+}

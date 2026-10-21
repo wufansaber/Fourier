@@ -1,0 +1,364 @@
+{
+  "surface": "report",
+  "title": "同一2 µm三粒子原图下，Python保留了频谱而真实镜头原生POP在首片镜面即欠采样",
+  "generatedAt": "2026-09-03T10:45:00+08:00",
+  "status": "reviewed-local-simulation",
+  "filters": [],
+  "queries": {
+    "case_configuration": {
+      "rows": [
+        {
+          "objectPeriodUm": 2,
+          "wavelengthNm": 355,
+          "objectiveNA": 0.6,
+          "nominalFocalLengthMm": 30,
+          "imageMagnification": 20,
+          "objectWindowMm": 0.12,
+          "gridPerAxis": 1024,
+          "coordinateOperation": "none",
+          "particleCentresUm": "(-12,0); (0,0); (12,0)",
+          "particleSizesUm": "0.6; 0.9; 1.2",
+          "rodLongAxis": "Fourier Y",
+          "rodPositionAxis": "Fourier X",
+          "zemaxEnvironment": "E:\\anconda\\envs\\lens-design-zemax22",
+          "opticStudioVersion": "2022 R2.02"
+        }
+      ],
+      "source": {
+        "label": "Reviewed exact-image Zemax run summary",
+        "files": [
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/summary.json",
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/python_reference_2um.npz"
+        ],
+        "filters": [
+          "2 µm case only",
+          "No image transpose",
+          "Three particles retained"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Coordinate operation",
+            "definition": "Operation applied to the complete Python object before loading it into Zemax; none means the original pixel orientation was retained.",
+            "componentIds": [
+              "report-case",
+              "report-conclusion"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/summary.json"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "frequency_orders": {
+      "rows": [
+        {
+          "order": -3,
+          "expectedBfpMm": -15.4969901022,
+          "pythonRelativeIntensity": 0.0142955268,
+          "zemaxResamplingOnRelativeIntensity": 2.163384819e-11,
+          "zemaxResamplingOffRelativeIntensity": 0.00002116538725
+        },
+        {
+          "order": -2,
+          "expectedBfpMm": -10.3313267348,
+          "pythonRelativeIntensity": 0.0089900317,
+          "zemaxResamplingOnRelativeIntensity": 6.88289838e-11,
+          "zemaxResamplingOffRelativeIntensity": 0.00002323187262
+        },
+        {
+          "order": -1,
+          "expectedBfpMm": -5.1656633674,
+          "pythonRelativeIntensity": 0.1942256391,
+          "zemaxResamplingOnRelativeIntensity": 8.404218133e-10,
+          "zemaxResamplingOffRelativeIntensity": 0.00001791005096
+        },
+        {
+          "order": 0,
+          "expectedBfpMm": 0,
+          "pythonRelativeIntensity": 1,
+          "zemaxResamplingOnRelativeIntensity": 0.9371705708,
+          "zemaxResamplingOffRelativeIntensity": 1
+        },
+        {
+          "order": 1,
+          "expectedBfpMm": 5.1656633674,
+          "pythonRelativeIntensity": 0.1941960454,
+          "zemaxResamplingOnRelativeIntensity": 8.404218133e-10,
+          "zemaxResamplingOffRelativeIntensity": 0.00001797730954
+        },
+        {
+          "order": 2,
+          "expectedBfpMm": 10.3313267348,
+          "pythonRelativeIntensity": 0.0089836027,
+          "zemaxResamplingOnRelativeIntensity": 6.88289838e-11,
+          "zemaxResamplingOffRelativeIntensity": 0.00002355603743
+        },
+        {
+          "order": 3,
+          "expectedBfpMm": 15.4969901022,
+          "pythonRelativeIntensity": 0.014299633,
+          "zemaxResamplingOnRelativeIntensity": 2.163384819e-11,
+          "zemaxResamplingOffRelativeIntensity": 0.00002136143141
+        }
+      ],
+      "source": {
+        "label": "Reviewed Python spectrum and native POP BFP probes",
+        "files": [
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/bfp_refraction_resampling_on_off_diagnosis.json",
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image_bfp_probe/zemax_native_pop_2um.npz",
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image_bfp_no_refraction_resample/zemax_native_pop_2um.npz"
+        ],
+        "filters": [
+          "Profiles integrated along BFP X",
+          "Each profile normalized to its zero order"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Relative order intensity",
+            "definition": "X-integrated spectral irradiance sampled at the predicted BFP order centre and divided by the zero-order peak of the same method.",
+            "componentIds": [
+              "report-frequency",
+              "frequency-table"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/bfp_refraction_resampling_on_off_diagnosis.json"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "surface_sampling": {
+      "rows": [
+        {
+          "surface": "S1 object",
+          "windowMm": 0.12,
+          "samplePitchUm": 0.1171875,
+          "nyquistFor2Um": "pass"
+        },
+        {
+          "surface": "S2 real surface 1",
+          "windowMm": 8.61,
+          "samplePitchUm": 8.408203125,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S3 real surface 2",
+          "windowMm": 23.165,
+          "samplePitchUm": 22.6220703125,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S4 real surface 3",
+          "windowMm": 26.65,
+          "samplePitchUm": 26.025390625,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S5 real surface 4",
+          "windowMm": 34.645,
+          "samplePitchUm": 33.8330078125,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S6 real surface 5",
+          "windowMm": 37.105,
+          "samplePitchUm": 36.2353515625,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S7 real surface 7",
+          "windowMm": 39.36,
+          "samplePitchUm": 38.4375,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S8 real surface 8",
+          "windowMm": 38.335,
+          "samplePitchUm": 37.4365234375,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S9 real surface 10",
+          "windowMm": 29.315,
+          "samplePitchUm": 28.6279296875,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S10 real surface 11",
+          "windowMm": 28.905,
+          "samplePitchUm": 28.2275390625,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S11 real surface 13",
+          "windowMm": 36.08,
+          "samplePitchUm": 35.234375,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S12 deck A",
+          "windowMm": 40,
+          "samplePitchUm": 39.0625,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S13 deck B",
+          "windowMm": 40,
+          "samplePitchUm": 39.0625,
+          "nyquistFor2Um": "fail"
+        },
+        {
+          "surface": "S14 pupil/BFP",
+          "windowMm": 40,
+          "samplePitchUm": 39.0625,
+          "nyquistFor2Um": "fail"
+        }
+      ],
+      "source": {
+        "label": "Read-only ZOS-API inspection of saved open model",
+        "files": [
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/models/uvreal_python_case_2um_open.zos"
+        ],
+        "filters": [
+          "1024 samples per axis",
+          "Manual per-surface POP windows"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Sample pitch",
+            "definition": "Configured physical POP window divided by 1024 samples; the 2 µm carrier requires no more than approximately 1 µm per sample.",
+            "formula": "windowMm / 1024 * 1000",
+            "componentIds": [
+              "report-sampling",
+              "sampling-table"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/models/uvreal_python_case_2um_open.zos"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "comparison_metrics": {
+      "rows": [
+        {
+          "metric": "ZBF start-surface intensity correlation",
+          "python": 1,
+          "zemax": 0.9999999999999557,
+          "validity": "valid input check"
+        },
+        {
+          "metric": "Unfiltered image cosine similarity",
+          "python": 1,
+          "zemax": 0.7466253278893448,
+          "validity": "diagnostic only; Zemax carrier lost"
+        },
+        {
+          "metric": "Pattern suppression (dB)",
+          "python": 22.4074553159,
+          "zemax": 35.1785490772,
+          "validity": "Zemax value invalid"
+        },
+        {
+          "metric": "Three-particle peak retention (%)",
+          "python": 81.6953127043,
+          "zemax": 0.0705513876,
+          "validity": "Zemax value invalid"
+        },
+        {
+          "metric": "Filtered/open peak ratio",
+          "python": 0.816953127,
+          "zemax": 0.0009352295,
+          "validity": "Zemax value invalid"
+        }
+      ],
+      "source": {
+        "label": "Reviewed image-plane comparison output",
+        "files": [
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/python_vs_zemax_2um_comparison.json",
+          "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/diagnostic_native_pop_sampling_failure.json"
+        ],
+        "filters": [
+          "Raw irradiance",
+          "One global reference",
+          "No background subtraction"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Validity",
+            "definition": "Whether the value is usable as a physical performance comparison after the native POP sampling audit.",
+            "componentIds": [
+              "report-metrics",
+              "metrics-table"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "D:/work/git_share/Fourier/results/uv_real_objective_python_case_2um_exact_image/diagnostic_native_pop_sampling_failure.json"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "method_scope": {
+      "rows": [
+        {
+          "method": "Python FFT",
+          "lens": "NA=0.6 ideal pupil",
+          "object": "exact 2 µm three-particle image",
+          "frequencyStatus": "orders retained",
+          "use": "valid Python reference"
+        },
+        {
+          "method": "Ideal paraxial 4f native POP",
+          "lens": "single paraxial objective + ideal tube lens",
+          "object": "vertical 2 µm bars + one particle",
+          "frequencyStatus": "seven orders retained",
+          "use": "valid ideal baseline; not real lens"
+        },
+        {
+          "method": "Real six-element native POP",
+          "lens": "six real fused-silica elements + ideal tube lens",
+          "object": "exact 2 µm three-particle image",
+          "frequencyStatus": "orders erased or aliased",
+          "use": "invalid performance result; valid sampling audit"
+        },
+        {
+          "method": "Real-Zemax pupil/OPD + FFT",
+          "lens": "real-ray BFP mapping + exported 2D OPD",
+          "object": "separate 2 µm one-particle validation case",
+          "frequencyStatus": "orders retained",
+          "use": "valid real-lens hybrid; not full native POP and not same object"
+        }
+      ],
+      "source": {
+        "label": "Reviewed method summaries and implementation headers",
+        "files": [
+          "D:/work/git_share/Fourier/results/zemax_current_ideal_particle/summary.json",
+          "D:/work/git_share/Fourier/results/uv_real_objective_fourier_validation/summary.json",
+          "D:/work/git_share/Fourier/results/uv_real_objective_fourier_validation/zemax_pupil_filter_metrics.json"
+        ],
+        "filters": [
+          "Only methods relevant to the 2 µm comparison"
+        ],
+        "metricDefinitions": []
+      }
+    }
+  },
+  "id": "report:67f678e9-77bc-4a4b-991c-5d83d38f5b03"
+}

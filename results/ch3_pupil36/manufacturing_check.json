@@ -1,0 +1,16 @@
+{
+  "rod_count": 69,
+  "nominal_core_width_mm": 0.1,
+  "transition_b_mm": 0.075,
+  "outer_width_mm": 0.25,
+  "clear_gap_mm": 0.2825,
+  "tooth_pitch_mm": 0.75,
+  "tip_minimum_mm": 0.02,
+  "substrate_mm": [
+    60,
+    60
+  ],
+  "optical_pupil_diameter_mm": 36.0,
+  "mechanical_clear_diameter_mm": 50.0,
+  "warning": "Engineering checkplot with flattened tips; polygon sampling, corner rounding, coating OD/phase and substrate require DFM/optical revalidation. Not a released production drawing."
+}

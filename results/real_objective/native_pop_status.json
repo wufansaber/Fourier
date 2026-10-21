@@ -1,0 +1,36 @@
+{
+  "engine": "Local OpticStudio 2022 R2.02 native POP",
+  "native_2048_image_cases": 4,
+  "all_2048_cases_have_grids": true,
+  "coarse_roi_suppression_db": 16.90710635384655,
+  "fine_sampling": {
+    "real_regular_open": {
+      "roi_power_W": 0.07592778529657106,
+      "power_W": 0.11862842838770427,
+      "nx": 4096,
+      "dx_um": 2.500783876021373
+    },
+    "real_regular_rods": {
+      "roi_power_W": 0.0013940677327488372,
+      "power_W": 0.002739884994052782,
+      "nx": 4096,
+      "dx_um": 2.500783876021373
+    },
+    "regular_suppression_db": 17.361168572370758,
+    "change_from_2048_db": 0.45406221852420714
+  },
+  "relative_suppression_comparison_limit_db": 0.5,
+  "relative_suppression_within_half_db": true,
+  "absolute_power_change_percent": 10.000073289600975,
+  "absolute_power_convergence": "Not established: about 10 percent change; source edge sampling requires further checks",
+  "native_fourier_peaks_mm": [
+    -7.011393352202814,
+    -2.3409375198722753,
+    0.0,
+    2.3409375198722753,
+    7.011393352202813
+  ],
+  "native_defect_field_energy_retention": "Not calculated: exported native grids contain intensity, not complex field",
+  "joint_model_suppression_db": 40.53927309561285,
+  "difference_attribution": "Not uniquely established. Joint model is on-axis/shift-invariant with nominal hard pupil; native POP propagates full finite object surface-by-surface with actual surface apertures. Do not substitute the joint figure for native performance."
+}

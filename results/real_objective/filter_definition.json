@@ -1,0 +1,28 @@
+{
+  "object_pitch_um": 5.0,
+  "bar_width_um": 2.5,
+  "object_diameter_mm": 0.5,
+  "defect_shift_um": 1.5,
+  "defect_length_um": 50.0,
+  "rod_width_mm": 1.0,
+  "rod_centers_mm": [
+    -9.352134127783803,
+    -7.0160757726261345,
+    -4.677467196933216,
+    -2.3385227066907914,
+    -8.39708450458618e-11,
+    2.3385227066907914,
+    4.677467196933216,
+    7.0160757726261345,
+    9.352134127783803
+  ],
+  "filter_surface": 25,
+  "object_surface": 1,
+  "image_surface": 28,
+  "installed_aperture_directory": "C:\\Users\\wufan\\Documents\\Zemax\\OBJECTS\\Apertures",
+  "uda_files": {
+    "OBJECT_REGULAR": "REALOBJ5846_OBJECT_REGULAR.UDA",
+    "OBJECT_DEFECT": "REALOBJ5846_OBJECT_DEFECT.UDA",
+    "FILTER_1MM": "REALOBJ5846_FILTER_1MM.UDA"
+  }
+}

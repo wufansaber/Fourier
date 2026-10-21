@@ -1,0 +1,34 @@
+{
+  "metrics": [
+    {
+      "engine": "Python unchanged model",
+      "pattern_region_suppression_db": 22.407455315917222,
+      "three_particle_peak_retention_percent": 81.6953127042832,
+      "open_peak_common_units": 1484.549072265625,
+      "filtered_peak_over_open_peak": 0.816953127042832
+    },
+    {
+      "engine": "Zemax real-objective native POP",
+      "pattern_region_suppression_db": 35.178549077246586,
+      "three_particle_peak_retention_percent": 0.07055138760408544,
+      "open_peak_common_units": 140.24531670432108,
+      "filtered_peak_over_open_peak": 0.0009352295398411722
+    }
+  ],
+  "shape_comparison": {
+    "open_cosine_similarity": 0.7466253278893448,
+    "filtered_cosine_similarity": 0.042247069770648286
+  },
+  "global_reference_object_equivalent_W_per_mm2": 1484.549072265625,
+  "display_crop_um": {
+    "x": [
+      -18,
+      18
+    ],
+    "y": [
+      -6,
+      6
+    ]
+  },
+  "evaluation": "raw irradiance, one global reference, no background subtraction"
+}

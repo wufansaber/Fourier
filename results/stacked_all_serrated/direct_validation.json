@@ -1,0 +1,12 @@
+{
+  "n": 4096,
+  "window_mm": 1.024,
+  "local_exact_vs_fresnel_field_relative": 1.7415022739442065e-06,
+  "local_exact_vs_fresnel_intensity_relative": 8.892171443619645e-09,
+  "retained_all_orders": true,
+  "point_normalization": "one fixed unfiltered point peak; not extended object intensity reference",
+  "all_order_vs_total_zero_line_field_relative": 1.7512709746370092e-05,
+  "all_order_vs_total_zero_line_intensity_relative": 1.1018672921636607e-05,
+  "binary_frequency_sampling_mm": 0.010400390625001421,
+  "comparison_caveat": "Includes binary-edge rasterization error as well as nonzero-order leakage; not a pure leakage measurement."
+}

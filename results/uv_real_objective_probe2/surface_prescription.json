@@ -1,0 +1,202 @@
+[
+  {
+    "surface": 0,
+    "type": "Standard",
+    "radius_mm": Infinity,
+    "thickness_mm": 4.79,
+    "material": "",
+    "semi_diameter_mm": 0.25,
+    "conic": 0.0,
+    "comment": "OBJECT: 0.5 mm full field in air"
+  },
+  {
+    "surface": 1,
+    "type": "Standard",
+    "radius_mm": -18.4277062787903,
+    "thickness_mm": 16.8100068658222,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 1; see"
+  },
+  {
+    "surface": 2,
+    "type": "Standard",
+    "radius_mm": -25.99486690541,
+    "thickness_mm": 0.6724,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 2; see"
+  },
+  {
+    "surface": 3,
+    "type": "Standard",
+    "radius_mm": 195.903631251153,
+    "thickness_mm": 16.8100066136606,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 3; see"
+  },
+  {
+    "surface": 4,
+    "type": "Standard",
+    "radius_mm": -42.8438137610867,
+    "thickness_mm": 0.6724,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 4; see"
+  },
+  {
+    "surface": 5,
+    "type": "Standard",
+    "radius_mm": 69.752586461337,
+    "thickness_mm": 5.7158059752841,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 5; see"
+  },
+  {
+    "surface": 6,
+    "type": "Standard",
+    "radius_mm": 38.8037668545748,
+    "thickness_mm": 13.5887232784412,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 6; see"
+  },
+  {
+    "surface": 7,
+    "type": "Standard",
+    "radius_mm": -54.2671893430423,
+    "thickness_mm": 0.6724,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 7; see"
+  },
+  {
+    "surface": 8,
+    "type": "Standard",
+    "radius_mm": 31.075374530418102,
+    "thickness_mm": 9.99888621918567,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 8; see"
+  },
+  {
+    "surface": 9,
+    "type": "Standard",
+    "radius_mm": -329.808921756226,
+    "thickness_mm": 9.90812434262239,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 9; see"
+  },
+  {
+    "surface": 10,
+    "type": "Standard",
+    "radius_mm": 22.8397602304856,
+    "thickness_mm": 18.9853509546087,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 10; se"
+  },
+  {
+    "surface": 11,
+    "type": "Standard",
+    "radius_mm": -19.8162185491235,
+    "thickness_mm": 5.04298879052795,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 11; se"
+  },
+  {
+    "surface": 12,
+    "type": "Standard",
+    "radius_mm": -150.510605524879,
+    "thickness_mm": 6.57012384877998,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 12; se"
+  },
+  {
+    "surface": 13,
+    "type": "Standard",
+    "radius_mm": -30.649886458389705,
+    "thickness_mm": 0.3362,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 13; se"
+  },
+  {
+    "surface": 14,
+    "type": "Standard",
+    "radius_mm": Infinity,
+    "thickness_mm": 0.3362,
+    "material": "",
+    "semi_diameter_mm": 18.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 14; se"
+  },
+  {
+    "surface": 15,
+    "type": "Standard",
+    "radius_mm": -1124.17871441945,
+    "thickness_mm": 3.36199656354698,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 15; se"
+  },
+  {
+    "surface": 16,
+    "type": "Standard",
+    "radius_mm": 53.76917877050071,
+    "thickness_mm": 6.53292714662395,
+    "material": "F_SILICA",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 16; se"
+  },
+  {
+    "surface": 17,
+    "type": "Standard",
+    "radius_mm": -108.615919407405,
+    "thickness_mm": 50.0,
+    "material": "",
+    "semi_diameter_mm": 22.0,
+    "conic": 0.0,
+    "comment": "UV OBJECTIVE real surface 17; se"
+  },
+  {
+    "surface": 18,
+    "type": "Paraxial",
+    "radius_mm": Infinity,
+    "thickness_mm": 600.0,
+    "material": "",
+    "semi_diameter_mm": 30.0,
+    "conic": Infinity,
+    "comment": "IDEAL TUBE LENS f=600 mm (permit"
+  },
+  {
+    "surface": 19,
+    "type": "Standard",
+    "radius_mm": Infinity,
+    "thickness_mm": Infinity,
+    "material": "",
+    "semi_diameter_mm": 7.0,
+    "conic": 0.0,
+    "comment": "20X IMAGE / TDI PLANE"
+  }
+]

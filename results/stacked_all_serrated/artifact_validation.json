@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "tests": {
+    "tests": 58,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "projection_candidates": 9636,
+  "layered_candidates": 144,
+  "physical_rods": 9,
+  "optical_pupil_mm": 36,
+  "tooth_pitch_mm": 1.0,
+  "intensity_reference": 0.9857451908016286,
+  "unit": "I/I_ref",
+  "linear_limits": [
+    0,
+    1.2
+  ],
+  "all_three_original_defects_visible": true,
+  "local_links": 22,
+  "array_checks": [
+    {
+      "case": "dots",
+      "array": "unfiltered",
+      "maximum": 1.134424090385437
+    },
+    {
+      "case": "dots",
+      "array": "filtered",
+      "maximum": 0.7275682687759399
+    },
+    {
+      "case": "dots",
+      "array": "background",
+      "maximum": 0.2704809308052063
+    },
+    {
+      "case": "dots",
+      "array": "defects_only",
+      "maximum": 0.7275682687759399
+    },
+    {
+      "case": "dots",
+      "array": "d1",
+      "maximum": 0.7275682687759399
+    },
+    {
+      "case": "dots",
+      "array": "d2",
+      "maximum": 0.6884167790412903
+    },
+    {
+      "case": "dots",
+      "array": "d3",
+      "maximum": 0.5862200856208801
+    },
+    {
+      "case": "stripes",
+      "array": "unfiltered",
+      "maximum": 1.0837123394012451
+    },
+    {
+      "case": "stripes",
+      "array": "filtered",
+      "maximum": 0.672100841999054
+    },
+    {
+      "case": "stripes",
+      "array": "background",
+      "maximum": 0.2696264088153839
+    },
+    {
+      "case": "stripes",
+      "array": "defects_only",
+      "maximum": 0.7275682687759399
+    },
+    {
+      "case": "stripes",
+      "array": "d1",
+      "maximum": 0.7275682687759399
+    },
+    {
+      "case": "stripes",
+      "array": "d2",
+      "maximum": 0.6884167790412903
+    },
+    {
+      "case": "stripes",
+      "array": "d3",
+      "maximum": 0.5862200856208801
+    }
+  ],
+  "grid_checks": {
+    "unfiltered": {
+      "relative_intensity_l2": 8.347935818164842e-07,
+      "max_absolute_I_over_Iref": 0.00010609626770019531
+    },
+    "filtered": {
+      "relative_intensity_l2": 6.351598585752072e-06,
+      "max_absolute_I_over_Iref": 8.26120376586914e-05
+    },
+    "background": {
+      "relative_intensity_l2": 4.077296296145505e-07,
+      "max_absolute_I_over_Iref": 3.8743019104003906e-07
+    },
+    "defects_only": {
+      "relative_intensity_l2": 3.415413084439933e-05,
+      "max_absolute_I_over_Iref": 8.618831634521484e-05
+    },
+    "d1": {
+      "relative_intensity_l2": 0.00012430881906766444,
+      "max_absolute_I_over_Iref": 8.618831634521484e-05
+    },
+    "d2": {
+      "relative_intensity_l2": 2.1445086417770653e-07,
+      "max_absolute_I_over_Iref": 1.7881393432617188e-07
+    },
+    "d3": {
+      "relative_intensity_l2": 2.639671663473564e-07,
+      "max_absolute_I_over_Iref": 2.384185791015625e-07
+    }
+  },
+  "python_executable": "E:\\anconda\\envs\\fourier-filter\\python.exe",
+  "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "numpy_version": "2.3.5",
+  "source_sha256": {
+    "stacked_comparisons.py": "86331a18cf43da747bd1dc66e343b89e0b1683bf0aa148d58c3c1a9241d04caa",
+    "stacked_images.py": "155059981cd86e322d580cd489033f8b29d2b75f53a8e0f61491a0117ecbb527",
+    "stacked_report.py": "f307d42a429ae452cacebd4d4d4ee008812eb92b5e560593a423c13a23e94852",
+    "stacked_serrated.py": "438c3dcbe9c7904f97f56c01bb9e5aad76e3cb89ccc29badde34e950675a38ad",
+    "stacked_validate.py": "8bfb848cd73781dbfd50fd8dde1483779f119321142934fbe49064b3ff830cea"
+  },
+  "caveat": "Artifact and scalar-numerical checks only. Manufacturing release and full moving-field 256-row TDI validation are not certified."
+}

@@ -1,0 +1,70 @@
+{
+  "engine": "Local OpticStudio 2022 R2.02 native POP",
+  "base_model": "D:\\work\\git_share\\Fourier\\results\\uv_real_objective\\models\\uv355_corning7980_6element_ideal_tube.zos",
+  "comparison_scope": "2 um existing Python three-particle case only",
+  "python_model_changed": false,
+  "coordinate_operation": "none; original Python case pixels and axes preserved",
+  "input": {
+    "beam_file": "python_case_2um_three_particles_original_axes.ZBF",
+    "grid": 512,
+    "window_mm": 0.12,
+    "input_power_before_1W_normalization": 0.006964308500289916,
+    "input_power_W_in_POP": 1.0,
+    "particle_centres_um": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        12.0,
+        0.0
+      ]
+    ],
+    "particle_sizes_um": [
+      0.6,
+      0.9,
+      1.2
+    ],
+    "note": "particles are image features; no separate particle coherence sweep is performed"
+  },
+  "optics": {
+    "wavelength_nm": 355.0,
+    "objective_na": 0.6,
+    "objective_nominal_focal_length_mm": 30.0,
+    "real_bfp_sine_slope_mm": 29.102328830493818,
+    "image_magnification": 20.0,
+    "pupil_diameter_mm": 36.0
+  },
+  "filter": {
+    "rod_count": 7,
+    "rod_long_axis": "Fourier Y",
+    "rod_position_axis": "Fourier X",
+    "real_bfp_order_spacing_mm": 5.165663367412653,
+    "real_bfp_centres_mm": {
+      "-3": -15.496990102237959,
+      "-2": -10.331326734825305,
+      "-1": -5.165663367412653,
+      "0": 0.0,
+      "1": 5.165663367412653,
+      "2": 10.331326734825305,
+      "3": 15.496990102237959
+    },
+    "hardware_order_spacing_mm": 15.0,
+    "hardware_core_mm": 1.0,
+    "hardware_one_sided_depth_mm": 0.5,
+    "hardware_tooth_pitch_mm": 0.75,
+    "equivalent_real_bfp_core_mm": 0.35500000000000004,
+    "equivalent_real_bfp_one_sided_depth_mm": 0.17750000000000002
+  },
+  "messages": {
+    "open": []
+  },
+  "pop_end_surface": 1,
+  "surface_sampling": "manual",
+  "evaluation_rule": "raw irradiance; common scale; no background subtraction",
+  "geometry_scope_note": "The unchanged Python example is periodic in object Y, so its orders run along Fourier Y. With the final rods long in Fourier Y and positioned in Fourier X, the example is an exact-image consistency case, not a seven-column utilization test."
+}

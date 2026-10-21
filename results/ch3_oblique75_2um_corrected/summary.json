@@ -1,0 +1,46 @@
+{
+  "model": "Ch3 centred collection with 75 deg illumination propagating +Y; scalar periodic diffraction plus broad particle dark-field scattering",
+  "wavelength_nm": 355.0,
+  "objective_f_mm": 30.0,
+  "objective_NA": 0.6,
+  "incidence_from_normal_deg": 75.0,
+  "illumination_tangential_frequency_cycles_per_mm": 2720.9178205325866,
+  "pattern_period_um": 2.0,
+  "bright_width_um": 1.1428571428571428,
+  "dark_width_um": 0.8571428571428571,
+  "collected_orders": [
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3
+  ],
+  "collected_order_fy_cycles_per_mm": [
+    -1279.0821794674134,
+    -779.0821794674134,
+    -279.0821794674134,
+    220.91782053258657,
+    720.9178205325866,
+    1220.9178205325866
+  ],
+  "rod_centres_mechanical_y_mm": [
+    -38.3724653840224,
+    -23.3724653840224,
+    -8.372465384022403,
+    6.627534615977597,
+    21.627534615977595,
+    36.627534615977595
+  ],
+  "rod_count": 6,
+  "rod_core_mm": 1.0,
+  "rod_tooth_depth_each_side_mm": 0.5,
+  "rod_total_envelope_mm": 2.0,
+  "tdi_stages": 25,
+  "tdi_rule": "velocity-matched charge packets align the same object point; stage-normalised image equals optical image, so no X convolution is applied",
+  "serration_acceptance_rule": "25-stage narrow TDI accepts serration zero order; final image uses X-averaged soft-edge amplitude transmission, while the full binary geometry remains available as physical_rods in the calculation",
+  "particle_only_gaussian_equivalent_fwhm_x_um": 0.38955271074313985,
+  "particle_only_gaussian_equivalent_fwhm_y_um": 0.3898673486198971,
+  "fwhm_aspect_ratio_x_over_y": 0.9991929617141034,
+  "evaluation": "raw combined intensity, common before/after reference, no periodic-background subtraction"
+}

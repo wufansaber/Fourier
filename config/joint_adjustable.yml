@@ -1,0 +1,42 @@
+# User-confirmed: each of 9 installed rods is independently movable in Y.
+installed_rods: 9
+periods_um: [10, 15, 20, 30, 40]
+duty_cycles: [0.35, 0.245]
+order_pair_pool: [1, 2, 3, 4, 5, 6, 7, 8]
+core_widths_mm: [0.10, 0.14, 0.20]
+depths_mm: [0.05, 0.075, 0.10, 0.15, 0.20]
+tooth_pitch_mm: 0.75
+tooth_pitch_checks_mm: [0.5, 0.75, 1.0]
+axial_gap_mm: 4.0
+processes:
+  precision: {edge_tolerance_mm: 0.010, foil_thickness_mm: 0.050}
+  standard: {edge_tolerance_mm: 0.025, foil_thickness_mm: 0.050}
+gates:
+  strict: {halo: 0.10, crosstalk: 0.10, retention: 0.60}
+  balanced: {halo: 0.20, crosstalk: 0.15, retention: 0.60}
+  background_priority: {halo: 0.25, crosstalk: 0.20, retention: 0.60}
+mechanics:
+  finger_width_y_mm: 0.25
+  finger_width_x_mm: 1.5
+  stage_width_x_mm: 8.0
+  station_x_mm: [31, 41, 51, 61, 71]
+  stroke_half_y_mm: 24.0
+  position_tolerance_mm: 0.025
+  body_position_tolerance_mm: 0.10
+  axial_position_tolerance_mm: 0.10
+  minimum_clearance_mm: 0.10
+  body_z_outset_mm: 4.0
+  body_thickness_z_mm: 4.0
+  body_length_y_mm: 8.0
+  park_y_mm: [20.0, 21.0]
+  density_kg_m3: 8000.0
+  working_stress_mpa: 100.0
+  required_material_proof_stress_mpa: 300.0
+  operating_acceleration_g: 2.0
+  acceleration_g_checks: [1.0, 2.0, 10.0]
+  displacement_budget_um: 10.0
+search_n: 8192
+refine_n: 16384
+window_mm: 1.024
+refine_kmax: 12
+check_kmax: 24

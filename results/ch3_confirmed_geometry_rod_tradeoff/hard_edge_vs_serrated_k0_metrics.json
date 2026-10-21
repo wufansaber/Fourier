@@ -1,0 +1,20 @@
+[
+  {
+    "edge": "1.0 mm hard-edge rods",
+    "particle_energy_retention_percent": 92.18675494194031,
+    "worst_x_replica_db": -21.62060119179824,
+    "outside_core_energy_percent": 7.076137159435706
+  },
+  {
+    "edge": "2.0 mm hard-envelope rods",
+    "particle_energy_retention_percent": 85.93770861625671,
+    "worst_x_replica_db": -16.114384227314357,
+    "outside_core_energy_percent": 13.761487369570958
+  },
+  {
+    "edge": "1.0 + 2x0.5 mm serrated k=0",
+    "particle_energy_retention_percent": 88.84540796279907,
+    "worst_x_replica_db": -19.362866180430387,
+    "outside_core_energy_percent": 9.354058045016616
+  }
+]

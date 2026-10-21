@@ -1,0 +1,292 @@
+[
+  {
+    "surface": 0,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 0.0,
+    "material": "",
+    "semi_diameter_mm": 0.25,
+    "conic": 0.0,
+    "comment": ""
+  },
+  {
+    "surface": 1,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 0.725,
+    "material": "SILICA",
+    "semi_diameter_mm": 1.25341316473132,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S21"
+  },
+  {
+    "surface": 2,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 4.0,
+    "material": "",
+    "semi_diameter_mm": 1.63002634394252,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S20"
+  },
+  {
+    "surface": 3,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 0.96743468480802,
+    "material": "",
+    "semi_diameter_mm": 4.43689284610313,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S19"
+  },
+  {
+    "surface": 4,
+    "type": "65",
+    "radius_mm": -10.9623475781025,
+    "thickness_mm": 10.0000040843677,
+    "material": "S-LAH58",
+    "semi_diameter_mm": 4.50275256688456,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S18"
+  },
+  {
+    "surface": 5,
+    "type": "65",
+    "radius_mm": -15.4639303423022,
+    "thickness_mm": 0.4,
+    "material": "",
+    "semi_diameter_mm": 9.19346582915043,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S17"
+  },
+  {
+    "surface": 6,
+    "type": "65",
+    "radius_mm": 116.539935307051,
+    "thickness_mm": 10.0000039343609,
+    "material": "S-FPL51",
+    "semi_diameter_mm": 10.8321769259064,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S16"
+  },
+  {
+    "surface": 7,
+    "type": "65",
+    "radius_mm": -25.4870992035019,
+    "thickness_mm": 0.4,
+    "material": "",
+    "semi_diameter_mm": 12.5081758600719,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S15"
+  },
+  {
+    "surface": 8,
+    "type": "65",
+    "radius_mm": 41.4946974784872,
+    "thickness_mm": 3.40024150819994,
+    "material": "S-TIH4",
+    "semi_diameter_mm": 13.1169727212525,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S14"
+  },
+  {
+    "surface": 9,
+    "type": "65",
+    "radius_mm": 23.0837399491819,
+    "thickness_mm": 8.08371402643736,
+    "material": "S-FPL53",
+    "semi_diameter_mm": 13.1256677552915,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S13"
+  },
+  {
+    "surface": 10,
+    "type": "65",
+    "radius_mm": -32.2826825360156,
+    "thickness_mm": 0.4,
+    "material": "",
+    "semi_diameter_mm": 13.1256677552915,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S12"
+  },
+  {
+    "surface": 11,
+    "type": "65",
+    "radius_mm": 18.4862430282083,
+    "thickness_mm": 5.94817740582134,
+    "material": "S-FPM2",
+    "semi_diameter_mm": 11.9922141617665,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S11"
+  },
+  {
+    "surface": 12,
+    "type": "65",
+    "radius_mm": -196.198049825238,
+    "thickness_mm": 5.89418461785984,
+    "material": "S-TIH1",
+    "semi_diameter_mm": 11.3741957302508,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S10"
+  },
+  {
+    "surface": 13,
+    "type": "65",
+    "radius_mm": 13.5870078706041,
+    "thickness_mm": 11.2940814721051,
+    "material": "",
+    "semi_diameter_mm": 8.45307893905566,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S9"
+  },
+  {
+    "surface": 14,
+    "type": "65",
+    "radius_mm": -11.7883513082234,
+    "thickness_mm": 2.99999333166446,
+    "material": "S-NBH8",
+    "semi_diameter_mm": 8.16992722068571,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S8"
+  },
+  {
+    "surface": 15,
+    "type": "65",
+    "radius_mm": -89.5363506989168,
+    "thickness_mm": 3.90846154002378,
+    "material": "S-TIH57",
+    "semi_diameter_mm": 9.96163755569244,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S7"
+  },
+  {
+    "surface": 16,
+    "type": "65",
+    "radius_mm": -18.2331269829802,
+    "thickness_mm": 0.2,
+    "material": "",
+    "semi_diameter_mm": 10.4106995955612,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S6"
+  },
+  {
+    "surface": 17,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 0.2,
+    "material": "",
+    "semi_diameter_mm": 9.81768544670423,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S5"
+  },
+  {
+    "surface": 18,
+    "type": "65",
+    "radius_mm": -668.755927673679,
+    "thickness_mm": 1.99999795570909,
+    "material": "S-NBH53V",
+    "semi_diameter_mm": 10.3213529094658,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S4"
+  },
+  {
+    "surface": 19,
+    "type": "65",
+    "radius_mm": 31.986424015764804,
+    "thickness_mm": 3.88633381714691,
+    "material": "S-BAL35",
+    "semi_diameter_mm": 10.5581080595769,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S3"
+  },
+  {
+    "surface": 20,
+    "type": "65",
+    "radius_mm": -64.6138723422991,
+    "thickness_mm": 79.6108888787192,
+    "material": "",
+    "semi_diameter_mm": 10.7087427064286,
+    "conic": 0.0,
+    "comment": "COLLECT reverse source S2"
+  },
+  {
+    "surface": 21,
+    "type": "65",
+    "radius_mm": 103.00000000000001,
+    "thickness_mm": 4.0,
+    "material": "N-BK7",
+    "semi_diameter_mm": 16.0,
+    "conic": -9.207901077914716,
+    "comment": "PUPIL RELAY L1 FRONT"
+  },
+  {
+    "surface": 22,
+    "type": "65",
+    "radius_mm": -103.00000000000001,
+    "thickness_mm": 197.928741317843,
+    "material": "",
+    "semi_diameter_mm": 16.0,
+    "conic": 1.6753888340735372,
+    "comment": "PUPIL RELAY L1 BACK"
+  },
+  {
+    "surface": 23,
+    "type": "65",
+    "radius_mm": 103.00000000000001,
+    "thickness_mm": 4.0,
+    "material": "N-BK7",
+    "semi_diameter_mm": 16.0,
+    "conic": 3.871353197640567,
+    "comment": "PUPIL RELAY L2 FRONT"
+  },
+  {
+    "surface": 24,
+    "type": "65",
+    "radius_mm": -103.00000000000001,
+    "thickness_mm": 98.9643706589216,
+    "material": "",
+    "semi_diameter_mm": 16.0,
+    "conic": -11.572534263832601,
+    "comment": "PUPIL RELAY L2 BACK"
+  },
+  {
+    "surface": 25,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": 198.428523468498,
+    "material": "",
+    "semi_diameter_mm": 16.0,
+    "conic": 0.0,
+    "comment": "ACCESSIBLE FOURIER PLANE / FILTE"
+  },
+  {
+    "surface": 26,
+    "type": "65",
+    "radius_mm": 206.00000000000003,
+    "thickness_mm": 5.0,
+    "material": "N-BK7",
+    "semi_diameter_mm": 16.0,
+    "conic": -20.000011865609896,
+    "comment": "REAL TUBE LENS FRONT"
+  },
+  {
+    "surface": 27,
+    "type": "65",
+    "radius_mm": -206.00000000000003,
+    "thickness_mm": 198.74022441774596,
+    "material": "",
+    "semi_diameter_mm": 16.0,
+    "conic": 17.49954947474046,
+    "comment": "REAL TUBE LENS BACK"
+  },
+  {
+    "surface": 28,
+    "type": "65",
+    "radius_mm": Infinity,
+    "thickness_mm": Infinity,
+    "material": "",
+    "semi_diameter_mm": 2.5164154923973507,
+    "conic": 0.0,
+    "comment": "REAL MICROSCOPE IMAGE"
+  }
+]

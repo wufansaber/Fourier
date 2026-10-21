@@ -1,0 +1,7 @@
+﻿case,channel,qx_cycles_per_mm,qy_cycles_per_mm,nearest_m_for_20um,nearest_n_for_20um,local_BFP_step_screen_mm,local_BFP_step_out_of_screen_mm
+normal,Ch1,1991.8500878494297,0.0,40,0,0.753068721963673,0.5325
+normal,Ch3,0.0,0.0,0,0,0.5325,0.5325
+normal,Ch2,-1991.8500878494297,0.0,-40,0,0.753068721963673,0.5325
+oblique75_out_of_screen,Ch1,1991.8500878494297,-2720.9178205325866,40,-54,0.753068721963673,0.5325
+oblique75_out_of_screen,Ch3,0.0,-2720.9178205325866,0,-54,0.5325,0.5325
+oblique75_out_of_screen,Ch2,-1991.8500878494297,-2720.9178205325866,-40,-54,0.753068721963673,0.5325

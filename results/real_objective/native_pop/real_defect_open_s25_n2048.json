@@ -1,0 +1,21 @@
+{
+  "model": "real_defect_open",
+  "end_surface": 25,
+  "sampling": 2048,
+  "input_window_mm": 1.024,
+  "beam": "TopHat",
+  "waist_x_mm": 0.55,
+  "waist_y_mm": 0.55,
+  "polarization": false,
+  "messages": [],
+  "elapsed_s": 142.97922682762146,
+  "data_grids": 1,
+  "nx": 2048,
+  "ny": 2048,
+  "dx_mm": 0.011419207414011097,
+  "dy_mm": 0.011419207414011097,
+  "power_W": 0.10784807787951485,
+  "peak_W_per_mm2": 77.41439282148906,
+  "x_min_mm": -11.693268391947363,
+  "x_max_mm": 11.681849184533352
+}

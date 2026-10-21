@@ -1,0 +1,30 @@
+{
+  "evaluation": "raw intensity only; no periodic-background subtraction",
+  "background_suppression_db": 62.730296197132695,
+  "particle_peak_retention_percent": 50.05069614810368,
+  "particle_to_pattern_open_db": 0.49355703281964947,
+  "particle_to_pattern_filtered_db": 36.79318110213134,
+  "particle_contrast_improvement_db": 36.29962406931169,
+  "common_unfiltered_peak": 1.4744452238082886,
+  "engine": "coherent FFT using final Zemax real-ray pupil mapping and 2D OPD",
+  "grid": 4096,
+  "window_mm": 0.15,
+  "object_sample_um": 0.03662109375,
+  "zemax_opd_rms_waves": 0.0060153016820549965,
+  "measured_bfp_sine_slope_mm": 29.102328830493818,
+  "two_um_order_spacing_mm": 5.165663367412653,
+  "rod_centres_y_mm": [
+    -15.496990102237959,
+    -10.331326734825305,
+    -5.165663367412653,
+    0.0,
+    5.165663367412653,
+    10.331326734825305,
+    15.496990102237959
+  ],
+  "rod_core_mm": 1.0,
+  "one_sided_tooth_depth_mm": 0.5,
+  "tooth_pitch_x_mm": 0.75,
+  "pupil_diameter_mm": 36.0,
+  "tdi_object_width_um": 6.25
+}

@@ -1,0 +1,17 @@
+{
+  "number_of_stops": 3705,
+  "minimum_size_mm": 0.51,
+  "maximum_size_mm": 0.51,
+  "conservative_clear_gap_mm": 0.22958333333333325,
+  "minimum_feature_required_mm": 0.1,
+  "minimum_gap_required_mm": 0.1,
+  "substrate_size_mm": [
+    60,
+    60
+  ],
+  "effective_beam_diameter_mm": 50,
+  "dxf_units": "mm",
+  "black_svg_layer": "OPAQUE_PATTERN",
+  "guides_are_not_fabrication_patterns": true,
+  "passes_nominal_drc": true
+}

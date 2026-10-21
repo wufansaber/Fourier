@@ -1,0 +1,113 @@
+{
+  "engine": "real OpticStudio objective OPD + measured BFP mapping + sampled Fourier propagation",
+  "native_pop_used_for_final_image": false,
+  "why": "native POP undersamples the 2 um carrier after the beam expands at the first real refracting surface",
+  "input_source": "D:\\work\\git_share\\Fourier\\results\\uv_real_objective_python_case_2um_exact_image\\python_reference_2um.npz",
+  "input_transposed": false,
+  "grid": 1024,
+  "window_mm": 0.11999999999999744,
+  "object_sample_um": 0.1171874999999975,
+  "zemax_opd_rms_waves": 0.0060147373005747795,
+  "real_bfp_sine_slope_mm": 29.102328830493818,
+  "two_um_order_spacing_mm": 5.165663367412653,
+  "rod_centres_real_bfp_mm": [
+    -15.496990102237959,
+    -10.331326734825305,
+    -5.165663367412653,
+    0.0,
+    5.165663367412653,
+    10.331326734825305,
+    15.496990102237959
+  ],
+  "rod_dimensions_real_bfp_mm": {
+    "core": 0.35500000000000004,
+    "one_sided_depth": 0.17750000000000002,
+    "tooth_pitch": 0.26625000000000004
+  },
+  "direct_python_comparison": {
+    "python_background_suppression_db": 22.407455315917222,
+    "zemax_background_suppression_db": 20.9490704536438,
+    "python_three_particle_peak_retention_percent": 81.6953127042832,
+    "zemax_three_particle_peak_retention_percent": 79.88651352962468,
+    "open_image_cosine_similarity": 0.9999979734420776,
+    "filtered_image_cosine_similarity": 0.9912160634994507,
+    "zemax_over_python_open_peak": 1.019782304763794,
+    "zemax_over_python_filtered_peak": 0.997203528881073
+  },
+  "matched_to_unchanged_python": {
+    "background_suppression_db": 20.9490704536438,
+    "particle_peak_retention_percent": 79.88651352962468,
+    "particle_to_pattern_open_db": 9.213616351748676,
+    "particle_to_pattern_filtered_db": 26.176231655417258,
+    "per_particle": [
+      {
+        "centre_um": [
+          -12.0,
+          0.0
+        ],
+        "size_um": 0.6,
+        "open_peak": 315.2915344238281,
+        "filtered_peak": 250.12094116210938,
+        "peak_retention_percent": 79.33005293630444
+      },
+      {
+        "centre_um": [
+          0.0,
+          0.0
+        ],
+        "size_um": 0.9,
+        "open_peak": 882.7633666992188,
+        "filtered_peak": 706.6216430664062,
+        "peak_retention_percent": 80.04655264621682
+      },
+      {
+        "centre_um": [
+          12.0,
+          0.0
+        ],
+        "size_um": 1.2,
+        "open_peak": 1513.9168701171875,
+        "filtered_peak": 1209.4154052734375,
+        "peak_retention_percent": 79.88651352962468
+      }
+    ]
+  },
+  "final_engineering_orientation": {
+    "background_suppression_db": 24.939844608306885,
+    "particle_peak_retention_percent": 76.35628652685006,
+    "particle_to_pattern_open_db": 9.213616351748676,
+    "particle_to_pattern_filtered_db": 32.00798336316592,
+    "per_particle": [
+      {
+        "centre_um": [
+          -12.0,
+          0.0
+        ],
+        "size_um": 0.6,
+        "open_peak": 315.2915344238281,
+        "filtered_peak": 223.9705810546875,
+        "peak_retention_percent": 71.03602748610967
+      },
+      {
+        "centre_um": [
+          0.0,
+          0.0
+        ],
+        "size_um": 0.9,
+        "open_peak": 882.7633666992188,
+        "filtered_peak": 572.480712890625,
+        "peak_retention_percent": 64.85098209627955
+      },
+      {
+        "centre_um": [
+          12.0,
+          0.0
+        ],
+        "size_um": 1.2,
+        "open_peak": 1513.9168701171875,
+        "filtered_peak": 1155.970703125,
+        "peak_retention_percent": 76.35628652685006
+      }
+    ]
+  }
+}

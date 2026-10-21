@@ -1,0 +1,62 @@
+optics:
+  wavelength_mm: 0.000355
+  object_refractive_index: 1.0
+  objective_focal_length_mm: 50.0
+  magnification: 20.0
+  tube_lens_focal_length_mm: 1000.0
+  numerical_aperture: 0.10
+  # 5x pupil relay enlarges the 10 mm objective BFP to a 50 mm
+  # accessible filter plane so the PPT reference hardware can be used.
+  pupil_relay_magnification: 5.0
+  illumination_angle_x_deg: 0.0
+  illumination_angle_y_deg: 0.0
+  use_aplanatic_apodization: true
+
+grid:
+  object_fov_mm: 0.5
+  samples: 1024
+
+object:
+  lattice_pitch_mm: 0.020
+  stripe_duty_cycle: 0.35
+  dot_diameter_mm: 0.007
+  background_amplitude: 0.05
+  feature_amplitude: 1.0
+
+filter:
+  block_zero_order: true
+  # Reference dimensions from the user-provided FF assembly slide.
+  hard_width_mm: 1.00
+  soft_transition_mm: 0.40
+  serrated_nominal_width_mm: 2.55
+  serration_pitch_mm: 0.75
+  serration_amplitude_mm: 0.725
+  fuzzy_min_width_mm: 1.10
+  fuzzy_max_width_mm: 4.00
+  minimum_same_deck_spacing_mm: 4.00
+  minimum_cross_deck_spacing_mm: 1.00
+  use_two_deck_serrated_rods: true
+  max_order: 8
+
+detector:
+  pixel_size_mm: 0.005
+  pixels: 2048
+
+run:
+  cases:
+    - stripes
+    - dots
+  filter_edges:
+    - hard
+    - soft
+    - serrated
+  sweep_widths_mm:
+    - 0.50
+    - 0.75
+    - 1.00
+    - 1.25
+    - 1.50
+    - 1.75
+    - 2.00
+    - 2.50
+    - 3.00

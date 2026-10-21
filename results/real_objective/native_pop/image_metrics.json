@@ -1,0 +1,55 @@
+{
+  "real_regular_open": {
+    "power_W": 0.10784395395390976,
+    "roi_power_W": 0.06907951485466914,
+    "central_peak_W_per_mm2": 0.018455739626741414,
+    "nx": 2048,
+    "dx_um": 5.001567752186631
+  },
+  "real_regular_rods": {
+    "power_W": 0.0027007191518060806,
+    "roi_power_W": 0.0014081166815219722,
+    "central_peak_W_per_mm2": 0.0001411982774139871,
+    "nx": 2048,
+    "dx_um": 5.001567752186631
+  },
+  "real_defect_open": {
+    "power_W": 0.10784807787954795,
+    "roi_power_W": 0.06908115264774821,
+    "central_peak_W_per_mm2": 0.01836384717516348,
+    "nx": 2048,
+    "dx_um": 5.001567752186631
+  },
+  "real_defect_rods": {
+    "power_W": 0.0027921269771943136,
+    "roi_power_W": 0.0014969032365926792,
+    "central_peak_W_per_mm2": 0.004058277971055553,
+    "nx": 2048,
+    "dx_um": 5.001567752186631
+  },
+  "regular_suppression_db": 16.90710635384655,
+  "central_peak_ratio_defect_to_regular_filtered": 28.741696041778617,
+  "fine_sampling": {
+    "real_regular_open": {
+      "roi_power_W": 0.07592778529657106,
+      "power_W": 0.11862842838770427,
+      "nx": 4096,
+      "dx_um": 2.500783876021373
+    },
+    "real_regular_rods": {
+      "roi_power_W": 0.0013940677327488372,
+      "power_W": 0.002739884994052782,
+      "nx": 4096,
+      "dx_um": 2.500783876021373
+    },
+    "regular_suppression_db": 17.361168572370758,
+    "change_from_2048_db": 0.45406221852420714
+  },
+  "native_fourier_peaks_mm": [
+    -7.011393352202814,
+    -2.3409375198722753,
+    0.0,
+    2.3409375198722753,
+    7.011393352202813
+  ]
+}

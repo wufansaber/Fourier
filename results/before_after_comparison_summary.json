@@ -1,0 +1,44 @@
+{
+  "python_2d": {
+    "background_suppression_db": 10.372998711527332,
+    "isolated_defect_energy_retention": 0.6663104770252971,
+    "common_reference_peak": 1.176336646080017,
+    "active_orders": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "image": "D:\\work\\git_share\\Fourier\\results\\dual_deck_engineering\\python_2d_before_after.png",
+    "defect_zoom_image": "D:\\work\\git_share\\Fourier\\results\\dual_deck_engineering\\python_2d_defect_zoom_before_after.png"
+  },
+  "zemax_native_pop": {
+    "absolute_image": "D:\\work\\git_share\\Fourier\\results\\dual_deck_zemax_equivalent_fullwindow\\zemax_before_after_absolute.png",
+    "common_db_image": "D:\\work\\git_share\\Fourier\\results\\dual_deck_zemax_equivalent_fullwindow\\zemax_before_after_common_db.png",
+    "reference_peak_W_per_mm2": 3.2916596828097002e-06,
+    "metrics": [
+      {
+        "mode": "open",
+        "regular_power_W": 4.289310322872784e-05,
+        "background_suppression_db": 0.0,
+        "defect_difference_rms_W_per_mm2": 8.43296176571766e-08,
+        "defect_difference_retention_percent": 100.00000000000001,
+        "regular_peak_W_per_mm2": 3.2906111007172136e-06,
+        "defect_peak_W_per_mm2": 3.2916596828097002e-06
+      },
+      {
+        "mode": "balanced7",
+        "regular_power_W": 6.483574963474814e-08,
+        "background_suppression_db": 28.205729311491808,
+        "defect_difference_rms_W_per_mm2": 1.2466445615070232e-09,
+        "defect_difference_retention_percent": 1.478299790916853,
+        "regular_peak_W_per_mm2": 2.701827541341508e-09,
+        "defect_peak_W_per_mm2": 1.0652408179143601e-08
+      }
+    ],
+    "scope": "ideal equivalent pupil of current dual-deck scheme; not a real anamorphic relay prescription"
+  }
+}

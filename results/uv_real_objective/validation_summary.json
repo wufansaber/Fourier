@@ -1,0 +1,85 @@
+{
+  "engine": "Local OpticStudio 221026",
+  "wavelength_nm": 355.0,
+  "objective_material": "Corning HPFS 7980 equivalent; Zemax F_SILICA",
+  "objective_index_at_355nm": 1.4760718797565597,
+  "objective_surfaces": 17,
+  "tube_lens": "ideal Paraxial Lens, f=600 mm",
+  "coatings": "not modeled by request",
+  "target": {
+    "f_objective_mm": 30.0,
+    "object_na": 0.6,
+    "full_object_field_mm": 0.5,
+    "magnification": -20.0
+  },
+  "first_order_operands": {
+    "EFFL": 35.88087061500936,
+    "ENPP": -26.59257131023237,
+    "EXPP": -663.3225087725391,
+    "EPDI": 32.877333661197866,
+    "EXPD": 49.75002580764619,
+    "ISNA": 0.03746579292043675,
+    "PMAG": -20.004205826590223
+  },
+  "field_validation": [
+    {
+      "field_hy": 0.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -0.0,
+      "centroid_x_mm": 0.0,
+      "centroid_y_mm": 0.0,
+      "rms_spot_um": 1.6990300034743469,
+      "opd_rms_waves": 0.005992923637696791,
+      "opd_pv_waves": 0.02396193996509751
+    },
+    {
+      "field_hy": 0.5,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -2.5,
+      "centroid_x_mm": 0.0,
+      "centroid_y_mm": -2.4995061493270896,
+      "rms_spot_um": 1.664259740755821,
+      "opd_rms_waves": 0.02642892524895134,
+      "opd_pv_waves": 0.10053234220160177
+    },
+    {
+      "field_hy": 1.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "chief_target_y_mm": -5.0,
+      "centroid_x_mm": 0.0,
+      "centroid_y_mm": -4.999355382994427,
+      "rms_spot_um": 2.712382445781863,
+      "opd_rms_waves": 0.06416033975330847,
+      "opd_pv_waves": 0.27254840723893514
+    }
+  ],
+  "abbe_sine": {
+    "definition": "sin(u_object) - M*sin(u_image)",
+    "nominal_sine_scale": -20.0,
+    "best_fit_magnification": -20.00197392236335,
+    "valid_meridional_rays": 401,
+    "nominal_residual_rms": 7.330683692094912e-05,
+    "nominal_residual_max_abs": 0.0003879545364285919,
+    "nominal_equivalent_fsin_rms_um": 2.1992051076284738,
+    "nominal_equivalent_fsin_max_um": 11.638636092857757,
+    "best_fit_residual_rms": 6.313212112918511e-05,
+    "best_fit_residual_max_abs": 0.00032877515513474176,
+    "best_fit_equivalent_fsin_rms_um": 1.8939636338755532,
+    "best_fit_equivalent_fsin_max_um": 9.863254654042253
+  },
+  "optimization": [
+    {
+      "stage": "real radii",
+      "merit_before": 0.694464389723162,
+      "merit_after": 0.00019681761688418255
+    },
+    {
+      "stage": "radii plus selected conics",
+      "merit_before": 0.0001964025645097993,
+      "merit_after": 0.00019161960215042666
+    }
+  ]
+}

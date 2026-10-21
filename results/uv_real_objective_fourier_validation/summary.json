@@ -1,0 +1,81 @@
+{
+  "engine": "Local OpticStudio 2022 R2.02 native real-ray + POP",
+  "base_model": "D:\\work\\git_share\\Fourier\\results\\uv_real_objective\\models\\uv355_corning7980_6element_ideal_tube.zos",
+  "material": "six F_SILICA surfaces groups, Corning HPFS 7980 equivalent at 355 nm",
+  "ray_validation": {
+    "abbe_sine": {
+      "equation": "sin(u_object) + 20*sin(u_image) = 0",
+      "rms_dimensionless": 7.330683692163306e-05,
+      "max_abs_dimensionless": 0.00038795453643825084,
+      "equivalent_fsin_rms_um_at_30mm": 2.199205107648992,
+      "equivalent_fsin_max_um_at_30mm": 11.638636093147525
+    },
+    "fourier_linearity": {
+      "equation": "Y_BFP = slope*sin(u_object) + intercept",
+      "slope_mm": 29.102328830493818,
+      "effective_sine_focal_length_mm": 29.102328830493818,
+      "intercept_mm": 1.0313440570677862e-15,
+      "r_squared": 0.9999987625950632,
+      "rms_residual_um": 12.22241626043172,
+      "max_abs_residual_um": 27.209642738483808,
+      "two_um_adjacent_order_spacing_mm": 5.165663367412653
+    }
+  },
+  "filter": {
+    "coordinates": {
+      "X": "TDI scan; rod long axis; serration repetition",
+      "Y": "camera long edge; illumination line; sample orders; rod positioning"
+    },
+    "object_period_um": 2.0,
+    "bright_width_um": 1.142857142857143,
+    "dark_width_um": 0.8571428571428571,
+    "particle": "one irregular approximately 0.6 um bright clear particle in a dark gap",
+    "rod_core_mm": 1.0,
+    "one_sided_serration_depth_mm": 0.5,
+    "tooth_pitch_along_x_mm": 0.75,
+    "orders_A": [
+      -2,
+      0,
+      2
+    ],
+    "orders_B": [
+      -3,
+      -1,
+      1,
+      3
+    ],
+    "rod_centres_y_mm": {
+      "-3": -15.496990102237957,
+      "-2": -10.331326734825304,
+      "-1": -5.165663367412652,
+      "0": 1.0313440570677862e-15,
+      "1": 5.1656633674126535,
+      "2": 10.331326734825307,
+      "3": 15.49699010223796
+    },
+    "true_circular_pupil_diameter_mm": 36.0,
+    "tdi_stages": 25,
+    "tdi_pixel_pitch_um": 5.0
+  },
+  "pop": {
+    "grid": 512,
+    "start_window_mm": 0.15,
+    "messages": {
+      "regular_open_image": [],
+      "particle_open_image": [],
+      "regular_filtered_image": [],
+      "particle_filtered_image": [],
+      "particle_open_fourier": [],
+      "particle_filtered_fourier": []
+    },
+    "metrics": {
+      "evaluation": "raw native irradiance; no periodic-background subtraction",
+      "tdi_active_width_mm": 0.125,
+      "background_suppression_db": 0.40743357884864073,
+      "particle_peak_retention_percent": 100.1889830240318,
+      "particle_to_pattern_open_db": -0.0002686364700988724,
+      "particle_to_pattern_filtered_db": -0.05227786097321163,
+      "common_unfiltered_peak_W_per_mm2": 0.06368398257238338
+    }
+  }
+}

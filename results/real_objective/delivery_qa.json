@@ -1,0 +1,7 @@
+{
+  "markdown_display_formulas": 16,
+  "missing_local_links": [],
+  "python_source_parse": "passed",
+  "math_delimiters": "passed; renderer-specific visual compatibility not asserted",
+  "all_native_cases_present": true
+}

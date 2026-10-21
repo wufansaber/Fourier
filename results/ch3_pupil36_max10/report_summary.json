@@ -1,0 +1,467 @@
+{
+  "full_scan_table": [
+    [
+      "dots",
+      "selected_fine",
+      "0.125",
+      "10.437",
+      "87.51",
+      "79.28",
+      "73.25"
+    ],
+    [
+      "stripes",
+      "selected_fine",
+      "0.125",
+      "10.338",
+      "87.51",
+      "79.28",
+      "73.25"
+    ],
+    [
+      "dots",
+      "background_only",
+      "0.250",
+      "10.611",
+      "83.09",
+      "71.94",
+      "63.92"
+    ],
+    [
+      "dots",
+      "best_hard",
+      "0.250",
+      "10.210",
+      "88.31",
+      "80.59",
+      "75.09"
+    ]
+  ],
+  "selected": {
+    "core_width_mm": 0.1,
+    "b_mm": 0.05,
+    "profile": "sine",
+    "threshold": 0,
+    "orders": [
+      -5,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "rod_count": 9,
+    "label": "selected",
+    "score_db": -18.54503357654217,
+    "worst_background_suppression_db": 10.029504150731059,
+    "nominal_min_retention": 0.7203852723754196,
+    "worst_retention": 0.7017679195819707,
+    "maximum_fwhm_ratio": 0.9748635486107566,
+    "maximum_ee90_ratio": 34.444444444444436,
+    "maximum_halo_fraction": 0.22438464448747733,
+    "worst_pair_intensity_perturbation": 0.1673857760731329,
+    "worst_pair_separation_um": 20.0,
+    "feasible": true,
+    "defect_metrics": [
+      {
+        "fwhm_um": 0.5167293707848941,
+        "ee80_width_um": 0.625,
+        "ee90_width_um": 1.1250000000000002,
+        "energy": 1663.4733738337031,
+        "halo_fraction": 0.09383198111716069,
+        "halo_peak_fraction": 0.006879451986166492,
+        "defect_fwhm_um": 0.5,
+        "retention": 0.8747812541955156,
+        "fwhm_ratio": 0.9559702730251781,
+        "ee90_ratio": 1.5000000000000002
+      },
+      {
+        "fwhm_um": 0.7273497434162969,
+        "ee80_width_um": 1.0,
+        "ee90_width_um": 38.75,
+        "energy": 1061.3036142258934,
+        "halo_fraction": 0.12979120646058973,
+        "halo_peak_fraction": 0.014594497424868505,
+        "defect_fwhm_um": 0.75,
+        "retention": 0.8276984619454169,
+        "fwhm_ratio": 0.9413859653526424,
+        "ee90_ratio": 34.444444444444436
+      },
+      {
+        "fwhm_um": 0.9503297711538904,
+        "ee80_width_um": 1.5,
+        "ee90_width_um": 40.125,
+        "energy": 762.5699605655882,
+        "halo_fraction": 0.15847044491766277,
+        "halo_peak_fraction": 0.024417823383597013,
+        "defect_fwhm_um": 1.0,
+        "retention": 0.7927176168652778,
+        "fwhm_ratio": 0.9347015488839244,
+        "ee90_ratio": 29.181818181818183
+      },
+      {
+        "fwhm_um": 1.4169779396040367,
+        "ee80_width_um": 3.125,
+        "ee90_width_um": 41.375,
+        "energy": 482.07507945934964,
+        "halo_fraction": 0.19513677067161422,
+        "halo_peak_fraction": 0.04527224286490411,
+        "defect_fwhm_um": 1.5,
+        "retention": 0.7516891816792706,
+        "fwhm_ratio": 0.9377548471872815,
+        "ee90_ratio": 19.470588235294116
+      },
+      {
+        "fwhm_um": 1.9085397257548606,
+        "ee80_width_um": 36.875,
+        "ee90_width_um": 42.125,
+        "energy": 352.2776515680906,
+        "halo_fraction": 0.21292919550049288,
+        "halo_peak_fraction": 0.06232213858072612,
+        "defect_fwhm_um": 2.0,
+        "retention": 0.7323983418463824,
+        "fwhm_ratio": 0.9503574876970773,
+        "ee90_ratio": 15.318181818181818
+      },
+      {
+        "fwhm_um": 2.929916144329925,
+        "ee80_width_um": 37.375,
+        "ee90_width_um": 43.25000000000001,
+        "energy": 230.99964685221838,
+        "halo_fraction": 0.22438464448747733,
+        "halo_peak_fraction": 0.08197602614394955,
+        "defect_fwhm_um": 3.0,
+        "retention": 0.7203852723754196,
+        "fwhm_ratio": 0.9748635486107566,
+        "ee90_ratio": 10.176470588235295
+      }
+    ],
+    "baseline_defect_metrics": [
+      {
+        "fwhm_um": 0.5405287019539828,
+        "ee80_width_um": 0.625,
+        "ee90_width_um": 0.75,
+        "energy": 1901.5878150744109,
+        "halo_fraction": 0.0004999631423728808,
+        "halo_peak_fraction": 0.0014847872851287236
+      },
+      {
+        "fwhm_um": 0.7726371224833719,
+        "ee80_width_um": 0.875,
+        "ee90_width_um": 1.1250000000000002,
+        "energy": 1282.2346096082051,
+        "halo_fraction": 0.0004014123605649505,
+        "halo_peak_fraction": 0.0013848553630692267
+      },
+      {
+        "fwhm_um": 1.0167200132369811,
+        "ee80_width_um": 1.1250000000000002,
+        "ee90_width_um": 1.375,
+        "energy": 961.9692363859587,
+        "halo_fraction": 0.00038070934712304343,
+        "halo_peak_fraction": 0.0014161937961606297
+      },
+      {
+        "fwhm_um": 1.5110323810686188,
+        "ee80_width_um": 1.6250000000000002,
+        "ee90_width_um": 2.125,
+        "energy": 641.3223593060045,
+        "halo_fraction": 0.0003745429883572831,
+        "halo_peak_fraction": 0.0015084549924077948
+      },
+      {
+        "fwhm_um": 2.008233481044767,
+        "ee80_width_um": 2.125,
+        "ee90_width_um": 2.75,
+        "energy": 480.99187483138707,
+        "halo_fraction": 0.0003772547977708676,
+        "halo_peak_fraction": 0.00158238578501734
+      },
+      {
+        "fwhm_um": 3.005462814262821,
+        "ee80_width_um": 3.2500000000000004,
+        "ee90_width_um": 4.25,
+        "energy": 320.66125684456784,
+        "halo_fraction": 0.00038416480331538393,
+        "halo_peak_fraction": 0.0016786027072094535
+      }
+    ],
+    "pair_metrics": [
+      {
+        "separation_um": 1.0,
+        "field_ratio": 0.05393100624717295,
+        "worst_phase_intensity_perturbation": 0.11077056592917851
+      },
+      {
+        "separation_um": 2.0,
+        "field_ratio": 0.008345470455683606,
+        "worst_phase_intensity_perturbation": 0.0167605877884939
+      },
+      {
+        "separation_um": 3.0,
+        "field_ratio": 0.0025925251632051447,
+        "worst_phase_intensity_perturbation": 0.005191771513132141
+      },
+      {
+        "separation_um": 5.0,
+        "field_ratio": 0.01015243499030297,
+        "worst_phase_intensity_perturbation": 0.020407941916838267
+      },
+      {
+        "separation_um": 10.0,
+        "field_ratio": 0.027771822951272247,
+        "worst_phase_intensity_perturbation": 0.056314920052581305
+      },
+      {
+        "separation_um": 20.0,
+        "field_ratio": 0.08045628142610792,
+        "worst_phase_intensity_perturbation": 0.1673857760731329
+      }
+    ]
+  },
+  "validation": {
+    "refined_object_sampling": {
+      "core_width_mm": 0.1,
+      "b_mm": 0.05,
+      "profile": "sine",
+      "threshold": 0,
+      "orders": [
+        -5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "score_db": -18.79235574635845,
+      "worst_background_suppression_db": 10.037048902755812,
+      "nominal_min_retention": 0.7203852723754174,
+      "worst_retention": 0.7017679195819707,
+      "maximum_fwhm_ratio": 0.974785732578915,
+      "maximum_ee90_ratio": 36.529411764705884,
+      "maximum_halo_fraction": 0.22436139405159186,
+      "worst_pair_intensity_perturbation": 0.1673857760731329,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true
+    },
+    "refined_frequency_sampling": {
+      "core_width_mm": 0.1,
+      "b_mm": 0.05,
+      "profile": "sine",
+      "threshold": 0,
+      "orders": [
+        -5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "label": "fine_search",
+      "score_db": -18.546426894772367,
+      "worst_background_suppression_db": 10.029247479289442,
+      "nominal_min_retention": 0.7204284506958435,
+      "worst_retention": 0.7017484438056957,
+      "maximum_fwhm_ratio": 0.9749041930569677,
+      "maximum_ee90_ratio": 34.444444444444436,
+      "maximum_halo_fraction": 0.22439999357000365,
+      "worst_pair_intensity_perturbation": 0.1674333833504012,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true,
+      "defect_metrics": [
+        {
+          "fwhm_um": 0.5167232862939669,
+          "ee80_width_um": 0.625,
+          "ee90_width_um": 1.1250000000000002,
+          "energy": 3326.9010659197165,
+          "halo_fraction": 0.0938802570612006,
+          "halo_peak_fraction": 0.006883219570851117,
+          "defect_fwhm_um": 0.5,
+          "retention": 0.8747692427254253,
+          "fwhm_ratio": 0.9559589525747906,
+          "ee90_ratio": 1.5000000000000002
+        },
+        {
+          "fwhm_um": 0.7273412546993522,
+          "ee80_width_um": 1.0,
+          "ee90_width_um": 38.75,
+          "energy": 2122.581860814317,
+          "halo_fraction": 0.12985584675731773,
+          "halo_peak_fraction": 0.014602384437080009,
+          "defect_fwhm_um": 0.75,
+          "retention": 0.8276885699813086,
+          "fwhm_ratio": 0.9413749784810177,
+          "ee90_ratio": 34.444444444444436
+        },
+        {
+          "fwhm_um": 0.9503233577212543,
+          "ee80_width_um": 1.5,
+          "ee90_width_um": 40.125,
+          "energy": 1525.1353107585117,
+          "halo_fraction": 0.15854475763337217,
+          "halo_peak_fraction": 0.024430459788826856,
+          "defect_fwhm_um": 1.0,
+          "retention": 0.7927152205450573,
+          "fwhm_ratio": 0.9346952409205145,
+          "ee90_ratio": 29.181818181818183
+        },
+        {
+          "fwhm_um": 1.4169974343606462,
+          "ee80_width_um": 3.125,
+          "ee90_width_um": 41.375,
+          "energy": 964.1741754954103,
+          "halo_fraction": 0.19520835588570598,
+          "halo_peak_fraction": 0.0452916532655332,
+          "defect_fwhm_um": 1.5,
+          "retention": 0.7517079059420088,
+          "fwhm_ratio": 0.9377677488013393,
+          "ee90_ratio": 19.470588235294116
+        },
+        {
+          "fwhm_um": 1.9086027846433968,
+          "ee80_width_um": 36.875,
+          "ee90_width_um": 42.125,
+          "energy": 704.5888313696308,
+          "halo_fraction": 0.21298207594241708,
+          "halo_peak_fraction": 0.062341328286533694,
+          "defect_fwhm_um": 2.0,
+          "retention": 0.7324331950686549,
+          "fwhm_ratio": 0.9503888878749602,
+          "ee90_ratio": 15.318181818181818
+        },
+        {
+          "fwhm_um": 2.9300382997016188,
+          "ee80_width_um": 37.375,
+          "ee90_width_um": 43.25000000000001,
+          "energy": 462.02698493342797,
+          "halo_fraction": 0.22439999357000365,
+          "halo_peak_fraction": 0.08198280552784613,
+          "defect_fwhm_um": 3.0,
+          "retention": 0.7204284506958435,
+          "fwhm_ratio": 0.9749041930569677,
+          "ee90_ratio": 10.176470588235295
+        }
+      ],
+      "baseline_defect_metrics": [
+        {
+          "fwhm_um": 0.5405287380825491,
+          "ee80_width_um": 0.625,
+          "ee90_width_um": 0.75,
+          "energy": 3803.1756301289756,
+          "halo_fraction": 0.0004999637489931641,
+          "halo_peak_fraction": 0.0014847877058187912
+        },
+        {
+          "fwhm_um": 0.7726371226405171,
+          "ee80_width_um": 0.875,
+          "ee90_width_um": 1.1250000000000002,
+          "energy": 2564.469219216415,
+          "halo_fraction": 0.00040141235938570655,
+          "halo_peak_fraction": 0.0013848553585207165
+        },
+        {
+          "fwhm_um": 1.0167200132369871,
+          "ee80_width_um": 1.1250000000000002,
+          "ee90_width_um": 1.375,
+          "energy": 1923.938472771918,
+          "halo_fraction": 0.00038070934712306805,
+          "halo_peak_fraction": 0.0014161937961615922
+        },
+        {
+          "fwhm_um": 1.5110323810686188,
+          "ee80_width_um": 1.6250000000000002,
+          "ee90_width_um": 2.125,
+          "energy": 1282.644718612009,
+          "halo_fraction": 0.0003745429883572832,
+          "halo_peak_fraction": 0.0015084549924077953
+        },
+        {
+          "fwhm_um": 2.0082334810447677,
+          "ee80_width_um": 2.125,
+          "ee90_width_um": 2.75,
+          "energy": 961.9837496627744,
+          "halo_fraction": 0.0003772547977708674,
+          "halo_peak_fraction": 0.00158238578501734
+        },
+        {
+          "fwhm_um": 3.005462814262821,
+          "ee80_width_um": 3.2500000000000004,
+          "ee90_width_um": 4.25,
+          "energy": 641.3225136891358,
+          "halo_fraction": 0.00038416480331538377,
+          "halo_peak_fraction": 0.001678602707209453
+        }
+      ],
+      "pair_metrics": [
+        {
+          "separation_um": 1.0,
+          "field_ratio": 0.053936464413158504,
+          "worst_phase_intensity_perturbation": 0.11078207101970892
+        },
+        {
+          "separation_um": 2.0,
+          "field_ratio": 0.008321722195586715,
+          "worst_phase_intensity_perturbation": 0.01671269545147395
+        },
+        {
+          "separation_um": 3.0,
+          "field_ratio": 0.0026071180944642488,
+          "worst_phase_intensity_perturbation": 0.00522103325368698
+        },
+        {
+          "separation_um": 5.0,
+          "field_ratio": 0.010155400313951315,
+          "worst_phase_intensity_perturbation": 0.020413932783439233
+        },
+        {
+          "separation_um": 10.0,
+          "field_ratio": 0.027761511598199867,
+          "worst_phase_intensity_perturbation": 0.05629372472261672
+        },
+        {
+          "separation_um": 20.0,
+          "field_ratio": 0.08047831229988194,
+          "worst_phase_intensity_perturbation": 0.1674333833504012
+        }
+      ]
+    },
+    "full_grid_checks": [
+      {
+        "tag": "selected_fine",
+        "n": 8192,
+        "window_mm": 1.024,
+        "dx_um": 0.125,
+        "background_energy_change_percent": -3.3723359730201685,
+        "smallest_defect_energy_change_percent": -0.00011281898129045231
+      },
+      {
+        "tag": "selected_wide",
+        "n": 8192,
+        "window_mm": 2.048,
+        "dx_um": 0.25,
+        "background_energy_change_percent": 0.0027939023713674516,
+        "smallest_defect_energy_change_percent": -0.00742169189166253
+      },
+      {
+        "tag": "selected_q5",
+        "n": 4096,
+        "window_mm": 1.024,
+        "dx_um": 0.25,
+        "background_energy_change_percent": -8.029027283029677e-05,
+        "smallest_defect_energy_change_percent": -2.8909918925457134e-05
+      }
+    ]
+  },
+  "intensity_reference": 0.9857451908016286,
+  "intensity_unit": "I/I_ref (dimensionless)",
+  "strict_ring_feasible_at_10db": 0
+}

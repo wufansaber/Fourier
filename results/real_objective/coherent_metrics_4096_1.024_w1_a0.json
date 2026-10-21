@@ -1,0 +1,25 @@
+{
+  "grid": 4096,
+  "window_mm": 1.024,
+  "dx_um": 0.25,
+  "rod_width_mm": 1.0,
+  "apodization": false,
+  "metrics": [
+    {
+      "kind": "open",
+      "periodic_power_roi": 0.05885928124189377,
+      "defect_field_energy": 0.0001322874304605648,
+      "defect_peak_to_regular_background": 2.659987211227417,
+      "intensity_difference_rms": 0.03228931128978729
+    },
+    {
+      "kind": "rods",
+      "periodic_power_roi": 5.198614871915197e-06,
+      "defect_field_energy": 7.618319796165451e-05,
+      "defect_peak_to_regular_background": 11474.337890625,
+      "intensity_difference_rms": 0.011134122498333454
+    }
+  ],
+  "suppression_db": 40.53927309561285,
+  "defect_field_energy_retention_percent": 57.58914334976437
+}

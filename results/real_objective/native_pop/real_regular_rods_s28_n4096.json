@@ -1,0 +1,21 @@
+{
+  "model": "real_regular_rods",
+  "end_surface": 28,
+  "sampling": 4096,
+  "input_window_mm": 1.024,
+  "beam": "TopHat",
+  "waist_x_mm": 0.55,
+  "waist_y_mm": 0.55,
+  "polarization": false,
+  "messages": [],
+  "elapsed_s": 664.0024330615997,
+  "data_grids": 1,
+  "nx": 4096,
+  "ny": 4096,
+  "dx_mm": 0.0025007838760214376,
+  "dy_mm": 0.0025007838760214376,
+  "power_W": 0.0027398849940529217,
+  "peak_W_per_mm2": 0.0026178937196889196,
+  "x_min_mm": -5.121605378091904,
+  "x_max_mm": 5.119104594215883
+}

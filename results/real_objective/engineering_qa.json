@@ -1,0 +1,28 @@
+{
+  "original_objective_preserved": true,
+  "all_standard_surfaces": true,
+  "surface_type_enum_65": "Standard (verified against installed ZOSAPI_Interfaces.dll)",
+  "original_source_sha256": "f6c0c22fa44bf16722c1bcf9b5fbba6474cb1062e74e99d336954c5719b08f36",
+  "project_copy_sha256": "f6c0c22fa44bf16722c1bcf9b5fbba6474cb1062e74e99d336954c5719b08f36",
+  "finite_sine_relative_max_percent": 0.08281165789529865,
+  "axial_fourier_residual_max_um": 2.8975431182338696,
+  "order_residual_max_um_by_field": {
+    "0.0": 1.4955368647058265,
+    "0.5": 23.848802466236663,
+    "1.0": 48.37501971854152
+  },
+  "added_lens_geometry": [
+    {
+      "front_surface": 21,
+      "min_axial_thickness_mm": 1.5499342164646697
+    },
+    {
+      "front_surface": 23,
+      "min_axial_thickness_mm": 1.546245279266928
+    },
+    {
+      "front_surface": 26,
+      "min_axial_thickness_mm": 3.755757249437701
+    }
+  ]
+}

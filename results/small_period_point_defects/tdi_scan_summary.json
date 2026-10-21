@@ -1,0 +1,32 @@
+{
+  "tdi_stages": 25,
+  "image_pixel_pitch_um": 5.0,
+  "magnification": 20.0,
+  "tdi_width_image_um": 125.0,
+  "illumination_and_acceptance_width_object_um": 6.25,
+  "output_pixel_pitch_object_um": 0.25,
+  "periods": [
+    {
+      "period_um": 2.0,
+      "bright_width_um": 1.1428571428571428,
+      "dark_width_um": 0.8571428571428571,
+      "spacing_mm": 15.0,
+      "scan_count": 201
+    },
+    {
+      "period_um": 3.5,
+      "bright_width_um": 2.0,
+      "dark_width_um": 1.5,
+      "spacing_mm": 8.571428571428571,
+      "scan_count": 201
+    },
+    {
+      "period_um": 5.0,
+      "bright_width_um": 2.857142857142857,
+      "dark_width_um": 2.142857142857143,
+      "spacing_mm": 6.0,
+      "scan_count": 201
+    }
+  ],
+  "evaluation_rule": "raw pixel-by-pixel TDI scan; adjacent output pixels; no overlap or periodic subtraction"
+}

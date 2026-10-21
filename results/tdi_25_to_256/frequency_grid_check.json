@@ -1,0 +1,7 @@
+{
+  "frequency_grid_refinement_relative_complex_field_L2": 0.0015750994827750955,
+  "physical_field_scale_correction": 0.25,
+  "comparison_x_half_um": 30,
+  "comparison_y_half_um": 25,
+  "note": "Same physical coordinates, original dx=.125 um subsampled to .25 um; tests frequency resolution, not pixel-integration convergence."
+}

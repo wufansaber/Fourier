@@ -1,0 +1,43 @@
+{
+  "case": "stripes",
+  "tag": "nominal",
+  "grid_n": 4096,
+  "window_mm": 1.024,
+  "dx_um": 0.25,
+  "dff_mm": 0.014444986979166666,
+  "background_suppression_db": 19.690337373572113,
+  "central_background_suppression_db": 20.85541501834723,
+  "minimum_retention": 0.6155932922262908,
+  "minimum_roi_retention": 0.42446859706483553,
+  "actual_total_throughput": 0.012565727575710338,
+  "defect_results": [
+    {
+      "name": "missing_7x20um",
+      "energy_retention": 0.6155932922262908,
+      "roi_energy_retention": 0.42446859706483553,
+      "image_difference_abs_integral": 857.934084468297,
+      "actual_roi_peak_over_reference_mean": 148.27847290039062,
+      "roi_pixels": 6549
+    },
+    {
+      "name": "extra_3x12um",
+      "energy_retention": 0.7499237685570475,
+      "roi_energy_retention": 0.6001603851412752,
+      "image_difference_abs_integral": 342.446846936725,
+      "actual_roi_peak_over_reference_mean": 470.4468688964844,
+      "roi_pixels": 3520
+    },
+    {
+      "name": "extra_diameter_1p2um",
+      "energy_retention": 0.9747434720578051,
+      "roi_energy_retention": 0.9548302244747852,
+      "image_difference_abs_integral": 18.98722465467986,
+      "actual_roi_peak_over_reference_mean": 58866.3515625,
+      "roi_pixels": 1365
+    }
+  ],
+  "hard_illumination": false,
+  "apodization": false,
+  "blocked_intensity_transmission": 0.0001,
+  "parseval_relative_error": 9.35867172385957e-08
+}

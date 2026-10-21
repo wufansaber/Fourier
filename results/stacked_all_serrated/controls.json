@@ -1,0 +1,387 @@
+{
+  "manufacturing_priority": {
+    "design": {
+      "centres_mm": [
+        -6.39,
+        -4.7924999999999995,
+        -3.195,
+        -1.5975,
+        0.0,
+        1.5975,
+        3.195,
+        4.7924999999999995,
+        6.39
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.3,
+        0.3
+      ],
+      "depths_mm": [
+        0.2,
+        0.2
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 1.0,
+      "z_mm": [
+        -3.0,
+        3.0
+      ],
+      "layout": "equal_9_3",
+      "rod_count": 9,
+      "profile": "triangle"
+    },
+    "suppression_db": 1.7150752362228614,
+    "minimum_retention": 0.6278416554017874,
+    "maximum_fwhm_ratio": 1.0000044368655754,
+    "maximum_ee90_ratio": 18.333333333333332,
+    "maximum_halo": 0.2633404342196194,
+    "maximum_crosstalk": 0.6198482008719701,
+    "score": -29.481711448417215,
+    "feasible": true,
+    "defects": [
+      {
+        "defect_um": 0.5,
+        "retention": 0.6705524865994381,
+        "fwhm_um": 0.4965897725005277,
+        "ee90_um": 13.75,
+        "energy": 5.643826029854774,
+        "halo": 0.23955373884510645,
+        "peak": 0.513346238191297,
+        "baseline_fwhm_um": 0.5405287491215873,
+        "baseline_ee90_um": 0.75
+      },
+      {
+        "defect_um": 0.75,
+        "retention": 0.6484152856677604,
+        "fwhm_um": 0.7376168944749287,
+        "ee90_um": 13.875,
+        "energy": 8.279949966146352,
+        "halo": 0.262019809505132,
+        "peak": 0.4841029371888891,
+        "baseline_fwhm_um": 0.772637122687836,
+        "baseline_ee90_um": 1.1250000000000002
+      },
+      {
+        "defect_um": 1.0,
+        "retention": 0.6463078022810319,
+        "fwhm_um": 1.0040400258602622,
+        "ee90_um": 14.125,
+        "energy": 11.007407098096923,
+        "halo": 0.2631806781787662,
+        "peak": 0.4725786595759533,
+        "baseline_fwhm_um": 1.0167200132369887,
+        "baseline_ee90_um": 1.375
+      },
+      {
+        "defect_um": 1.5,
+        "retention": 0.6462171850150507,
+        "fwhm_um": 1.5108992722710939,
+        "ee90_um": 14.5,
+        "energy": 16.509041116965818,
+        "halo": 0.2633404342196194,
+        "peak": 0.47290317617628475,
+        "baseline_fwhm_um": 1.5110323810686184,
+        "baseline_ee90_um": 2.125
+      },
+      {
+        "defect_um": 2.0,
+        "retention": 0.6459363413196791,
+        "fwhm_um": 2.008242391306766,
+        "ee90_um": 14.750000000000002,
+        "energy": 22.00249328092633,
+        "halo": 0.26307158123576985,
+        "peak": 0.4743708372066449,
+        "baseline_fwhm_um": 2.008233481044767,
+        "baseline_ee90_um": 2.75
+      },
+      {
+        "defect_um": 3.0,
+        "retention": 0.6278416554017874,
+        "fwhm_um": 2.972418792334465,
+        "ee90_um": 16.0,
+        "energy": 32.07920321361798,
+        "halo": 0.26267261774042044,
+        "peak": 0.4746864237828097,
+        "baseline_fwhm_um": 3.0054628142628217,
+        "baseline_ee90_um": 4.25
+      }
+    ]
+  },
+  "manufacturing_candidate_count": 16,
+  "large_dimension_prescreen_feasible_count": 66,
+  "old_single_layer_same_nominal_metric": {
+    "suppression_db": 10.386503744101933,
+    "minimum_retention": 0.7206009064252054,
+    "maximum_fwhm_ratio": 0.9748796268631336,
+    "maximum_ee90_ratio": 34.444444444444436,
+    "maximum_halo": 0.22451952664818003,
+    "maximum_crosstalk": 0.16736249195354513,
+    "score": -18.07477723355089,
+    "feasible": true,
+    "defects": [
+      {
+        "defect_um": 0.5,
+        "retention": 0.8748463398303454,
+        "fwhm_um": 0.5167350916535315,
+        "ee90_um": 1.1250000000000002,
+        "energy": 7.363302118074372,
+        "halo": 0.09384522647782009,
+        "peak": 0.7694932256826508,
+        "baseline_fwhm_um": 0.5405287491215873,
+        "baseline_ee90_um": 0.75
+      },
+      {
+        "defect_um": 0.75,
+        "retention": 0.8277790272976391,
+        "fwhm_um": 0.7273586183529667,
+        "ee90_um": 38.75,
+        "energy": 10.570338301003028,
+        "halo": 0.129806106093767,
+        "peak": 0.7525973231439135,
+        "baseline_fwhm_um": 0.772637122687836,
+        "baseline_ee90_um": 1.1250000000000002
+      },
+      {
+        "defect_um": 1.0,
+        "retention": 0.7928035814108406,
+        "fwhm_um": 0.950339678059081,
+        "ee90_um": 40.125,
+        "energy": 13.502408200270715,
+        "halo": 0.15848484179976885,
+        "peak": 0.7113485918808122,
+        "baseline_fwhm_um": 1.0167200132369887,
+        "baseline_ee90_um": 1.375
+      },
+      {
+        "defect_um": 1.5,
+        "retention": 0.7517801085103183,
+        "fwhm_um": 1.41697901312563,
+        "ee90_um": 41.375,
+        "energy": 19.20587847261414,
+        "halo": 0.19516064038788306,
+        "peak": 0.6458673152034647,
+        "baseline_fwhm_um": 1.5110323810686184,
+        "baseline_ee90_um": 2.125
+      },
+      {
+        "defect_um": 2.0,
+        "retention": 0.7325149671654922,
+        "fwhm_um": 1.90853105239354,
+        "ee90_um": 42.125,
+        "energy": 24.951616145808714,
+        "halo": 0.21298521256011946,
+        "peak": 0.6065398937646249,
+        "baseline_fwhm_um": 2.008233481044767,
+        "baseline_ee90_um": 2.75
+      },
+      {
+        "defect_um": 3.0,
+        "retention": 0.7206009064252054,
+        "fwhm_um": 2.929964466919563,
+        "ee90_um": 43.25000000000001,
+        "energy": 36.81868304570871,
+        "halo": 0.22451952664818003,
+        "peak": 0.5704979623087446,
+        "baseline_fwhm_um": 3.0054628142628217,
+        "baseline_ee90_um": 4.25
+      }
+    ]
+  },
+  "old_design": {
+    "core_width_mm": 0.1,
+    "b_mm": 0.05,
+    "profile": "sine",
+    "threshold": 0,
+    "orders": [
+      -5,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "rod_count": 9,
+    "label": "selected",
+    "score_db": -18.54503357654217,
+    "worst_background_suppression_db": 10.029504150731059,
+    "nominal_min_retention": 0.7203852723754196,
+    "worst_retention": 0.7017679195819707,
+    "maximum_fwhm_ratio": 0.9748635486107566,
+    "maximum_ee90_ratio": 34.444444444444436,
+    "maximum_halo_fraction": 0.22438464448747733,
+    "worst_pair_intensity_perturbation": 0.1673857760731329,
+    "worst_pair_separation_um": 20.0,
+    "feasible": true,
+    "defect_metrics": [
+      {
+        "fwhm_um": 0.5167293707848941,
+        "ee80_width_um": 0.625,
+        "ee90_width_um": 1.1250000000000002,
+        "energy": 1663.4733738337031,
+        "halo_fraction": 0.09383198111716069,
+        "halo_peak_fraction": 0.006879451986166492,
+        "defect_fwhm_um": 0.5,
+        "retention": 0.8747812541955156,
+        "fwhm_ratio": 0.9559702730251781,
+        "ee90_ratio": 1.5000000000000002
+      },
+      {
+        "fwhm_um": 0.7273497434162969,
+        "ee80_width_um": 1.0,
+        "ee90_width_um": 38.75,
+        "energy": 1061.3036142258934,
+        "halo_fraction": 0.12979120646058973,
+        "halo_peak_fraction": 0.014594497424868505,
+        "defect_fwhm_um": 0.75,
+        "retention": 0.8276984619454169,
+        "fwhm_ratio": 0.9413859653526424,
+        "ee90_ratio": 34.444444444444436
+      },
+      {
+        "fwhm_um": 0.9503297711538904,
+        "ee80_width_um": 1.5,
+        "ee90_width_um": 40.125,
+        "energy": 762.5699605655882,
+        "halo_fraction": 0.15847044491766277,
+        "halo_peak_fraction": 0.024417823383597013,
+        "defect_fwhm_um": 1.0,
+        "retention": 0.7927176168652778,
+        "fwhm_ratio": 0.9347015488839244,
+        "ee90_ratio": 29.181818181818183
+      },
+      {
+        "fwhm_um": 1.4169779396040367,
+        "ee80_width_um": 3.125,
+        "ee90_width_um": 41.375,
+        "energy": 482.07507945934964,
+        "halo_fraction": 0.19513677067161422,
+        "halo_peak_fraction": 0.04527224286490411,
+        "defect_fwhm_um": 1.5,
+        "retention": 0.7516891816792706,
+        "fwhm_ratio": 0.9377548471872815,
+        "ee90_ratio": 19.470588235294116
+      },
+      {
+        "fwhm_um": 1.9085397257548606,
+        "ee80_width_um": 36.875,
+        "ee90_width_um": 42.125,
+        "energy": 352.2776515680906,
+        "halo_fraction": 0.21292919550049288,
+        "halo_peak_fraction": 0.06232213858072612,
+        "defect_fwhm_um": 2.0,
+        "retention": 0.7323983418463824,
+        "fwhm_ratio": 0.9503574876970773,
+        "ee90_ratio": 15.318181818181818
+      },
+      {
+        "fwhm_um": 2.929916144329925,
+        "ee80_width_um": 37.375,
+        "ee90_width_um": 43.25000000000001,
+        "energy": 230.99964685221838,
+        "halo_fraction": 0.22438464448747733,
+        "halo_peak_fraction": 0.08197602614394955,
+        "defect_fwhm_um": 3.0,
+        "retention": 0.7203852723754196,
+        "fwhm_ratio": 0.9748635486107566,
+        "ee90_ratio": 10.176470588235295
+      }
+    ],
+    "baseline_defect_metrics": [
+      {
+        "fwhm_um": 0.5405287019539828,
+        "ee80_width_um": 0.625,
+        "ee90_width_um": 0.75,
+        "energy": 1901.5878150744109,
+        "halo_fraction": 0.0004999631423728808,
+        "halo_peak_fraction": 0.0014847872851287236
+      },
+      {
+        "fwhm_um": 0.7726371224833719,
+        "ee80_width_um": 0.875,
+        "ee90_width_um": 1.1250000000000002,
+        "energy": 1282.2346096082051,
+        "halo_fraction": 0.0004014123605649505,
+        "halo_peak_fraction": 0.0013848553630692267
+      },
+      {
+        "fwhm_um": 1.0167200132369811,
+        "ee80_width_um": 1.1250000000000002,
+        "ee90_width_um": 1.375,
+        "energy": 961.9692363859587,
+        "halo_fraction": 0.00038070934712304343,
+        "halo_peak_fraction": 0.0014161937961606297
+      },
+      {
+        "fwhm_um": 1.5110323810686188,
+        "ee80_width_um": 1.6250000000000002,
+        "ee90_width_um": 2.125,
+        "energy": 641.3223593060045,
+        "halo_fraction": 0.0003745429883572831,
+        "halo_peak_fraction": 0.0015084549924077948
+      },
+      {
+        "fwhm_um": 2.008233481044767,
+        "ee80_width_um": 2.125,
+        "ee90_width_um": 2.75,
+        "energy": 480.99187483138707,
+        "halo_fraction": 0.0003772547977708676,
+        "halo_peak_fraction": 0.00158238578501734
+      },
+      {
+        "fwhm_um": 3.005462814262821,
+        "ee80_width_um": 3.2500000000000004,
+        "ee90_width_um": 4.25,
+        "energy": 320.66125684456784,
+        "halo_fraction": 0.00038416480331538393,
+        "halo_peak_fraction": 0.0016786027072094535
+      }
+    ],
+    "pair_metrics": [
+      {
+        "separation_um": 1.0,
+        "field_ratio": 0.05393100624717295,
+        "worst_phase_intensity_perturbation": 0.11077056592917851
+      },
+      {
+        "separation_um": 2.0,
+        "field_ratio": 0.008345470455683606,
+        "worst_phase_intensity_perturbation": 0.0167605877884939
+      },
+      {
+        "separation_um": 3.0,
+        "field_ratio": 0.0025925251632051447,
+        "worst_phase_intensity_perturbation": 0.005191771513132141
+      },
+      {
+        "separation_um": 5.0,
+        "field_ratio": 0.01015243499030297,
+        "worst_phase_intensity_perturbation": 0.020407941916838267
+      },
+      {
+        "separation_um": 10.0,
+        "field_ratio": 0.027771822951272247,
+        "worst_phase_intensity_perturbation": 0.056314920052581305
+      },
+      {
+        "separation_um": 20.0,
+        "field_ratio": 0.08045628142610792,
+        "worst_phase_intensity_perturbation": 0.1673857760731329
+      }
+    ]
+  },
+  "manufacturing_rule": "core >=0.30 mm; each one-sided depth >=0.20 mm. Illustrative manufacturability tier, not a supplier guarantee."
+}

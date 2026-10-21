@@ -1,0 +1,28 @@
+# All lengths mm. Thin-screen two-deck candidate, not a proprietary prescription.
+maximum_rods: 10
+minimum_tooth_pitch_mm: 0.5
+tooth_pitches_mm: [0.5, 0.625, 0.75, 1.0]
+minimum_tip_mm: 0.020
+minimum_core_mm: 0.10
+minimum_same_layer_gap_mm: 0.10
+core_widths_mm: [0.10, 0.14, 0.20, 0.30, 0.50, 0.75, 1.10]
+single_side_depths_mm: [0.05, 0.10, 0.20, 0.40, 0.75, 1.45]
+second_layer_width_scales: [0.75, 1.0, 1.5]
+rod_counts: [3, 5, 7, 9]
+spacing_multiples: [0.75, 1.0, 1.25, 1.5, 2.0, 3.0, 4.0, 6.0, 8.0]
+relative_tooth_phases: [0.0, 0.25, 0.5]
+axial_gaps_mm: [1.0, 2.0, 4.0, 6.0]
+reference_axial_gap_mm: 4.0
+background_target_db: 10.0
+prescreen_n: 16384
+prescreen_window_mm: 1.024
+refine_n: 16384
+refine_window_mm: 1.024
+harmonic_kmax: 12
+validation_kmax: 24
+prescreen_shortlist: 8
+field_offsets_y_mm: [0.0, -0.20, 0.20]
+full_n: 8192
+full_window_mm: 1.024
+display_half_um: 45.0
+camera_quadrature: 3

@@ -1,0 +1,9 @@
+{
+  "maximum_quadrature_error": 3.2184076467798213e-16,
+  "checks": 42,
+  "eq36_direct_read_counterexample": 0.4052847345693511,
+  "eq31_correct_counterexample": 4.963306529336405e-17,
+  "zero_order_energy_linear": 0.3333333333333333,
+  "zero_order_energy_sine": 0.5,
+  "alpha_mm2": 0.014791666666666668
+}

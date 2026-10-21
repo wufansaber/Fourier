@@ -1,0 +1,76 @@
+{
+  "config": {
+    "optics": {
+      "wavelength_mm": 0.000355,
+      "numerical_aperture": 0.6,
+      "objective_focal_length_mm": 30.0,
+      "filter_clear_diameter_mm": 50.0,
+      "object_refractive_index": 1.0,
+      "magnification": 20.0,
+      "ideal_pupil": "uniform"
+    },
+    "grid": {
+      "samples": 4096,
+      "window_mm": 1.024,
+      "illuminated_diameter_mm": 0.5,
+      "illumination_edge_taper_mm": 0.03
+    },
+    "object": {
+      "pitch_mm": 0.02,
+      "stripe_duty": 0.35,
+      "dot_diameter_mm": 0.007
+    },
+    "manufacturing": {
+      "minimum_feature_mm": 0.1,
+      "minimum_clear_gap_mm": 0.1,
+      "full_width_tolerance_mm": 0.01,
+      "lateral_alignment_mm": 0.025,
+      "rotation_tolerance_deg": 0.02,
+      "scale_tolerance_fraction": 0.0002,
+      "assumed_blocked_intensity_transmission": 0.0001,
+      "assumed_passed_intensity_transmission": 1.0,
+      "substrate": "UV fused silica; patterned opaque film; not a floating metal-dot mask"
+    },
+    "optimization": {
+      "minimum_defect_energy_retention": 0.6,
+      "width_min_mm": 0.1,
+      "width_max_mm": 0.6,
+      "width_step_mm": 0.01,
+      "shapes": [
+        "circle",
+        "square"
+      ],
+      "strength_exponents": [
+        0.0,
+        0.15,
+        0.3
+      ],
+      "coefficient_power_thresholds": [
+        0.0,
+        0.001,
+        0.01
+      ]
+    },
+    "detector": {
+      "pixel_size_mm": 0.005,
+      "pixels": 2048
+    },
+    "run": {
+      "cases": [
+        "stripes",
+        "dots"
+      ],
+      "fft_workers": 4
+    }
+  },
+  "derived": {
+    "original_pupil_diameter_mm": 36.0,
+    "pupil_relay_magnification": 1.3888888888888888,
+    "effective_fourier_focal_length_mm": 41.666666666666664,
+    "fourier_scale_mm2": 0.014791666666666667,
+    "order_pitch_mm": 0.7395833333333333,
+    "coherent_cutoff_per_mm": 1690.1408450704225,
+    "nyquist_max_dx_um": 0.29583333333333334,
+    "rayleigh_radius_um": 0.36091666666666666
+  }
+}

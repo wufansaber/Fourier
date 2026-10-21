@@ -1,0 +1,47 @@
+{
+  "period_um": 2.0,
+  "fourier_order_spacing_mm": 15.0,
+  "cause": "the Fourier-plane filter creates no new object order; the earlier replicas must be separated into full-serration diffraction and residual soft-notch PSF sidelobes",
+  "rows": [
+    {
+      "case": "1 soft rod: 0",
+      "rod_count": 1,
+      "raw_background_suppression_db": 4.993530262701308,
+      "raw_particle_peak_retention": 1.0926612578717798,
+      "raw_particle_to_pattern_db": 15.809227162672041,
+      "raw_y_echo_at_2um_db": -15.66122024088385
+    },
+    {
+      "case": "3 soft rods: 0,+/-1",
+      "rod_count": 3,
+      "raw_background_suppression_db": 14.482230478680185,
+      "raw_particle_peak_retention": 0.8710721358738712,
+      "raw_particle_to_pattern_db": 20.479954739505168,
+      "raw_y_echo_at_2um_db": -21.31776253361048
+    },
+    {
+      "case": "5 soft rods: 0,+/-1,+/-2",
+      "rod_count": 5,
+      "raw_background_suppression_db": 16.023102796340076,
+      "raw_particle_peak_retention": 0.818352561939336,
+      "raw_particle_to_pattern_db": 24.63442256502598,
+      "raw_y_echo_at_2um_db": -17.625047529332324
+    },
+    {
+      "case": "7 soft rods: 0...+/-3",
+      "rod_count": 7,
+      "raw_background_suppression_db": Infinity,
+      "raw_particle_peak_retention": 0.8205254884825072,
+      "raw_particle_to_pattern_db": 48.93858065100844,
+      "raw_y_echo_at_2um_db": -19.324772395929237
+    },
+    {
+      "case": "7 rods: full 2-D serration",
+      "rod_count": 7,
+      "raw_background_suppression_db": Infinity,
+      "raw_particle_peak_retention": 0.8165622971947982,
+      "raw_particle_to_pattern_db": 48.87361281363577,
+      "raw_y_echo_at_2um_db": -19.125909204687424
+    }
+  ]
+}

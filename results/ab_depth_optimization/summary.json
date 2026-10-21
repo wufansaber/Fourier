@@ -1,0 +1,59 @@
+{
+  "definition": {
+    "core_full_width_mm": 1.0,
+    "deck_A_orders": [
+      -2,
+      0,
+      2
+    ],
+    "deck_B_orders": [
+      -3,
+      -1,
+      1,
+      3
+    ],
+    "tooth_pitch_mm": 0.75,
+    "depth_scan_mm": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0
+    ],
+    "object_case": "same confirmed Ch3 75-degree illumination, 2 um periodic pattern and particle field",
+    "display_rule": "one unfiltered reference; no subtraction; no filtered-image renormalisation",
+    "balanced_score_weights": {
+      "background_suppression": 0.15,
+      "particle_energy_retention": 0.35,
+      "worst_X_replica": 0.3,
+      "ringing_energy_outside_core": 0.2
+    }
+  },
+  "baseline": {
+    "depth_a_mm": 0.5,
+    "depth_b_mm": 0.5,
+    "envelope_a_mm": 2.0,
+    "envelope_b_mm": 2.0,
+    "background_suppression_db": 300.0,
+    "particle_energy_retention_percent": 88.84540796279907,
+    "raw_local_particle_contrast_db": 44.409656771707525,
+    "worst_x_replica_db": -19.362866180430387,
+    "ringing_energy_outside_core_percent": 9.354058045016616,
+    "balanced_score": 1.0
+  },
+  "balanced_optimum": {
+    "depth_a_mm": 0.5,
+    "depth_b_mm": 0.5,
+    "envelope_a_mm": 2.0,
+    "envelope_b_mm": 2.0,
+    "background_suppression_db": 300.0,
+    "particle_energy_retention_percent": 88.84540796279907,
+    "raw_local_particle_contrast_db": 44.409656771707525,
+    "worst_x_replica_db": -19.362866180430387,
+    "ringing_energy_outside_core_percent": 9.354058045016616,
+    "balanced_score": 1.0
+  },
+  "cases_evaluated": 49
+}

@@ -1,0 +1,485 @@
+{
+  "variants": [
+    {
+      "process": "precision",
+      "gate": "strict",
+      "rod_geometry_mm": [
+        0.1,
+        0.075
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.6799999999999999,
+        "stroke_margin_mm": 2.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 3.94,
+          "analytic_lower_bound_mm": 3.94
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6799999999999999,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6799999999999964,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6799999999999964,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6799999999999964,
+          "analytic_lower_bound_mm": 0.6799999999999999
+        }
+      ]
+    },
+    {
+      "process": "precision",
+      "gate": "balanced",
+      "rod_geometry_mm": [
+        0.1,
+        0.05
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.23249999999999998,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 1.1199999999999999,
+          "analytic_lower_bound_mm": 1.1199999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.7649999999999999,
+          "analytic_lower_bound_mm": 0.7649999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.7649999999999999,
+          "analytic_lower_bound_mm": 0.7649999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        }
+      ]
+    },
+    {
+      "process": "precision",
+      "gate": "background_priority",
+      "rod_geometry_mm": [
+        0.1,
+        0.05
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.23249999999999998,
+        "stroke_margin_mm": 18.650000000000002,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 1.1199999999999999,
+          "analytic_lower_bound_mm": 1.1199999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.7649999999999999,
+          "analytic_lower_bound_mm": 0.7649999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.7649999999999999,
+          "analytic_lower_bound_mm": 0.7649999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.41,
+          "analytic_lower_bound_mm": 0.41
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.23249999999999998,
+          "analytic_lower_bound_mm": 0.23249999999999998
+        }
+      ]
+    },
+    {
+      "process": "standard",
+      "gate": "strict",
+      "rod_geometry_mm": [
+        0.1,
+        0.1
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.5999999999999999,
+        "stroke_margin_mm": 2.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        }
+      ]
+    },
+    {
+      "process": "standard",
+      "gate": "balanced",
+      "rod_geometry_mm": [
+        0.1,
+        0.1
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.5999999999999999,
+        "stroke_margin_mm": 2.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.5999999999999963,
+          "analytic_lower_bound_mm": 0.5999999999999999
+        }
+      ]
+    },
+    {
+      "process": "standard",
+      "gate": "background_priority",
+      "rod_geometry_mm": [
+        0.14,
+        0.1
+      ],
+      "worst_recipe": {
+        "minimum_same_layer_clearance_mm": 0.6249999999999999,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9
+      },
+      "path_checks": [
+        {
+          "from_period_um": 10,
+          "to_period_um": 15,
+          "minimum_sampled_gap_mm": 1.6899999999999997,
+          "analytic_lower_bound_mm": 1.6899999999999997
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 10,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.8912499999999998,
+          "analytic_lower_bound_mm": 0.8912499999999998
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 20,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 15,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.8912499999999998,
+          "analytic_lower_bound_mm": 0.8912499999999998
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 30,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 20,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        },
+        {
+          "from_period_um": 30,
+          "to_period_um": 40,
+          "minimum_sampled_gap_mm": 0.6249999999999999,
+          "analytic_lower_bound_mm": 0.6249999999999999
+        }
+      ]
+    }
+  ],
+  "cross_layer_stage_body_clearance_mm": 7.8,
+  "station_x_mm": [
+    31,
+    41,
+    51,
+    61,
+    71
+  ],
+  "stage_width_x_mm": 8.0,
+  "claimed_envelope_mm": [
+    156,
+    76,
+    20
+  ],
+  "installed_rods": 9,
+  "independent_y_axes": 9,
+  "paired_end_sliders": 18,
+  "assumed_material_proof_stress_mpa": 300.0,
+  "caveat": "Defined boxes/stems/rod envelopes and synchronized interpolation only; NOT a verified supplier CAD assembly, FEA, collision-free arbitrary asynchronous motion, or measured dynamic cross coupling."
+}

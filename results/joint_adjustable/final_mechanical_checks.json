@@ -1,0 +1,283 @@
+{
+  "recipes": 10,
+  "motion_paths": 45,
+  "path_checks": [
+    {
+      "start": "metrology_10",
+      "end": "balanced_10",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "metrology_15",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "balanced_15",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "metrology_20",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "balanced_20",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "metrology_10",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_10",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "balanced_10",
+      "end": "metrology_15",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_10",
+      "end": "balanced_15",
+      "minimum_gap_mm": 1.1199999999999999,
+      "analytic_lower_bound_mm": 1.1199999999999999
+    },
+    {
+      "start": "balanced_10",
+      "end": "metrology_20",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_10",
+      "end": "balanced_20",
+      "minimum_gap_mm": 0.7649999999999999,
+      "analytic_lower_bound_mm": 0.7649999999999999
+    },
+    {
+      "start": "balanced_10",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_10",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "balanced_10",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_10",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "metrology_15",
+      "end": "balanced_15",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_15",
+      "end": "metrology_20",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_15",
+      "end": "balanced_20",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_15",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_15",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "metrology_15",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_15",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "balanced_15",
+      "end": "metrology_20",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_15",
+      "end": "balanced_20",
+      "minimum_gap_mm": 0.7649999999999999,
+      "analytic_lower_bound_mm": 0.7649999999999999
+    },
+    {
+      "start": "balanced_15",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_15",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "balanced_15",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_15",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "metrology_20",
+      "end": "balanced_20",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_20",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_20",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "metrology_20",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_20",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "balanced_20",
+      "end": "metrology_30",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_20",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "balanced_20",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.7,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "balanced_20",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "metrology_30",
+      "end": "balanced_30",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "metrology_30",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.6999999999999964,
+      "analytic_lower_bound_mm": 0.7
+    },
+    {
+      "start": "metrology_30",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    },
+    {
+      "start": "balanced_30",
+      "end": "metrology_40",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "balanced_30",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.41,
+      "analytic_lower_bound_mm": 0.41
+    },
+    {
+      "start": "metrology_40",
+      "end": "balanced_40",
+      "minimum_gap_mm": 0.49874999999999997,
+      "analytic_lower_bound_mm": 0.49874999999999997
+    }
+  ],
+  "minimum_rod_gap_mm": 0.41,
+  "slider_swept_boxes": 18,
+  "box_pair_checks": 153,
+  "collisions": 0,
+  "minimum_slider_separating_gap_mm": 1.7999999999999972,
+  "minimum_opening_clearance_mm": 1.8999999999999986,
+  "note": "Full swept-Y boxes for allocated sliders; real motors/cables/fasteners not yet specified. Affine coordinated paths only, not arbitrary asynchronous moves."
+}

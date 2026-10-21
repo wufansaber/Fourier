@@ -1,0 +1,31 @@
+{
+  "intensity_unit": "I/I_ref (dimensionless)",
+  "linear_limits": [
+    0,
+    1.2
+  ],
+  "signed_difference_limits": [
+    -1.2,
+    1.2
+  ],
+  "log_limits": [
+    1e-06,
+    1.2
+  ],
+  "common_xy_limits_um": [
+    -45.0,
+    45.0
+  ],
+  "all_true_defects_in_frame": true,
+  "true_defect_count": 3,
+  "reference_definition": "same illumination, uniform unit-amplitude object, no rods",
+  "reference_value": 0.9857451908016286,
+  "columns": [
+    "ideal intensity",
+    "unfiltered",
+    "filtered",
+    "background",
+    "all defects without background",
+    "signed difference"
+  ]
+}

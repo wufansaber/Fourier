@@ -1,0 +1,620 @@
+{
+  "config": {
+    "optics": {
+      "wavelength_mm": 0.000355,
+      "numerical_aperture": 0.6,
+      "objective_focal_length_mm": 30.0,
+      "pupil_relay_magnification": 1.0,
+      "filter_clear_diameter_mm": 50.0,
+      "magnification": 20.0,
+      "illumination_angle_deg": 0.0,
+      "collection_angle_deg": 0.0,
+      "channel": "Ch3"
+    },
+    "camera": {
+      "pixels": 2048,
+      "pixel_width_mm": 0.005,
+      "active_line_height_mm": 0.005,
+      "scan_step_object_mm": 0.00025,
+      "illumination_intensity_fwhm_mm": 0.001
+    },
+    "object": {
+      "pitch_mm": 0.02,
+      "feature_width_mm": 0.007,
+      "field_mm": 0.5,
+      "line_edge_taper_mm": 0.03,
+      "defect_fwhm_um": [
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0
+      ],
+      "pair_separations_um": [
+        1.0,
+        2.0,
+        3.0,
+        5.0,
+        10.0,
+        20.0
+      ]
+    },
+    "filter": {
+      "maximum_rods": 10,
+      "tooth_pitch_mm": 0.75,
+      "blocked_intensity_transmission": 0.0001,
+      "minimum_core_width_mm": 0.1,
+      "minimum_clear_gap_mm": 0.1,
+      "tooth_tip_minimum_mm": 0.02,
+      "lateral_tolerance_mm": 0.025,
+      "core_full_width_tolerance_mm": 0.01
+    },
+    "optimization": {
+      "order_pair_pool": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "core_widths_mm": [
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32,
+        0.34,
+        0.36,
+        0.38,
+        0.4
+      ],
+      "transition_widths_mm": [
+        0.0,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.125,
+        0.15,
+        0.175,
+        0.2
+      ],
+      "profiles": [
+        "linear",
+        "sine"
+      ],
+      "minimum_retention": 0.6,
+      "maximum_fwhm_ratio": 1.1,
+      "halo_reference_fraction": 0.05,
+      "crosstalk_reference_fraction": 0.1,
+      "background_targets_db": [
+        10.0,
+        15.0,
+        18.0
+      ],
+      "selected_background_target_db": 15.0
+    },
+    "numerics": {
+      "search_n": 32768,
+      "search_window_mm": 2.048,
+      "full_n": 4096,
+      "full_window_mm": 1.024,
+      "camera_quadrature_order": 3
+    }
+  },
+  "stack_config": {
+    "maximum_rods": 10,
+    "minimum_tooth_pitch_mm": 0.5,
+    "tooth_pitches_mm": [
+      0.5,
+      0.625,
+      0.75,
+      1.0
+    ],
+    "minimum_tip_mm": 0.02,
+    "minimum_core_mm": 0.1,
+    "minimum_same_layer_gap_mm": 0.1,
+    "core_widths_mm": [
+      0.1,
+      0.14,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.1
+    ],
+    "single_side_depths_mm": [
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.75,
+      1.45
+    ],
+    "second_layer_width_scales": [
+      0.75,
+      1.0,
+      1.5
+    ],
+    "rod_counts": [
+      3,
+      5,
+      7,
+      9
+    ],
+    "spacing_multiples": [
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "relative_tooth_phases": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "axial_gaps_mm": [
+      1.0,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "reference_axial_gap_mm": 4.0,
+    "background_target_db": 10.0,
+    "prescreen_n": 16384,
+    "prescreen_window_mm": 1.024,
+    "refine_n": 16384,
+    "refine_window_mm": 1.024,
+    "harmonic_kmax": 12,
+    "validation_kmax": 24,
+    "prescreen_shortlist": 8,
+    "field_offsets_y_mm": [
+      0.0,
+      -0.2,
+      0.2
+    ],
+    "full_n": 8192,
+    "full_window_mm": 1.024,
+    "display_half_um": 45.0,
+    "camera_quadrature": 3
+  },
+  "candidate_count": 9636,
+  "feasible_count": 2850,
+  "target_count": 9,
+  "shortlist": [
+    {
+      "centres_mm": [
+        -2.6624999999999996,
+        -1.5975,
+        -1.065,
+        -0.5325,
+        0.0,
+        0.5325,
+        1.065,
+        1.5975,
+        2.6624999999999996
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "old_positions",
+      "rod_count": 9,
+      "profile": "triangle",
+      "score_db": -18.865405042727087,
+      "worst_background_suppression_db": 10.147390929608804,
+      "nominal_min_retention": 0.7042035736909338,
+      "worst_retention": 0.686777406376077,
+      "maximum_fwhm_ratio": 0.9723773321216703,
+      "maximum_ee90_ratio": 34.66666666666666,
+      "maximum_halo_fraction": 0.23615527997949912,
+      "worst_pair_intensity_perturbation": 0.1757730057025797,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true,
+      "candidate_id": 9487
+    },
+    {
+      "centres_mm": [
+        -2.6624999999999996,
+        -1.5975,
+        -1.065,
+        -0.5325,
+        0.0,
+        0.5325,
+        1.065,
+        1.5975,
+        2.6624999999999996
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.05
+      ],
+      "relative_phase": 0.25,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "old_positions",
+      "rod_count": 9,
+      "profile": "triangle",
+      "score_db": -19.060114980118527,
+      "worst_background_suppression_db": 10.24983725480076,
+      "nominal_min_retention": 0.6886982035565123,
+      "worst_retention": 0.6708445535370716,
+      "maximum_fwhm_ratio": 0.9712471341678196,
+      "maximum_ee90_ratio": 34.66666666666666,
+      "maximum_halo_fraction": 0.24339447900893904,
+      "worst_pair_intensity_perturbation": 0.18133457212788776,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true,
+      "candidate_id": 9491
+    },
+    {
+      "centres_mm": [
+        -2.6624999999999996,
+        -1.5975,
+        -1.065,
+        -0.5325,
+        0.0,
+        0.5325,
+        1.065,
+        1.5975,
+        2.6624999999999996
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.14,
+        0.10500000000000001
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "old_positions",
+      "rod_count": 9,
+      "profile": "triangle",
+      "score_db": -19.88582689724764,
+      "worst_background_suppression_db": 10.363529477243818,
+      "nominal_min_retention": 0.6622690300006089,
+      "worst_retention": 0.6442674505141519,
+      "maximum_fwhm_ratio": 0.9653720343343385,
+      "maximum_ee90_ratio": 34.99999999999999,
+      "maximum_halo_fraction": 0.2769163272211914,
+      "worst_pair_intensity_perturbation": 0.1981722186849622,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true,
+      "candidate_id": 9520
+    },
+    {
+      "centres_mm": [
+        -4.26,
+        0.0,
+        4.26
+      ],
+      "layers": [
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_3_8",
+      "rod_count": 3,
+      "profile": "triangle",
+      "score_db": -5.5226281578240055,
+      "worst_background_suppression_db": 1.2117120829858545,
+      "nominal_min_retention": 0.910120415519513,
+      "worst_retention": 0.9047140738254839,
+      "maximum_fwhm_ratio": 0.9994047941879994,
+      "maximum_ee90_ratio": 1.1764705882352942,
+      "maximum_halo_fraction": 0.06854973698447259,
+      "worst_pair_intensity_perturbation": 0.0529092315116325,
+      "worst_pair_separation_um": 2.4499999999999997,
+      "feasible": true,
+      "candidate_id": 2098
+    },
+    {
+      "centres_mm": [
+        -3.195,
+        0.0,
+        3.195
+      ],
+      "layers": [
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_3_6",
+      "rod_count": 3,
+      "profile": "triangle",
+      "score_db": -5.539928739445536,
+      "worst_background_suppression_db": 1.3425766942049089,
+      "nominal_min_retention": 0.9101183366861421,
+      "worst_retention": 0.9047118625441644,
+      "maximum_fwhm_ratio": 0.9994220253031235,
+      "maximum_ee90_ratio": 1.1818181818181819,
+      "maximum_halo_fraction": 0.06854799704513224,
+      "worst_pair_intensity_perturbation": 0.05750195349307415,
+      "worst_pair_separation_um": 3.35,
+      "feasible": true,
+      "candidate_id": 1720
+    },
+    {
+      "centres_mm": [
+        -3.195,
+        0.0,
+        3.195
+      ],
+      "layers": [
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.05
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_3_6",
+      "rod_count": 3,
+      "profile": "triangle",
+      "score_db": -5.862462020891626,
+      "worst_background_suppression_db": 1.3495391507767975,
+      "nominal_min_retention": 0.9003483734122604,
+      "worst_retention": 0.895271518080492,
+      "maximum_fwhm_ratio": 0.9977822066956605,
+      "maximum_ee90_ratio": 1.2058823529411764,
+      "maximum_halo_fraction": 0.07256623131753401,
+      "worst_pair_intensity_perturbation": 0.05938561313710164,
+      "worst_pair_separation_um": 3.35,
+      "feasible": true,
+      "candidate_id": 1723
+    },
+    {
+      "centres_mm": [
+        -4.26,
+        0.0,
+        4.26
+      ],
+      "layers": [
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.1,
+        0.1
+      ],
+      "depths_mm": [
+        0.05,
+        0.05
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_3_8",
+      "rod_count": 3,
+      "profile": "triangle",
+      "score_db": -5.86660073067704,
+      "worst_background_suppression_db": 1.21846771055647,
+      "nominal_min_retention": 0.9003504522525906,
+      "worst_retention": 0.8952737293618116,
+      "maximum_fwhm_ratio": 0.9983224504871456,
+      "maximum_ee90_ratio": 1.2058823529411764,
+      "maximum_halo_fraction": 0.07256925907383306,
+      "worst_pair_intensity_perturbation": 0.05479117211882003,
+      "worst_pair_separation_um": 2.4499999999999997,
+      "feasible": true,
+      "candidate_id": 2101
+    },
+    {
+      "centres_mm": [
+        -2.13,
+        -1.5975,
+        -1.065,
+        -0.5325,
+        0.0,
+        0.5325,
+        1.065,
+        1.5975,
+        2.13
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.14,
+        0.10500000000000001
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_9_1",
+      "rod_count": 9,
+      "profile": "triangle",
+      "score_db": -20.469601826076115,
+      "worst_background_suppression_db": 9.862956587256624,
+      "nominal_min_retention": 0.660828474873579,
+      "worst_retention": 0.6427524582742404,
+      "maximum_fwhm_ratio": 0.9881420121296202,
+      "maximum_ee90_ratio": 35.222222222222214,
+      "maximum_halo_fraction": 0.2779598698336562,
+      "worst_pair_intensity_perturbation": 0.20035311044532067,
+      "worst_pair_separation_um": 20.0,
+      "feasible": true,
+      "candidate_id": 7276
+    },
+    {
+      "centres_mm": [
+        -1.5975,
+        -1.065,
+        -0.5325,
+        0.0,
+        0.5325,
+        1.065,
+        1.5975
+      ],
+      "layers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "widths_mm": [
+        0.14,
+        0.10500000000000001
+      ],
+      "depths_mm": [
+        0.05,
+        0.037500000000000006
+      ],
+      "relative_phase": 0.0,
+      "tooth_pitch_mm": 0.75,
+      "z_mm": [
+        -2.0,
+        2.0
+      ],
+      "layout": "equal_7_1",
+      "rod_count": 7,
+      "profile": "triangle",
+      "score_db": -19.513169151890118,
+      "worst_background_suppression_db": 9.852012282814291,
+      "nominal_min_retention": 0.6620366097632457,
+      "worst_retention": 0.6436198740606744,
+      "maximum_fwhm_ratio": 0.9600698656954872,
+      "maximum_ee90_ratio": 33.55555555555555,
+      "maximum_halo_fraction": 0.27770141504545776,
+      "worst_pair_intensity_perturbation": 0.15285692001437032,
+      "worst_pair_separation_um": 19.950000000000003,
+      "feasible": true,
+      "candidate_id": 4939
+    }
+  ],
+  "elapsed_seconds": 731.7788646221161,
+  "caveat": "Coplanar projected binary union only; NOT final layered performance. Tooth period .75 mm only fixes tip duty in this prescreen."
+}

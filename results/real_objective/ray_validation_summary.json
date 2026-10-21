@@ -1,0 +1,23 @@
+[
+  {
+    "hy": 0.0,
+    "rays": 3209,
+    "valid": 3209,
+    "opd_rms_about_mean_waves": 0.03778456227661491,
+    "opd_pv_waves": 0.20903940941486862
+  },
+  {
+    "hy": 0.5,
+    "rays": 3209,
+    "valid": 3209,
+    "opd_rms_about_mean_waves": 0.06734280077072335,
+    "opd_pv_waves": 0.36413272074870534
+  },
+  {
+    "hy": 1.0,
+    "rays": 3209,
+    "valid": 3209,
+    "opd_rms_about_mean_waves": 0.13943185211894527,
+    "opd_pv_waves": 0.6292991582127068
+  }
+]

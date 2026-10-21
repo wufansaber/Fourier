@@ -1,0 +1,53 @@
+{
+  "engine": "Local OpticStudio 2022 R2.02 native POP",
+  "scope": "ideal paraxial 4f baseline under the current final optical and filter conditions",
+  "parameters": {
+    "wavelength_nm": 355,
+    "objective_focal_length_mm": 30.0,
+    "objective_na": 0.6,
+    "true_pupil_diameter_mm": 36.0,
+    "tube_lens_focal_length_mm": 600.0,
+    "image_magnification": 20.0,
+    "object_period_um": 2.0,
+    "bright_width_um": 1.142857142857143,
+    "dark_width_um": 0.8571428571428571,
+    "defect": "single irregular approximately 0.6 um bright particle in a dark periodic gap",
+    "hardware_fourier_x_magnification": 2.816901408450704,
+    "hardware_order_spacing_mm": 15.0,
+    "equivalent_original_bfp_spacing_mm": 5.325,
+    "rod_core_hardware_mm": 1.0,
+    "deck_A_depth_hardware_mm": 0.5,
+    "deck_B_depth_hardware_mm": 0.5,
+    "tooth_pitch_y_mm": 0.75,
+    "active_orders": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "tdi_stages": 25,
+    "tdi_pixel_pitch_um": 5.0,
+    "pop_grid_size": 1024,
+    "pop_start_window_mm": 0.15
+  },
+  "metrics": {
+    "tdi_image_height_mm": 0.125,
+    "background_suppression_db": 15.592590619098544,
+    "particle_peak_retention_percent": 79.93354411371075,
+    "particle_to_pattern_open_db": 1.8620505454058747,
+    "particle_to_pattern_filtered_db": 13.928318363695587,
+    "common_peak_W_per_mm2": 0.2021283227467816
+  },
+  "messages": {
+    "regular_open_s6": [],
+    "particle_open_s6": [],
+    "regular_filtered_s6": [],
+    "particle_filtered_s6": [],
+    "particle_open_s3": [],
+    "particle_filtered_s4": []
+  },
+  "evaluation_rule": "native raw irradiance; one W/mm^2 scale; no periodic-background subtraction"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "D:\\work\\git_share\\Fourier\\results\\uv_real_objective\\models\\uv355_corning7980_6element_ideal_tube.zos",
+  "real_elements": 6,
+  "real_material": "Corning HPFS 7980 equivalent / Zemax F_SILICA",
+  "field_validation": [
+    {
+      "field_hy": 0.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "centroid_y_mm": 0.0,
+      "rms_spot_um": 1.699030003457252,
+      "opd_rms_waves": 0.00599292364839549,
+      "opd_pv_waves": 0.023961939823270426
+    },
+    {
+      "field_hy": 0.5,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "centroid_y_mm": -2.4995061493270945,
+      "rms_spot_um": 1.6642597407542528,
+      "opd_rms_waves": 0.026428925243672075,
+      "opd_pv_waves": 0.10053234198002628
+    },
+    {
+      "field_hy": 1.0,
+      "rays_total": 3209,
+      "rays_valid": 3209,
+      "centroid_y_mm": -4.999355382994433,
+      "rms_spot_um": 2.712382445784136,
+      "opd_rms_waves": 0.06416033975569724,
+      "opd_pv_waves": 0.27254840735621216
+    }
+  ],
+  "abbe_sine": {
+    "nominal_scale": -20.0,
+    "best_fit_scale": -20.001973922363383,
+    "residual_rms": 7.330683692163306e-05,
+    "residual_max_abs": 0.00038795453643825084,
+    "equivalent_fsin_rms_um": 2.199205107648992,
+    "equivalent_fsin_max_um": 11.638636093147525,
+    "best_fit_equivalent_fsin_rms_um": 1.8939636338874737,
+    "best_fit_equivalent_fsin_max_um": 9.863254654305376
+  }
+}

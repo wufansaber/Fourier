@@ -1,0 +1,15 @@
+{
+  "case": "dots",
+  "tag": "none_fine",
+  "n": 8192,
+  "window_mm": 1.024,
+  "dx_um": 0.125,
+  "sensor_quadrature_order": 3,
+  "reference_energy": 0.019826610027963525,
+  "actual_energy": 0.019832473730606648,
+  "defect_energies": [
+    2.7901216929705656e-07,
+    1.1169377325895152e-06,
+    4.467752492379189e-06
+  ]
+}

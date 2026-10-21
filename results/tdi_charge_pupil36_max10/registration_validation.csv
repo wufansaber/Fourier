@@ -1,0 +1,13 @@
+﻿input_case,exposure_mode,stages,charge_gain,normalized_max_error,normalized_l2_error,output_pitch_object_um,motion_blur_added_pixels
+prescribed_image,equal_exposure_per_stage,1,1.0,0.0,0.0,0.25,0.0
+prescribed_image,equal_exposure_per_stage,25,25.0,4.440891962928041e-16,4.083359130551205e-16,0.25,0.0
+prescribed_image,equal_exposure_per_stage,256,256.0,3.663735869415634e-15,3.0806572913913652e-15,0.25,0.0
+prescribed_image,fixed_25stage_exposure_envelope,1,0.9996304444672018,0.0,0.0,0.25,0.0
+prescribed_image,fixed_25stage_exposure_envelope,25,20.250636359773903,2.2204459814640206e-16,1.3780686889153657e-16,0.25,0.0
+prescribed_image,fixed_25stage_exposure_envelope,256,26.611675485780673,5.551114953660051e-16,3.3250265051676177e-16,0.25,0.0
+fixed_optical_point_image,equal_exposure_per_stage,1,1.0,0.0,0.0,0.25,0.0
+fixed_optical_point_image,equal_exposure_per_stage,25,25.0,5.551115123125783e-17,1.0660168288040198e-16,0.25,0.0
+fixed_optical_point_image,equal_exposure_per_stage,256,256.0,1.4432899320127035e-15,2.604763642349215e-15,0.25,0.0
+fixed_optical_point_image,fixed_25stage_exposure_envelope,1,0.9996304444672018,3.3881317890172014e-21,4.310400275461077e-21,0.25,0.0
+fixed_optical_point_image,fixed_25stage_exposure_envelope,25,20.250636359773903,2.7755575615628914e-17,4.2910474980600855e-17,0.25,0.0
+fixed_optical_point_image,fixed_25stage_exposure_envelope,256,26.611675485780673,4.440892098500626e-16,4.007523161508441e-16,0.25,0.0

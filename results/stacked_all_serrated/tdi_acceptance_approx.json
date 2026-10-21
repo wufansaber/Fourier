@@ -1,0 +1,166 @@
+{
+  "metrics": [
+    {
+      "stages": 25,
+      "filter": "none",
+      "central_gate": 0.7609681085504879,
+      "integrated_point_response": 8.357751618610418e-08,
+      "scan_halo_outside_2um_fraction": 0.007406981437941477
+    },
+    {
+      "stages": 25,
+      "filter": "all",
+      "central_gate": 0.7609681085504879,
+      "integrated_point_response": 7.913989551556294e-08,
+      "scan_halo_outside_2um_fraction": 0.007434842659183433
+    },
+    {
+      "stages": 256,
+      "filter": "none",
+      "central_gate": 1.0,
+      "integrated_point_response": 1.112677877339165e-07,
+      "scan_halo_outside_2um_fraction": 0.016804025789368373
+    },
+    {
+      "stages": 256,
+      "filter": "all",
+      "central_gate": 1.0,
+      "integrated_point_response": 1.0545497970292352e-07,
+      "scan_halo_outside_2um_fraction": 0.017664817803334048
+    }
+  ],
+  "orders": [
+    {
+      "stages": 25,
+      "order": -4,
+      "shift_um": -42.6,
+      "gate": 0.0,
+      "band_energy_fraction": 0.0
+    },
+    {
+      "stages": 25,
+      "order": -3,
+      "shift_um": -31.95,
+      "gate": 0.0,
+      "band_energy_fraction": 0.0
+    },
+    {
+      "stages": 25,
+      "order": -2,
+      "shift_um": -21.3,
+      "gate": 3.749278665310385e-12,
+      "band_energy_fraction": 1.2157725073762234e-14
+    },
+    {
+      "stages": 25,
+      "order": -1,
+      "shift_um": -10.65,
+      "gate": 0.002289721228417141,
+      "band_energy_fraction": 6.349620129170921e-06
+    },
+    {
+      "stages": 25,
+      "order": 0,
+      "shift_um": 0.0,
+      "gate": 0.7609681085504879,
+      "band_energy_fraction": 0.9902683812241673
+    },
+    {
+      "stages": 25,
+      "order": 1,
+      "shift_um": 10.65,
+      "gate": 0.002289721228417141,
+      "band_energy_fraction": 6.349621174981039e-06
+    },
+    {
+      "stages": 25,
+      "order": 2,
+      "shift_um": 21.3,
+      "gate": 3.749278665310385e-12,
+      "band_energy_fraction": 1.2157725477347955e-14
+    },
+    {
+      "stages": 25,
+      "order": 3,
+      "shift_um": 31.95,
+      "gate": 0.0,
+      "band_energy_fraction": 0.0
+    },
+    {
+      "stages": 25,
+      "order": 4,
+      "shift_um": 42.6,
+      "gate": 0.0,
+      "band_energy_fraction": 0.0
+    },
+    {
+      "stages": 256,
+      "order": -4,
+      "shift_um": -42.6,
+      "gate": 3.2514816080686515e-05,
+      "band_energy_fraction": 3.5477566193798044e-09
+    },
+    {
+      "stages": 256,
+      "order": -3,
+      "shift_um": -31.95,
+      "gate": 0.5075150537223669,
+      "band_energy_fraction": 3.521074241569209e-05
+    },
+    {
+      "stages": 256,
+      "order": -2,
+      "shift_um": -21.3,
+      "gate": 0.9999722833308371,
+      "band_energy_fraction": 0.00016415254369558824
+    },
+    {
+      "stages": 256,
+      "order": -1,
+      "shift_um": -10.65,
+      "gate": 0.9999999999999996,
+      "band_energy_fraction": 0.001054950161315578
+    },
+    {
+      "stages": 256,
+      "order": 0,
+      "shift_um": 0.0,
+      "gate": 1.0,
+      "band_energy_fraction": 0.9796348413865092
+    },
+    {
+      "stages": 256,
+      "order": 1,
+      "shift_um": 10.65,
+      "gate": 0.9999999999999996,
+      "band_energy_fraction": 0.0010549502979333104
+    },
+    {
+      "stages": 256,
+      "order": 2,
+      "shift_um": 21.3,
+      "gate": 0.9999722833308371,
+      "band_energy_fraction": 0.0001641525517223853
+    },
+    {
+      "stages": 256,
+      "order": 3,
+      "shift_um": 31.95,
+      "gate": 0.5075150537223669,
+      "band_energy_fraction": 3.5210742730856225e-05
+    },
+    {
+      "stages": 256,
+      "order": 4,
+      "shift_um": 42.6,
+      "gate": 3.2514816080686515e-05,
+      "band_energy_fraction": 3.547757112422527e-09
+    }
+  ],
+  "tooth_pitch_mm": 1.0,
+  "delta_um": 10.65,
+  "illumination_fwhm_um": 6.25,
+  "model": "Frozen on-axis all-order point response multiplied by the synchronised TDI collection gate. Thin-screen scalar approximation, NOT full moving-field TDI validation.",
+  "intensity_reference": "one common unfiltered point peak and infinite illumination exposure; NOT main scene I/I_ref",
+  "limitation": "Two-layer filters are not strictly shift invariant. Full position-dependent moving-charge propagation is outside this comparison. No N-dependent blur kernel is applied."
+}

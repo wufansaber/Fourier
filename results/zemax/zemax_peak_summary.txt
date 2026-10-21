@@ -1,0 +1,7 @@
+fitted_order_spacing_mm=0.911148003
+theoretical_order_spacing_mm=0.887500000
+sin_mapping_rms_error_um=75.124007
+tan_mapping_rms_error_um=66.080194
+pop_pixel_pitch_um=9.761304
+max_sin_tan_separation_um=17.580044
+interpretation=The 1024-point UDA sampling bias exceeds the sin/tan separation; this POP run validates order blocking but is not a discriminating sin-vs-tan calibration.

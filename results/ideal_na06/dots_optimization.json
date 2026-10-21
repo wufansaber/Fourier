@@ -1,0 +1,1850 @@
+{
+  "case": "dots",
+  "design": {
+    "case": "dots",
+    "shape": "circle",
+    "beta": 0.0,
+    "threshold": 0.0,
+    "width_mm": 0.51,
+    "nominal_suppression_db": 22.573523365041464,
+    "worst_suppression_db": 21.98065991597028,
+    "nominal_minimum_retention": 0.6263074750219113,
+    "worst_minimum_retention": 0.611967027286815,
+    "feasible": true,
+    "worst_energy_ratio_gain_db": 19.8479401463612
+  },
+  "robust_worst_suppression_db": 21.96893869627756,
+  "robust_worst_minimum_retention": 0.6119670272858366,
+  "tolerance_results": [
+    {
+      "scenario": "nominal",
+      "background_suppression_db": 22.57352336688053,
+      "defect_retention": [
+        0.6263074750209627,
+        0.6263857789176247,
+        0.6263701605832567
+      ],
+      "minimum_retention": 0.6263074750209627,
+      "background_fraction": 0.005529013665123694
+    },
+    {
+      "scenario": "xy_0",
+      "background_suppression_db": 21.983795520840022,
+      "defect_retention": [
+        0.640684294349725,
+        0.6408912226574839,
+        0.6409074109093283
+      ],
+      "minimum_retention": 0.640684294349725,
+      "background_fraction": 0.006333159822087797
+    },
+    {
+      "scenario": "xy_1",
+      "background_suppression_db": 21.96893950695641,
+      "defect_retention": [
+        0.6408485493363014,
+        0.6411905728991004,
+        0.6412072050937342
+      ],
+      "minimum_retention": 0.6408485493363014,
+      "background_fraction": 0.0063548609069689925
+    },
+    {
+      "scenario": "xy_2",
+      "background_suppression_db": 21.98365013754127,
+      "defect_retention": [
+        0.6410458851529643,
+        0.6411775700910556,
+        0.6411973172117563
+      ],
+      "minimum_retention": 0.6410458851529643,
+      "background_fraction": 0.006333371832858399
+    },
+    {
+      "scenario": "xy_3",
+      "background_suppression_db": 21.969362252775994,
+      "defect_retention": [
+        0.6409972779391989,
+        0.6408981199004226,
+        0.6409316856100251
+      ],
+      "minimum_retention": 0.6408981199004226,
+      "background_fraction": 0.0063542423496890784
+    },
+    {
+      "scenario": "xy_4",
+      "background_suppression_db": 21.983650408459418,
+      "defect_retention": [
+        0.6408396950120137,
+        0.6411775636841195,
+        0.6411973172003778
+      ],
+      "minimum_retention": 0.6408396950120137,
+      "background_fraction": 0.006333371437775029
+    },
+    {
+      "scenario": "xy_5",
+      "background_suppression_db": 21.968939506956417,
+      "defect_retention": [
+        0.6408485493363023,
+        0.6411905728991004,
+        0.6412072050937339
+      ],
+      "minimum_retention": 0.6408485493363023,
+      "background_fraction": 0.006354860906968987
+    },
+    {
+      "scenario": "xy_6",
+      "background_suppression_db": 21.98379527204696,
+      "defect_retention": [
+        0.6408116866314462,
+        0.6408912234141434,
+        0.6409074109209297
+      ],
+      "minimum_retention": 0.6408116866314462,
+      "background_fraction": 0.006333160184893757
+    },
+    {
+      "scenario": "xy_7",
+      "background_suppression_db": 21.96893869627756,
+      "defect_retention": [
+        0.6413411912196137,
+        0.6411905275855405,
+        0.6412072051017422
+      ],
+      "minimum_retention": 0.6411905275855405,
+      "background_fraction": 0.006354862093203683
+    },
+    {
+      "scenario": "oversize",
+      "background_suppression_db": 22.61061734350903,
+      "defect_retention": [
+        0.6124662514942912,
+        0.6119811433857767,
+        0.6119670272858366
+      ],
+      "minimum_retention": 0.6119670272858366,
+      "background_fraction": 0.005481990336590489
+    },
+    {
+      "scenario": "undersize",
+      "background_suppression_db": 22.35905303870716,
+      "defect_retention": [
+        0.6410015994988786,
+        0.6409718523834445,
+        0.6409560827747983
+      ],
+      "minimum_retention": 0.6409560827747983,
+      "background_fraction": 0.005808910646258335
+    }
+  ],
+  "shortlist": [
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.51,
+        "nominal_suppression_db": 22.573523365041464,
+        "worst_suppression_db": 21.98065991597028,
+        "nominal_minimum_retention": 0.6263074750219113,
+        "worst_minimum_retention": 0.611967027286815,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.8479401463612
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 22.57352336688053,
+          "defect_retention": [
+            0.6263074750209627,
+            0.6263857789176247,
+            0.6263701605832567
+          ],
+          "minimum_retention": 0.6263074750209627,
+          "background_fraction": 0.005529013665123694
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.983795520840022,
+          "defect_retention": [
+            0.640684294349725,
+            0.6408912226574839,
+            0.6409074109093283
+          ],
+          "minimum_retention": 0.640684294349725,
+          "background_fraction": 0.006333159822087797
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.96893950695641,
+          "defect_retention": [
+            0.6408485493363014,
+            0.6411905728991004,
+            0.6412072050937342
+          ],
+          "minimum_retention": 0.6408485493363014,
+          "background_fraction": 0.0063548609069689925
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.98365013754127,
+          "defect_retention": [
+            0.6410458851529643,
+            0.6411775700910556,
+            0.6411973172117563
+          ],
+          "minimum_retention": 0.6410458851529643,
+          "background_fraction": 0.006333371832858399
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.969362252775994,
+          "defect_retention": [
+            0.6409972779391989,
+            0.6408981199004226,
+            0.6409316856100251
+          ],
+          "minimum_retention": 0.6408981199004226,
+          "background_fraction": 0.0063542423496890784
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.983650408459418,
+          "defect_retention": [
+            0.6408396950120137,
+            0.6411775636841195,
+            0.6411973172003778
+          ],
+          "minimum_retention": 0.6408396950120137,
+          "background_fraction": 0.006333371437775029
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.968939506956417,
+          "defect_retention": [
+            0.6408485493363023,
+            0.6411905728991004,
+            0.6412072050937339
+          ],
+          "minimum_retention": 0.6408485493363023,
+          "background_fraction": 0.006354860906968987
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.98379527204696,
+          "defect_retention": [
+            0.6408116866314462,
+            0.6408912234141434,
+            0.6409074109209297
+          ],
+          "minimum_retention": 0.6408116866314462,
+          "background_fraction": 0.006333160184893757
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.96893869627756,
+          "defect_retention": [
+            0.6413411912196137,
+            0.6411905275855405,
+            0.6412072051017422
+          ],
+          "minimum_retention": 0.6411905275855405,
+          "background_fraction": 0.006354862093203683
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 22.61061734350903,
+          "defect_retention": [
+            0.6124662514942912,
+            0.6119811433857767,
+            0.6119670272858366
+          ],
+          "minimum_retention": 0.6119670272858366,
+          "background_fraction": 0.005481990336590489
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 22.35905303870716,
+          "defect_retention": [
+            0.6410015994988786,
+            0.6409718523834445,
+            0.6409560827747983
+          ],
+          "minimum_retention": 0.6409560827747983,
+          "background_fraction": 0.005808910646258335
+        }
+      ],
+      "worst_suppression_db": 21.96893869627756,
+      "worst_minimum_retention": 0.6119670272858366,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.5,
+        "nominal_suppression_db": 22.359053036957192,
+        "worst_suppression_db": 21.748026751510206,
+        "nominal_minimum_retention": 0.640956082775702,
+        "worst_minimum_retention": 0.6263074750219113,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.715902702171622
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 22.35905303870716,
+          "defect_retention": [
+            0.6410015994988786,
+            0.6409718523834445,
+            0.6409560827747983
+          ],
+          "minimum_retention": 0.6409560827747983,
+          "background_fraction": 0.005808910646258335
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.749524385461246,
+          "defect_retention": [
+            0.6554045652806227,
+            0.65519023598007,
+            0.655128416070245
+          ],
+          "minimum_retention": 0.655128416070245,
+          "background_fraction": 0.006684171147893588
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.7779430791324,
+          "defect_retention": [
+            0.6561196775232605,
+            0.6554776999000792,
+            0.6554153139004604
+          ],
+          "minimum_retention": 0.6554153139004604,
+          "background_fraction": 0.0066405750919665985
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.746533611625324,
+          "defect_retention": [
+            0.6556584226125484,
+            0.6555105432073036,
+            0.6554387896779147
+          ],
+          "minimum_retention": 0.6554387896779147,
+          "background_fraction": 0.0066887757951908065
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.777970525921887,
+          "defect_retention": [
+            0.655160145990392,
+            0.6552557055736586,
+            0.6551575537960697
+          ],
+          "minimum_retention": 0.6551575537960697,
+          "background_fraction": 0.006640533124615347
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.7465335831255,
+          "defect_retention": [
+            0.6557235598649984,
+            0.6555105613339601,
+            0.6554387895736654
+          ],
+          "minimum_retention": 0.6554387895736654,
+          "background_fraction": 0.006688775839084745
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.777943079132413,
+          "defect_retention": [
+            0.6561196775232612,
+            0.6554776999000783,
+            0.6554153139004613
+          ],
+          "minimum_retention": 0.6554153139004613,
+          "background_fraction": 0.00664057509196658
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.74952412517929,
+          "defect_retention": [
+            0.6554325706336259,
+            0.6551902158946789,
+            0.6551284161848243
+          ],
+          "minimum_retention": 0.6551284161848243,
+          "background_fraction": 0.006684171548490249
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.77794280934714,
+          "defect_retention": [
+            0.6553504200775716,
+            0.6554777796795231,
+            0.655415313916763
+          ],
+          "minimum_retention": 0.6553504200775716,
+          "background_fraction": 0.006640575504481469
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 22.57352336688053,
+          "defect_retention": [
+            0.6263074750209627,
+            0.6263857789176247,
+            0.6263701605832567
+          ],
+          "minimum_retention": 0.6263074750209627,
+          "background_fraction": 0.005529013665123694
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.87076924063382,
+          "defect_retention": [
+            0.6555439382812865,
+            0.6556160287133533,
+            0.6556032414227028
+          ],
+          "minimum_retention": 0.6555439382812865,
+          "background_fraction": 0.006500145468383804
+        }
+      ],
+      "worst_suppression_db": 21.7465335831255,
+      "worst_minimum_retention": 0.6263074750209627,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "square",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.45,
+        "nominal_suppression_db": 21.91663862505305,
+        "worst_suppression_db": 21.641600264402705,
+        "nominal_minimum_retention": 0.6318998374027402,
+        "worst_minimum_retention": 0.6142867935936386,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.52531205065937
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.916638626629034,
+          "defect_retention": [
+            0.6318998374018051,
+            0.6334666074873936,
+            0.6334498923544478
+          ],
+          "minimum_retention": 0.6318998374018051,
+          "background_fraction": 0.006431853404067671
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.639388710457737,
+          "defect_retention": [
+            0.6435345118151795,
+            0.6456867464465097,
+            0.645952845884912
+          ],
+          "minimum_retention": 0.6435345118151795,
+          "background_fraction": 0.0068558471887735254
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.56476284737533,
+          "defect_retention": [
+            0.6449980128425602,
+            0.6455942103961514,
+            0.6462374933389212
+          ],
+          "minimum_retention": 0.6449980128425602,
+          "background_fraction": 0.006974670820152034
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.631813907905048,
+          "defect_retention": [
+            0.6460977367899227,
+            0.6461048101258383,
+            0.6462316355451736
+          ],
+          "minimum_retention": 0.6460977367899227,
+          "background_fraction": 0.006867815336183263
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.56631806883334,
+          "defect_retention": [
+            0.6449521035841632,
+            0.6451770574721819,
+            0.645922844768453
+          ],
+          "minimum_retention": 0.6449521035841632,
+          "background_fraction": 0.006972173616939461
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.631814430981272,
+          "defect_retention": [
+            0.6444315677197385,
+            0.6461048613466076,
+            0.6462316354936384
+          ],
+          "minimum_retention": 0.6444315677197385,
+          "background_fraction": 0.006867814509004731
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.564762847375327,
+          "defect_retention": [
+            0.644998012842561,
+            0.6455942103961502,
+            0.6462374933389217
+          ],
+          "minimum_retention": 0.644998012842561,
+          "background_fraction": 0.006974670820152041
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.63939027846249,
+          "defect_retention": [
+            0.6444300813380422,
+            0.6456872523129493,
+            0.6459528459814273
+          ],
+          "minimum_retention": 0.6444300813380422,
+          "background_fraction": 0.006855844713494773
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.564762784899685,
+          "defect_retention": [
+            0.6450286928572693,
+            0.6455942219575969,
+            0.646237493341884
+          ],
+          "minimum_retention": 0.6450286928572693,
+          "background_fraction": 0.006974670920486507
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 22.099304770124082,
+          "defect_retention": [
+            0.6167035894388607,
+            0.6142874121137987,
+            0.6142867935926655
+          ],
+          "minimum_retention": 0.6142867935926655,
+          "background_fraction": 0.006166937158903394
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.86546677698256,
+          "defect_retention": [
+            0.6397539777345458,
+            0.642873020747837,
+            0.6428481508721084
+          ],
+          "minimum_retention": 0.6397539777345458,
+          "background_fraction": 0.006508086585752314
+        }
+      ],
+      "worst_suppression_db": 21.564762784899685,
+      "worst_minimum_retention": 0.6142867935926655,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.49,
+        "nominal_suppression_db": 21.870769239071084,
+        "worst_suppression_db": 21.544304148273618,
+        "nominal_minimum_retention": 0.6555439382821566,
+        "worst_minimum_retention": 0.640956082775702,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.612586882438652
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.87076924063382,
+          "defect_retention": [
+            0.6555439382812865,
+            0.6556160287133533,
+            0.6556032414227028
+          ],
+          "minimum_retention": 0.6555439382812865,
+          "background_fraction": 0.006500145468383804
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.543170557651298,
+          "defect_retention": [
+            0.6690799483547423,
+            0.6690695384908492,
+            0.6690773878989779
+          ],
+          "minimum_retention": 0.6690695384908492,
+          "background_fraction": 0.007009433893493443
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.577278001776385,
+          "defect_retention": [
+            0.6689647138983138,
+            0.6693113232870457,
+            0.6693618061153177
+          ],
+          "minimum_retention": 0.6689647138983138,
+          "background_fraction": 0.006954600698336837
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.542801291225203,
+          "defect_retention": [
+            0.6693292700999822,
+            0.6693691063953929,
+            0.6693386984806866
+          ],
+          "minimum_retention": 0.6693292700999822,
+          "background_fraction": 0.0070100299081225
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.57905240517016,
+          "defect_retention": [
+            0.6692487677859139,
+            0.6691281224570722,
+            0.6690889554755693
+          ],
+          "minimum_retention": 0.6690889554755693,
+          "background_fraction": 0.006951759827223275
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.542800214332352,
+          "defect_retention": [
+            0.6692521565325025,
+            0.6693691591036705,
+            0.6693386983899638
+          ],
+          "minimum_retention": 0.6692521565325025,
+          "background_fraction": 0.007010031646355963
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.577278001776385,
+          "defect_retention": [
+            0.6689647138983146,
+            0.669311323287045,
+            0.6693618061153176
+          ],
+          "minimum_retention": 0.6689647138983146,
+          "background_fraction": 0.006954600698336841
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.54317019799896,
+          "defect_retention": [
+            0.6689665650414702,
+            0.6690695238685688,
+            0.6690773879792973
+          ],
+          "minimum_retention": 0.6689665650414702,
+          "background_fraction": 0.007009434473965785
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.577277650855052,
+          "defect_retention": [
+            0.6693716656472429,
+            0.6693113368455481,
+            0.6693618061449609
+          ],
+          "minimum_retention": 0.6693113368455481,
+          "background_fraction": 0.006954601260286841
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 22.35905303870716,
+          "defect_retention": [
+            0.6410015994988786,
+            0.6409718523834445,
+            0.6409560827747983
+          ],
+          "minimum_retention": 0.6409560827747983,
+          "background_fraction": 0.005808910646258335
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.45293894521654,
+          "defect_retention": [
+            0.6690849154151924,
+            0.669165459854495,
+            0.6691518157501956
+          ],
+          "minimum_retention": 0.6690849154151924,
+          "background_fraction": 0.007156589476298652
+        }
+      ],
+      "worst_suppression_db": 21.45293894521654,
+      "worst_minimum_retention": 0.6409560827747983,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "square",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.44,
+        "nominal_suppression_db": 21.86546677542523,
+        "worst_suppression_db": 21.354693201614072,
+        "nominal_minimum_retention": 0.6397539777354617,
+        "worst_minimum_retention": 0.6318998374027402,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.36117563774957
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.86546677698256,
+          "defect_retention": [
+            0.6397539777345458,
+            0.642873020747837,
+            0.6428481508721084
+          ],
+          "minimum_retention": 0.6397539777345458,
+          "background_fraction": 0.006508086585752314
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.345089046124546,
+          "defect_retention": [
+            0.6639255296664712,
+            0.6618215523949628,
+            0.661861800373574
+          ],
+          "minimum_retention": 0.6618215523949628,
+          "background_fraction": 0.007336536717022553
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.23292379840749,
+          "defect_retention": [
+            0.662665508842532,
+            0.6618181817416783,
+            0.66213789345434
+          ],
+          "minimum_retention": 0.6618181817416783,
+          "background_fraction": 0.007528485532585909
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.350046386246127,
+          "defect_retention": [
+            0.6628576194893914,
+            0.6621128366799346,
+            0.6621292152860998
+          ],
+          "minimum_retention": 0.6621128366799346,
+          "background_fraction": 0.007328167060079958
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.233581782257787,
+          "defect_retention": [
+            0.6627354088482761,
+            0.6615991170485911,
+            0.6618249306520908
+          ],
+          "minimum_retention": 0.6615991170485911,
+          "background_fraction": 0.007527345005392888
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.350045383293313,
+          "defect_retention": [
+            0.6636063052288513,
+            0.6621127605074768,
+            0.6621292156664674
+          ],
+          "minimum_retention": 0.6621127605074768,
+          "background_fraction": 0.007328168752435476
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.23292379840749,
+          "defect_retention": [
+            0.6626655088425336,
+            0.6618181817416776,
+            0.6621378934543407
+          ],
+          "minimum_retention": 0.6618181817416776,
+          "background_fraction": 0.007528485532585912
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.34508991758388,
+          "defect_retention": [
+            0.6629829793223981,
+            0.661821975620867,
+            0.6618617999282083
+          ],
+          "minimum_retention": 0.661821975620867,
+          "background_fraction": 0.0073365352448664335
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.232923367416436,
+          "defect_retention": [
+            0.6627376086791852,
+            0.6618181966666786,
+            0.662137893460018
+          ],
+          "minimum_retention": 0.6618181966666786,
+          "background_fraction": 0.007528486279708022
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.916638626629034,
+          "defect_retention": [
+            0.6318998374018051,
+            0.6334666074873936,
+            0.6334498923544478
+          ],
+          "minimum_retention": 0.6318998374018051,
+          "background_fraction": 0.006431853404067671
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.482577830582713,
+          "defect_retention": [
+            0.6634946906733,
+            0.6612798861689088,
+            0.6612793807379237
+          ],
+          "minimum_retention": 0.6612793807379237,
+          "background_fraction": 0.007107914857412406
+        }
+      ],
+      "worst_suppression_db": 21.232923367416436,
+      "worst_minimum_retention": 0.6318998374018051,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.48,
+        "nominal_suppression_db": 21.45293894379828,
+        "worst_suppression_db": 21.313949282327172,
+        "nominal_minimum_retention": 0.6690849154160283,
+        "worst_minimum_retention": 0.6555439382821566,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.479967341199544
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.45293894521654,
+          "defect_retention": [
+            0.6690849154151924,
+            0.669165459854495,
+            0.6691518157501956
+          ],
+          "minimum_retention": 0.6690849154151924,
+          "background_fraction": 0.007156589476298652
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.311846786923418,
+          "defect_retention": [
+            0.6824133095257304,
+            0.6826692530112585,
+            0.6827286085682148
+          ],
+          "minimum_retention": 0.6824133095257304,
+          "background_fraction": 0.0073929083335258034
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.30195226239246,
+          "defect_retention": [
+            0.6830947573424798,
+            0.6829348353551185,
+            0.6829826861227077
+          ],
+          "minimum_retention": 0.6829348353551185,
+          "background_fraction": 0.007409770786818335
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.308934189888006,
+          "defect_retention": [
+            0.6829510189350533,
+            0.6829306289998571,
+            0.6829765424661021
+          ],
+          "minimum_retention": 0.6829306289998571,
+          "background_fraction": 0.007397868052291895
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.298024749959342,
+          "defect_retention": [
+            0.6825286734834326,
+            0.6827461209487106,
+            0.682735492351078
+          ],
+          "minimum_retention": 0.6825286734834326,
+          "background_fraction": 0.007416474793236788
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.308933785147243,
+          "defect_retention": [
+            0.6828103247151375,
+            0.6829306764965002,
+            0.6829765425161534
+          ],
+          "minimum_retention": 0.6828103247151375,
+          "background_fraction": 0.007397868741736265
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.30195226239247,
+          "defect_retention": [
+            0.6830947573424806,
+            0.6829348353551179,
+            0.6829826861227082
+          ],
+          "minimum_retention": 0.6829348353551179,
+          "background_fraction": 0.00740977078681832
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.311846465497524,
+          "defect_retention": [
+            0.6826783291093018,
+            0.6826692332119221,
+            0.6827286085203907
+          ],
+          "minimum_retention": 0.6826692332119221,
+          "background_fraction": 0.007392908880682703
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.30195168147334,
+          "defect_retention": [
+            0.6825863195792014,
+            0.6829347195312745,
+            0.6829826861083477
+          ],
+          "minimum_retention": 0.6825863195792014,
+          "background_fraction": 0.007409771777960983
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.87076924063382,
+          "defect_retention": [
+            0.6555439382812865,
+            0.6556160287133533,
+            0.6556032414227028
+          ],
+          "minimum_retention": 0.6555439382812865,
+          "background_fraction": 0.006500145468383804
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.164443035836165,
+          "defect_retention": [
+            0.6827689693256206,
+            0.6828961508024223,
+            0.6828833736116547
+          ],
+          "minimum_retention": 0.6827689693256206,
+          "background_fraction": 0.007648137662556299
+        }
+      ],
+      "worst_suppression_db": 21.164443035836165,
+      "worst_minimum_retention": 0.6555439382812865,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "square",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.43,
+        "nominal_suppression_db": 21.48257782915762,
+        "worst_suppression_db": 21.098577687291808,
+        "nominal_minimum_retention": 0.6612793807387783,
+        "worst_minimum_retention": 0.6397539777354618,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.158707635669362
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.482577830582713,
+          "defect_retention": [
+            0.6634946906733,
+            0.6612798861689088,
+            0.6612793807379237
+          ],
+          "minimum_retention": 0.6612793807379237,
+          "background_fraction": 0.007107914857412406
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.06187697145755,
+          "defect_retention": [
+            0.676971450490468,
+            0.6776231923136605,
+            0.6774075975136405
+          ],
+          "minimum_retention": 0.676971450490468,
+          "background_fraction": 0.007830911265233893
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 21.038465319110383,
+          "defect_retention": [
+            0.6787113698576174,
+            0.6782233976264829,
+            0.6776703723752425
+          ],
+          "minimum_retention": 0.6776703723752425,
+          "background_fraction": 0.007873239598357906
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.082423760801298,
+          "defect_retention": [
+            0.6767822298788573,
+            0.6777366363188969,
+            0.6776829762324637
+          ],
+          "minimum_retention": 0.6767822298788573,
+          "background_fraction": 0.0077939501535167835
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 21.036294104449116,
+          "defect_retention": [
+            0.6787064307482445,
+            0.6781193185073378,
+            0.6773696016620818
+          ],
+          "minimum_retention": 0.6773696016620818,
+          "background_fraction": 0.00787717673497565
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.082425526142195,
+          "defect_retention": [
+            0.6762423697084338,
+            0.677736617779693,
+            0.6776829761049972
+          ],
+          "minimum_retention": 0.6762423697084338,
+          "background_fraction": 0.007793946985395444
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 21.038465319110383,
+          "defect_retention": [
+            0.6787113698576173,
+            0.6782233976264815,
+            0.677670372375243
+          ],
+          "minimum_retention": 0.677670372375243,
+          "background_fraction": 0.007873239598357902
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.061876605533794,
+          "defect_retention": [
+            0.6778647069129574,
+            0.6776235061914793,
+            0.6774075976152897
+          ],
+          "minimum_retention": 0.6774075976152897,
+          "background_fraction": 0.007830911925043474
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 21.03846511748712,
+          "defect_retention": [
+            0.6786874517687329,
+            0.6782234086498272,
+            0.677670372373473
+          ],
+          "minimum_retention": 0.677670372373473,
+          "background_fraction": 0.00787323996387677
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.86546677698256,
+          "defect_retention": [
+            0.6397539777345458,
+            0.642873020747837,
+            0.6428481508721084
+          ],
+          "minimum_retention": 0.6397539777345458,
+          "background_fraction": 0.006508086585752314
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.18725274953553,
+          "defect_retention": [
+            0.677859961937922,
+            0.6792372201702845,
+            0.6792219280341748
+          ],
+          "minimum_retention": 0.677859961937922,
+          "background_fraction": 0.007608073946172977
+        }
+      ],
+      "worst_suppression_db": 21.036294104449116,
+      "worst_minimum_retention": 0.6397539777345458,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.47,
+        "nominal_suppression_db": 21.164443034509766,
+        "worst_suppression_db": 21.00635376854204,
+        "nominal_minimum_retention": 0.6827689693264226,
+        "worst_minimum_retention": 0.6690849154160283,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.2611661563301
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.164443035836165,
+          "defect_retention": [
+            0.6827689693256206,
+            0.6828961508024223,
+            0.6828833736116547
+          ],
+          "minimum_retention": 0.6827689693256206,
+          "background_fraction": 0.007648137662556299
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 21.00815706142779,
+          "defect_retention": [
+            0.6963437967553858,
+            0.6960738806090179,
+            0.696066370149637
+          ],
+          "minimum_retention": 0.696066370149637,
+          "background_fraction": 0.007928377015984743
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 20.992731896853385,
+          "defect_retention": [
+            0.6961135423291074,
+            0.6963504057234733,
+            0.6963223510633523
+          ],
+          "minimum_retention": 0.6961135423291074,
+          "background_fraction": 0.00795658689836406
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 21.00729406432532,
+          "defect_retention": [
+            0.696424837221268,
+            0.696393337799772,
+            0.6963415011738774
+          ],
+          "minimum_retention": 0.6963415011738774,
+          "background_fraction": 0.007929952639561373
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 20.992484229900267,
+          "defect_retention": [
+            0.696397993831753,
+            0.6961227310472329,
+            0.6960872434314025
+          ],
+          "minimum_retention": 0.6960872434314025,
+          "background_fraction": 0.007957040654952317
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 21.0072933771497,
+          "defect_retention": [
+            0.6966127817261174,
+            0.696393332089752,
+            0.6963415012029014
+          ],
+          "minimum_retention": 0.6963415012029014,
+          "background_fraction": 0.007929953894302285
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 20.992731896853392,
+          "defect_retention": [
+            0.6961135423291072,
+            0.6963504057234741,
+            0.6963223510633524
+          ],
+          "minimum_retention": 0.6961135423291072,
+          "background_fraction": 0.007956586898364051
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 21.008158484834997,
+          "defect_retention": [
+            0.6961351463590801,
+            0.6960738726465151,
+            0.6960663701105587
+          ],
+          "minimum_retention": 0.6960663701105587,
+          "background_fraction": 0.007928374417446742
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 20.99273176368978,
+          "defect_retention": [
+            0.6967675366405348,
+            0.6963504151287071,
+            0.6963223510410884
+          ],
+          "minimum_retention": 0.6963223510410884,
+          "background_fraction": 0.007956587142329365
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.45293894521654,
+          "defect_retention": [
+            0.6690849154151924,
+            0.669165459854495,
+            0.6691518157501956
+          ],
+          "minimum_retention": 0.6690849154151924,
+          "background_fraction": 0.007156589476298652
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.06192642712047,
+          "defect_retention": [
+            0.6970473090105823,
+            0.6963817510994186,
+            0.6963709655461826
+          ],
+          "minimum_retention": 0.6963709655461826,
+          "background_fraction": 0.00783082209055659
+        }
+      ],
+      "worst_suppression_db": 20.992484229900267,
+      "worst_minimum_retention": 0.6690849154151924,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "square",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.42,
+        "nominal_suppression_db": 21.187252748204827,
+        "worst_suppression_db": 20.758069756727195,
+        "nominal_minimum_retention": 0.67785996193874,
+        "worst_minimum_retention": 0.6612793807387783,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 18.961919569114393
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.18725274953553,
+          "defect_retention": [
+            0.677859961937922,
+            0.6792372201702845,
+            0.6792219280341748
+          ],
+          "minimum_retention": 0.677859961937922,
+          "background_fraction": 0.007608073946172977
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 20.823410164324613,
+          "defect_retention": [
+            0.6901537564754523,
+            0.6925731052288548,
+            0.6925868359953902
+          ],
+          "minimum_retention": 0.6901537564754523,
+          "background_fraction": 0.008272923026766393
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 20.806211783788218,
+          "defect_retention": [
+            0.694077171634783,
+            0.6932775981220914,
+            0.6928414792194091
+          ],
+          "minimum_retention": 0.6928414792194091,
+          "background_fraction": 0.008305749364174806
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 20.781470054714962,
+          "defect_retention": [
+            0.6940353456703054,
+            0.6930634426299406,
+            0.692843504185469
+          ],
+          "minimum_retention": 0.692843504185469,
+          "background_fraction": 0.008353202206521216
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 20.81416120023747,
+          "defect_retention": [
+            0.6918545510150979,
+            0.6926439595681884,
+            0.6925588110024397
+          ],
+          "minimum_retention": 0.6918545510150979,
+          "background_fraction": 0.008290560253406317
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 20.781468787205746,
+          "defect_retention": [
+            0.692052263820811,
+            0.6930633906336504,
+            0.6928435036294502
+          ],
+          "minimum_retention": 0.692052263820811,
+          "background_fraction": 0.008353204644443583
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 20.806211783788203,
+          "defect_retention": [
+            0.694077171634783,
+            0.6932775981220923,
+            0.6928414792194096
+          ],
+          "minimum_retention": 0.6928414792194096,
+          "background_fraction": 0.008305749364174825
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 20.823407412208986,
+          "defect_retention": [
+            0.6934621627206435,
+            0.6925732753593266,
+            0.6925868366402321
+          ],
+          "minimum_retention": 0.6925732753593266,
+          "background_fraction": 0.008272928269303176
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 20.806211833534487,
+          "defect_retention": [
+            0.6941446808253793,
+            0.6932776070273127,
+            0.692841479223075
+          ],
+          "minimum_retention": 0.692841479223075,
+          "background_fraction": 0.008305749269036582
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.482577830582713,
+          "defect_retention": [
+            0.6634946906733,
+            0.6612798861689088,
+            0.6612793807379237
+          ],
+          "minimum_retention": 0.6612793807379237,
+          "background_fraction": 0.007107914857412406
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 20.83929336785687,
+          "defect_retention": [
+            0.6961375772560493,
+            0.6966890083183163,
+            0.696675859316662
+          ],
+          "minimum_retention": 0.6961375772560493,
+          "background_fraction": 0.00824272219839754
+        }
+      ],
+      "worst_suppression_db": 20.781468787205746,
+      "worst_minimum_retention": 0.6612793807379237,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.46,
+        "nominal_suppression_db": 21.061926425825256,
+        "worst_suppression_db": 20.733038755312517,
+        "nominal_minimum_retention": 0.6963709655469482,
+        "worst_minimum_retention": 0.6827689693264226,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 19.07577650486337
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.06192642712047,
+          "defect_retention": [
+            0.6970473090105823,
+            0.6963817510994186,
+            0.6963709655461826
+          ],
+          "minimum_retention": 0.6963709655461826,
+          "background_fraction": 0.00783082209055659
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 20.731191591991973,
+          "defect_retention": [
+            0.7091322128372606,
+            0.7091932077879991,
+            0.7091414207938452
+          ],
+          "minimum_retention": 0.7091322128372606,
+          "background_fraction": 0.008450469542708451
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 20.7171591762729,
+          "defect_retention": [
+            0.7096100580996569,
+            0.7094676709251201,
+            0.7093894294850479
+          ],
+          "minimum_retention": 0.7093894294850479,
+          "background_fraction": 0.008477817870817046
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 20.728715993246944,
+          "defect_retention": [
+            0.7094264208813207,
+            0.7094820703844952,
+            0.7093935672589122
+          ],
+          "minimum_retention": 0.7093935672589122,
+          "background_fraction": 0.008455287917401506
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 20.717432070394327,
+          "defect_retention": [
+            0.7092625328779215,
+            0.7092310482275489,
+            0.7091633847622906
+          ],
+          "minimum_retention": 0.7091633847622906,
+          "background_fraction": 0.008477285173748536
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 20.728716028512004,
+          "defect_retention": [
+            0.7094973332502728,
+            0.7094820197291057,
+            0.7093935672237442
+          ],
+          "minimum_retention": 0.7093935672237442,
+          "background_fraction": 0.0084552878487439
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 20.717159176272894,
+          "defect_retention": [
+            0.709610058099658,
+            0.7094676709251203,
+            0.7093894294850469
+          ],
+          "minimum_retention": 0.7093894294850469,
+          "background_fraction": 0.00847781787081705
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 20.73119237407795,
+          "defect_retention": [
+            0.7091613597060177,
+            0.7091932482621978,
+            0.7091414208425781
+          ],
+          "minimum_retention": 0.7091414208425781,
+          "background_fraction": 0.008450468020931547
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 20.717159460360683,
+          "defect_retention": [
+            0.7094238372981286,
+            0.7094676876965536,
+            0.7093894294717304
+          ],
+          "minimum_retention": 0.7093894294717304,
+          "background_fraction": 0.008477817316252224
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.164443035836165,
+          "defect_retention": [
+            0.6827689693256206,
+            0.6828961508024223,
+            0.6828833736116547
+          ],
+          "minimum_retention": 0.6827689693256206,
+          "background_fraction": 0.007648137662556299
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 21.04685080040931,
+          "defect_retention": [
+            0.708867204280335,
+            0.709383019052092,
+            0.7093701460254992
+          ],
+          "minimum_retention": 0.708867204280335,
+          "background_fraction": 0.007858052390220053
+        }
+      ],
+      "worst_suppression_db": 20.717159176272894,
+      "worst_minimum_retention": 0.6827689693256206,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "circle",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.45,
+        "nominal_suppression_db": 21.046850799118655,
+        "worst_suppression_db": 20.48267382220785,
+        "nominal_minimum_retention": 0.7088672042810765,
+        "worst_minimum_retention": 0.6963709655469482,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 18.911080375931153
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 21.04685080040931,
+          "defect_retention": [
+            0.708867204280335,
+            0.709383019052092,
+            0.7093701460254992
+          ],
+          "minimum_retention": 0.708867204280335,
+          "background_fraction": 0.007858052390220053
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 20.479827075252736,
+          "defect_retention": [
+            0.7218907225938572,
+            0.7218723773995641,
+            0.7219358799797667
+          ],
+          "minimum_retention": 0.7218723773995641,
+          "background_fraction": 0.008954004173514843
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 20.474527075238363,
+          "defect_retention": [
+            0.7220562513213218,
+            0.722191871082699,
+            0.7221685767205759
+          ],
+          "minimum_retention": 0.7220562513213218,
+          "background_fraction": 0.008964938042833355
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 20.48043923677961,
+          "defect_retention": [
+            0.72221843498865,
+            0.7220887439838313,
+            0.7221435115032244
+          ],
+          "minimum_retention": 0.7220887439838313,
+          "background_fraction": 0.008952742147216136
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 20.47670638368851,
+          "defect_retention": [
+            0.7220214278011262,
+            0.721934051015603,
+            0.7219373494945354
+          ],
+          "minimum_retention": 0.721934051015603,
+          "background_fraction": 0.008960440526770303
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 20.48043988233521,
+          "defect_retention": [
+            0.7220236677414577,
+            0.7220887983248713,
+            0.7221435114691335
+          ],
+          "minimum_retention": 0.7220236677414577,
+          "background_fraction": 0.008952740816438836
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 20.474527075238363,
+          "defect_retention": [
+            0.7220562513213213,
+            0.722191871082699,
+            0.7221685767205765
+          ],
+          "minimum_retention": 0.7220562513213213,
+          "background_fraction": 0.008964938042833354
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 20.479828068913687,
+          "defect_retention": [
+            0.7219432616505699,
+            0.7218724391241472,
+            0.721935880020127
+          ],
+          "minimum_retention": 0.7218724391241472,
+          "background_fraction": 0.008954002124848872
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 20.474526484725462,
+          "defect_retention": [
+            0.7223996040681555,
+            0.7221918396899314,
+            0.7221685766930033
+          ],
+          "minimum_retention": 0.7221685766930033,
+          "background_fraction": 0.008964939261801618
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.06192642712047,
+          "defect_retention": [
+            0.6970473090105823,
+            0.6963817510994186,
+            0.6963709655461826
+          ],
+          "minimum_retention": 0.6963709655461826,
+          "background_fraction": 0.00783082209055659
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 20.886734061948506,
+          "defect_retention": [
+            0.7220271409893059,
+            0.7221359609279722,
+            0.7221252534476144
+          ],
+          "minimum_retention": 0.7220271409893059,
+          "background_fraction": 0.008153171802347923
+        }
+      ],
+      "worst_suppression_db": 20.474526484725462,
+      "worst_minimum_retention": 0.6963709655461826,
+      "feasible": true
+    },
+    {
+      "design": {
+        "case": "dots",
+        "shape": "square",
+        "beta": 0.0,
+        "threshold": 0.0,
+        "width_mm": 0.41,
+        "nominal_suppression_db": 20.839293366629477,
+        "worst_suppression_db": 20.472073264409648,
+        "nominal_minimum_retention": 0.696137577256816,
+        "worst_minimum_retention": 0.67785996193874,
+        "feasible": true,
+        "worst_energy_ratio_gain_db": 18.78347309336121
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "background_suppression_db": 20.83929336785687,
+          "defect_retention": [
+            0.6961375772560493,
+            0.6966890083183163,
+            0.696675859316662
+          ],
+          "minimum_retention": 0.6961375772560493,
+          "background_fraction": 0.00824272219839754
+        },
+        {
+          "scenario": "xy_0",
+          "background_suppression_db": 20.468956358450473,
+          "defect_retention": [
+            0.7081557000288351,
+            0.7072043032430998,
+            0.707403980702028
+          ],
+          "minimum_retention": 0.7072043032430998,
+          "background_fraction": 0.00897644479148133
+        },
+        {
+          "scenario": "xy_1",
+          "background_suppression_db": 20.602307817805507,
+          "defect_retention": [
+            0.7070573801987516,
+            0.7068659407390787,
+            0.7076353921220474
+          ],
+          "minimum_retention": 0.7068659407390787,
+          "background_fraction": 0.00870500887480965
+        },
+        {
+          "scenario": "xy_2",
+          "background_suppression_db": 20.472238852354696,
+          "defect_retention": [
+            0.7074007494404286,
+            0.7073581720498844,
+            0.7076223442859491
+          ],
+          "minimum_retention": 0.7073581720498844,
+          "background_fraction": 0.008969662758979282
+        },
+        {
+          "scenario": "xy_3",
+          "background_suppression_db": 20.590540653518623,
+          "defect_retention": [
+            0.7072683959392873,
+            0.7067027284532506,
+            0.7073900707585721
+          ],
+          "minimum_retention": 0.7067027284532506,
+          "background_fraction": 0.008728626988827972
+        },
+        {
+          "scenario": "xy_4",
+          "background_suppression_db": 20.47223796614886,
+          "defect_retention": [
+            0.7081587320411948,
+            0.7073582081450279,
+            0.7076223441415945
+          ],
+          "minimum_retention": 0.7073582081450279,
+          "background_fraction": 0.008969664589296874
+        },
+        {
+          "scenario": "xy_5",
+          "background_suppression_db": 20.602307817805507,
+          "defect_retention": [
+            0.7070573801987511,
+            0.7068659407390812,
+            0.7076353921220486
+          ],
+          "minimum_retention": 0.7068659407390812,
+          "background_fraction": 0.008705008874809645
+        },
+        {
+          "scenario": "xy_6",
+          "background_suppression_db": 20.468954417219276,
+          "defect_retention": [
+            0.707254912576701,
+            0.7072043621551952,
+            0.7074039807753111
+          ],
+          "minimum_retention": 0.7072043621551952,
+          "background_fraction": 0.008976448803818421
+        },
+        {
+          "scenario": "xy_7",
+          "background_suppression_db": 20.60230790090174,
+          "defect_retention": [
+            0.7071346721587563,
+            0.7068659635879821,
+            0.7076353921282165
+          ],
+          "minimum_retention": 0.7068659635879821,
+          "background_fraction": 0.00870500870825137
+        },
+        {
+          "scenario": "oversize",
+          "background_suppression_db": 21.18725274953553,
+          "defect_retention": [
+            0.677859961937922,
+            0.6792372201702845,
+            0.6792219280341748
+          ],
+          "minimum_retention": 0.677859961937922,
+          "background_fraction": 0.007608073946172977
+        },
+        {
+          "scenario": "undersize",
+          "background_suppression_db": 20.562251294929762,
+          "defect_retention": [
+            0.7072403777284031,
+            0.7052207001754537,
+            0.7052203591918808
+          ],
+          "minimum_retention": 0.7052203591918808,
+          "background_fraction": 0.008785669673856696
+        }
+      ],
+      "worst_suppression_db": 20.468954417219276,
+      "worst_minimum_retention": 0.677859961937922,
+      "feasible": true
+    }
+  ],
+  "energy_components": [
+    "periodic_background",
+    "shift_5um_4um",
+    "extra_diameter_4um",
+    "extra_diameter_1p2um"
+  ],
+  "candidate_count": 918,
+  "feasible_count": 844,
+  "grid": {
+    "n": 4096,
+    "window_mm": 1.024,
+    "dx_um": 0.25,
+    "dff_mm": 0.014444986979166666
+  },
+  "elapsed_seconds": 147.7981400489807
+}

@@ -1,0 +1,385 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-08-31T19:35:13.650469+08:00",
+  "tests": 67,
+  "failures": 0,
+  "screen_candidates": 17923,
+  "extension_candidates": 1280,
+  "candidate_families_overlap": true,
+  "tested_presets": 10,
+  "perturbations_per_preset": 35,
+  "physical_rods": 9,
+  "position_csv_rows": 90,
+  "independent_y_degrees_of_freedom": 9,
+  "paired_end_sliders": 18,
+  "motion_paths": 45,
+  "mechanical_checks": {
+    "recipes": 10,
+    "motion_paths": 45,
+    "path_checks": [
+      {
+        "start": "metrology_10",
+        "end": "balanced_10",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "metrology_15",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "balanced_15",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "metrology_20",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "balanced_20",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "metrology_10",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_10",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "balanced_10",
+        "end": "metrology_15",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_10",
+        "end": "balanced_15",
+        "minimum_gap_mm": 1.1199999999999999,
+        "analytic_lower_bound_mm": 1.1199999999999999
+      },
+      {
+        "start": "balanced_10",
+        "end": "metrology_20",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_10",
+        "end": "balanced_20",
+        "minimum_gap_mm": 0.7649999999999999,
+        "analytic_lower_bound_mm": 0.7649999999999999
+      },
+      {
+        "start": "balanced_10",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_10",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "balanced_10",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_10",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "metrology_15",
+        "end": "balanced_15",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_15",
+        "end": "metrology_20",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_15",
+        "end": "balanced_20",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_15",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_15",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "metrology_15",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_15",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "balanced_15",
+        "end": "metrology_20",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_15",
+        "end": "balanced_20",
+        "minimum_gap_mm": 0.7649999999999999,
+        "analytic_lower_bound_mm": 0.7649999999999999
+      },
+      {
+        "start": "balanced_15",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_15",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "balanced_15",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_15",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "metrology_20",
+        "end": "balanced_20",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_20",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_20",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "metrology_20",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_20",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "balanced_20",
+        "end": "metrology_30",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_20",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "balanced_20",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.7,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "balanced_20",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "metrology_30",
+        "end": "balanced_30",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "metrology_30",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.6999999999999964,
+        "analytic_lower_bound_mm": 0.7
+      },
+      {
+        "start": "metrology_30",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      },
+      {
+        "start": "balanced_30",
+        "end": "metrology_40",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "balanced_30",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.41,
+        "analytic_lower_bound_mm": 0.41
+      },
+      {
+        "start": "metrology_40",
+        "end": "balanced_40",
+        "minimum_gap_mm": 0.49874999999999997,
+        "analytic_lower_bound_mm": 0.49874999999999997
+      }
+    ],
+    "minimum_rod_gap_mm": 0.41,
+    "slider_swept_boxes": 18,
+    "box_pair_checks": 153,
+    "collisions": 0,
+    "minimum_slider_separating_gap_mm": 1.7999999999999972,
+    "minimum_opening_clearance_mm": 1.8999999999999986,
+    "note": "Full swept-Y boxes for allocated sliders; real motors/cables/fasteners not yet specified. Affine coordinated paths only, not arbitrary asynchronous moves."
+  },
+  "nominal_metric_recalculations": [
+    {
+      "period_um": 10,
+      "mode": "metrology",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 10,
+      "mode": "balanced",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 15,
+      "mode": "metrology",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 15,
+      "mode": "balanced",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 20,
+      "mode": "metrology",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 20,
+      "mode": "balanced",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 30,
+      "mode": "metrology",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 30,
+      "mode": "balanced",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 40,
+      "mode": "metrology",
+      "maximum_saved_metric_difference": 0.0
+    },
+    {
+      "period_um": 40,
+      "mode": "balanced",
+      "maximum_saved_metric_difference": 0.0
+    }
+  ],
+  "common_baseline_across_modes": true,
+  "camera_intensity_reference": 0.9857451908016286,
+  "local_report_links": [
+    "results/joint_adjustable/figures/02_tradeoffs.png",
+    "results/joint_adjustable/figures/03_profile_modes.png",
+    "全锯齿双层傅里叶滤波_优化结果.md",
+    "results/joint_adjustable/figures/01_mechanical_envelopes.png",
+    "results/joint_adjustable/all_position_recipes.csv",
+    "三维联合优化_约束与模型.md",
+    "src/joint_adjustable.py",
+    "src/joint_robustness.py",
+    "src/joint_asymmetric.py",
+    "src/joint_report.py",
+    "results/joint_adjustable/artifact_validation.json"
+  ],
+  "sha256": {
+    "独立可调锯齿杆_三维联合最优方案.md": "2597864143117663523a31406c829757458f59dc263bac6346b8601ab64954eb",
+    "config/joint_adjustable.yml": "b7c146c4e23625416329bed112211358fa1dc00839e15a5d404ee1e9fa8221cc",
+    "src/joint_adjustable.py": "22e00329705c87a0ae6628079515c5087421722a6aa5995e2275da55bd82bfb6",
+    "src/joint_asymmetric.py": "8eea3168b3284391c78e7365cd1bf307282a8f1fcd4b72432c38a474cc20d29a",
+    "src/joint_operating_modes.py": "edb9974d2e50fe7f99714a35ef6114546dbeb1176c9a9d0a7bdfd30ede73887c",
+    "src/joint_report.py": "77e14be0ba39ec35dc5dd6367dc0f1f1b74334a11041a38a7afabf27f299e32f",
+    "src/joint_robustness.py": "a02bfa85593c3b6e60531fe7b4f4766812042d2bfa1657944c3bd41f65503ece",
+    "src/validate_joint_artifacts.py": "db34a2f569a2991be52d0eca0c9231b6c0037c84b69e218390ad4b9ac76855dd",
+    "results/joint_adjustable/final_presets.json": "0d1b0b52dcb60a75a56e39dfbbd01894cb0eafa50920a8f322ca2c9cda2f8833",
+    "results/joint_adjustable/final_mechanical_checks.json": "a9833f30bd68a1827d488cacf53d29797e00ed2ba9796e8f128ec93424c1ea7a"
+  },
+  "limitations": [
+    "Audit of numerical artifacts only, not experimental validation.",
+    "35 perturbations are not an exhaustive continuous worst-case proof.",
+    "Mechanical dynamics use assumed material/stress/input; no supplier CAD, FEA or measured zero crosstalk.",
+    "9-rod, fixed tooth pitch and layer gap candidate family; no global optimum proof.",
+    "Final-net-zero main-line collection model, not all-order 256-stage TDI optimization."
+  ]
+}

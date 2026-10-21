@@ -1,0 +1,2213 @@
+{
+  "core_mm": 0.1,
+  "one_sided_depth_mm": 0.05,
+  "process": "precision",
+  "rows": [
+    {
+      "period_um": 10,
+      "mode": "metrology",
+      "available": true,
+      "search_id": 73,
+      "design": {
+        "centres_mm": [
+          -20.0,
+          -8.52,
+          -7.455,
+          -2.13,
+          0.0,
+          2.13,
+          7.455,
+          8.52,
+          20.0
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-8,-7,-2,0,2,7,8",
+        "rod_count": 9,
+        "active_rods": 7,
+        "active_flags": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "object_orders": [
+          -8,
+          -7,
+          -2,
+          0,
+          2,
+          7,
+          8
+        ],
+        "period_um": 10,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 2.673249179010992,
+        "minimum_retention": 0.8991347580496747,
+        "maximum_fwhm_ratio": 0.99649837388266,
+        "maximum_ee90_ratio": 1.2727272727272727,
+        "maximum_halo": 0.07368603749787654,
+        "maximum_crosstalk": 0.09479181978356642,
+        "score": -5.66507032899969,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.9452287285123934,
+            "fwhm_um": 0.5377707942626251,
+            "ee90_um": 0.875,
+            "energy": 7.955688195563315,
+            "halo": 0.04314514044588798,
+            "peak": 0.8370883903031339,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.9375124530568986,
+            "fwhm_um": 0.7665642484501487,
+            "ee90_um": 1.25,
+            "energy": 11.971581138708203,
+            "halo": 0.04861483854097826,
+            "peak": 0.8774502611545512,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.9289820512691843,
+            "fwhm_um": 1.0014315591348255,
+            "ee90_um": 1.6250000000000002,
+            "energy": 15.821692990638937,
+            "halo": 0.05563266221126027,
+            "peak": 0.8795948234923118,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.922333650287235,
+            "fwhm_um": 1.4941963157224019,
+            "ee90_um": 2.625,
+            "energy": 23.563044297248915,
+            "halo": 0.06145311948160107,
+            "peak": 0.8682614102718547,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.919771092726802,
+            "fwhm_um": 2.001201398237824,
+            "ee90_um": 3.5,
+            "energy": 31.33011102358173,
+            "halo": 0.062165005981217124,
+            "peak": 0.8633519559333683,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8991347580496747,
+            "fwhm_um": 2.9512174206261363,
+            "ee90_um": 5.125,
+            "energy": 45.94076607013966,
+            "halo": 0.07368603749787654,
+            "peak": 0.8582308208094539,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ]
+      },
+      "worst": {
+        "suppression_db": 2.6247894184715577,
+        "minimum_retention": 0.8875659862716918,
+        "maximum_halo": 0.08414514212437887,
+        "maximum_crosstalk": 0.10726249936004675,
+        "maximum_fwhm_ratio": 1.0004246903979368,
+        "maximum_ee90_ratio": 1.375
+      },
+      "sampled_guard_pass": false,
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 5.475451500000002,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 3.96,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -0.595,
+        "feasible": true
+      },
+      "trials": 35
+    },
+    {
+      "period_um": 15,
+      "mode": "metrology",
+      "available": true,
+      "search_id": 3931,
+      "design": {
+        "centres_mm": [
+          -20.0,
+          -20.0,
+          -3.5500000000000003,
+          -1.42,
+          0.0,
+          1.42,
+          3.5500000000000003,
+          20.0,
+          20.0
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-5,-2,0,2,5",
+        "rod_count": 9,
+        "active_rods": 5,
+        "active_flags": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "object_orders": [
+          -5,
+          -2,
+          0,
+          2,
+          5
+        ],
+        "period_um": 15,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 2.6274632504602122,
+        "minimum_retention": 0.8798079810509611,
+        "maximum_fwhm_ratio": 0.9948505460538581,
+        "maximum_ee90_ratio": 1.5588235294117647,
+        "maximum_halo": 0.09285130118282457,
+        "maximum_crosstalk": 0.09563992637706062,
+        "score": -7.330344171685232,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.9297317645474151,
+            "fwhm_um": 0.5286015805579594,
+            "ee90_um": 0.875,
+            "energy": 7.825255201342667,
+            "halo": 0.05398474456421222,
+            "peak": 0.8311522398503236,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.9114756214044799,
+            "fwhm_um": 0.7536681821311234,
+            "ee90_um": 1.375,
+            "energy": 11.639103376193725,
+            "halo": 0.0690566105502417,
+            "peak": 0.847899880259509,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.9016220681652416,
+            "fwhm_um": 0.9954535788885949,
+            "ee90_um": 1.875,
+            "energy": 15.35571923763882,
+            "halo": 0.07698465254595827,
+            "peak": 0.8379054554352932,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.8910139051760573,
+            "fwhm_um": 1.4894883664168308,
+            "ee90_um": 3.0,
+            "energy": 22.762912434767912,
+            "halo": 0.08537115215988862,
+            "peak": 0.8231606191494432,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.8850523473101432,
+            "fwhm_um": 1.9812816489111544,
+            "ee90_um": 4.25,
+            "energy": 30.14748835028308,
+            "halo": 0.09054614761417035,
+            "peak": 0.8137840994265062,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8798079810509611,
+            "fwhm_um": 2.9899863219139333,
+            "ee90_um": 6.625,
+            "energy": 44.95327567113253,
+            "halo": 0.09285130118282457,
+            "peak": 0.8025551107127682,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ]
+      },
+      "worst": {
+        "suppression_db": 2.5804926322606887,
+        "minimum_retention": 0.8656706702114588,
+        "maximum_halo": 0.106722229140741,
+        "maximum_crosstalk": 0.10725023658683891,
+        "maximum_fwhm_ratio": 1.001013053014151,
+        "maximum_ee90_ratio": 4.545454545454546
+      },
+      "sampled_guard_pass": false,
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 5.475451500000002,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 2.54,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -4.499999999999999,
+        "feasible": true
+      },
+      "trials": 35
+    },
+    {
+      "period_um": 20,
+      "mode": "metrology",
+      "available": true,
+      "search_id": 7848,
+      "design": {
+        "centres_mm": [
+          -20.0,
+          -20.0,
+          -2.6625,
+          -1.5975,
+          0.0,
+          1.5975,
+          2.6625,
+          20.0,
+          20.0
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-5,-3,0,3,5",
+        "rod_count": 9,
+        "active_rods": 5,
+        "active_flags": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "object_orders": [
+          -5,
+          -3,
+          0,
+          3,
+          5
+        ],
+        "period_um": 20,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 1.5989264742898934,
+        "minimum_retention": 0.888152246809524,
+        "maximum_fwhm_ratio": 1.006946037706803,
+        "maximum_ee90_ratio": 1.5294117647058825,
+        "maximum_halo": 0.08870222377654055,
+        "maximum_crosstalk": 0.09235094030277262,
+        "score": -8.033520937737864,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.925881571013269,
+            "fwhm_um": 0.5272816335920201,
+            "ee90_um": 0.875,
+            "energy": 7.792849352550441,
+            "halo": 0.056330383225909206,
+            "peak": 0.828397556163606,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.9031900200911777,
+            "fwhm_um": 0.7495476492898043,
+            "ee90_um": 1.375,
+            "energy": 11.533300249972037,
+            "halo": 0.07481074921383167,
+            "peak": 0.8406849428637463,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.89119206899726,
+            "fwhm_um": 0.9894250802619229,
+            "ee90_um": 2.0,
+            "energy": 15.178083679984102,
+            "halo": 0.0853788008142406,
+            "peak": 0.8255701442998631,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.888152246809524,
+            "fwhm_um": 1.497489802773774,
+            "ee90_um": 3.2500000000000004,
+            "energy": 22.689805069734426,
+            "halo": 0.08870222377654055,
+            "peak": 0.8067160894292629,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.8927559396800331,
+            "fwhm_um": 2.0221827465281677,
+            "ee90_um": 4.125,
+            "energy": 30.40989538409574,
+            "halo": 0.08411669570914315,
+            "peak": 0.8060903452361395,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8890113466202485,
+            "fwhm_um": 3.0134036477291852,
+            "ee90_um": 5.875,
+            "energy": 45.42351626731828,
+            "halo": 0.08426732016743313,
+            "peak": 0.8174131128302976,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ]
+      },
+      "worst": {
+        "suppression_db": 1.5735814277742044,
+        "minimum_retention": 0.8747564651309473,
+        "maximum_halo": 0.10214327623294858,
+        "maximum_crosstalk": 0.10151871330491563,
+        "maximum_fwhm_ratio": 1.010810064336233,
+        "maximum_ee90_ratio": 4.125
+      },
+      "sampled_guard_pass": false,
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 5.475451500000002,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 2.3625000000000003,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -5.3875,
+        "feasible": true
+      },
+      "trials": 35
+    },
+    {
+      "period_um": 30,
+      "mode": "metrology",
+      "available": true,
+      "search_id": 11768,
+      "design": {
+        "centres_mm": [
+          -20.0,
+          -20.0,
+          -2.13,
+          -1.7750000000000001,
+          0.0,
+          1.7750000000000001,
+          2.13,
+          20.0,
+          20.0
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-6,-5,0,5,6",
+        "rod_count": 9,
+        "active_rods": 5,
+        "active_flags": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "object_orders": [
+          -6,
+          -5,
+          0,
+          5,
+          6
+        ],
+        "period_um": 30,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 1.4308112166023723,
+        "minimum_retention": 0.8814036040809189,
+        "maximum_fwhm_ratio": 1.0149417450992628,
+        "maximum_ee90_ratio": 1.7058823529411764,
+        "maximum_halo": 0.09446897718940016,
+        "maximum_crosstalk": 0.09401469230398342,
+        "score": -8.92332345925912,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.9242121305161903,
+            "fwhm_um": 0.5266947508951254,
+            "ee90_um": 0.875,
+            "energy": 7.778798205293516,
+            "halo": 0.057337874140492386,
+            "peak": 0.8272547505374549,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.898921269656302,
+            "fwhm_um": 0.7474875870409897,
+            "ee90_um": 1.375,
+            "energy": 11.478790369036185,
+            "halo": 0.07756433421142628,
+            "peak": 0.837436737019604,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.8843363829296309,
+            "fwhm_um": 0.9850141781250349,
+            "ee90_um": 2.125,
+            "energy": 15.061323017004622,
+            "halo": 0.09048186241335864,
+            "peak": 0.8193649636279343,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.8814036040809189,
+            "fwhm_um": 1.493433844602579,
+            "ee90_um": 3.625,
+            "energy": 22.51739612909683,
+            "halo": 0.09446897718940016,
+            "peak": 0.795027848041161,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.8924043488467689,
+            "fwhm_um": 2.038239993818343,
+            "ee90_um": 4.25,
+            "energy": 30.397919165308103,
+            "halo": 0.08379991897121615,
+            "peak": 0.7943224647534929,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8933754926466986,
+            "fwhm_um": 3.049370446022074,
+            "ee90_um": 5.625,
+            "energy": 45.64649976328718,
+            "halo": 0.07937625222834635,
+            "peak": 0.8193714463724538,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ]
+      },
+      "worst": {
+        "suppression_db": 1.4089175820991005,
+        "minimum_retention": 0.8672744630676433,
+        "maximum_halo": 0.10874842549745961,
+        "maximum_crosstalk": 0.10720121495931355,
+        "maximum_fwhm_ratio": 1.0211231734505624,
+        "maximum_ee90_ratio": 4.75
+      },
+      "sampled_guard_pass": false,
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 5.475451500000002,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 1.8299999999999998,
+        "stroke_margin_mm": 3.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -5.92,
+        "feasible": true
+      },
+      "trials": 35
+    },
+    {
+      "period_um": 40,
+      "mode": "metrology",
+      "available": true,
+      "search_id": 15321,
+      "design": {
+        "centres_mm": [
+          -21.0,
+          -20.0,
+          -20.0,
+          -1.5975,
+          0.0,
+          1.5975,
+          20.0,
+          20.0,
+          21.0
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-6,0,6",
+        "rod_count": 9,
+        "active_rods": 3,
+        "active_flags": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "object_orders": [
+          -6,
+          0,
+          6
+        ],
+        "period_um": 40,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 1.3491415888470724,
+        "minimum_retention": 0.8890805583385878,
+        "maximum_fwhm_ratio": 0.9953689408867893,
+        "maximum_ee90_ratio": 1.4090909090909092,
+        "maximum_halo": 0.08430778926016597,
+        "maximum_crosstalk": 0.06353670933389467,
+        "score": -7.078301914746726,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.9526008933790864,
+            "fwhm_um": 0.5316009708172497,
+            "ee90_um": 0.75,
+            "energy": 8.017737351747979,
+            "halo": 0.03619126900095578,
+            "peak": 0.8625495373927369,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.9334767153035155,
+            "fwhm_um": 0.754681256477298,
+            "ee90_um": 1.25,
+            "energy": 11.920046717152907,
+            "halo": 0.05084077981812524,
+            "peak": 0.8859510604383078,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.9185573202113084,
+            "fwhm_um": 0.9900383289481907,
+            "ee90_um": 1.75,
+            "energy": 15.644147155299759,
+            "halo": 0.06262167431161898,
+            "peak": 0.8748792296816388,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.901672262448546,
+            "fwhm_um": 1.4742388607292713,
+            "ee90_um": 2.75,
+            "energy": 23.03520364356133,
+            "halo": 0.07726187075618825,
+            "peak": 0.8485728591580493,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.8965746773149624,
+            "fwhm_um": 1.9775835590666417,
+            "ee90_um": 3.875,
+            "energy": 30.53997282947138,
+            "halo": 0.08144245076653757,
+            "peak": 0.8315985635735518,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8890805583385878,
+            "fwhm_um": 2.991544338307414,
+            "ee90_um": 5.875,
+            "energy": 45.42705259970124,
+            "halo": 0.08430778926016597,
+            "peak": 0.8215793002152487,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ]
+      },
+      "worst": {
+        "suppression_db": 1.3292516637840506,
+        "minimum_retention": 0.8761759115957904,
+        "maximum_halo": 0.09676480240179476,
+        "maximum_crosstalk": 0.07221312048534703,
+        "maximum_fwhm_ratio": 1.001373159210342,
+        "maximum_ee90_ratio": 1.6363636363636367
+      },
+      "sampled_guard_pass": true,
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 3.8273714999999995,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 0.7,
+        "stroke_margin_mm": 2.975,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -7.05,
+        "feasible": true
+      },
+      "trials": 35
+    },
+    {
+      "period_um": 10,
+      "mode": "detection",
+      "available": true,
+      "search_id": 95,
+      "design": {
+        "centres_mm": [
+          -5.325,
+          -3.195,
+          -2.13,
+          -1.065,
+          0.0,
+          1.065,
+          2.13,
+          3.195,
+          5.325
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+        "rod_count": 9,
+        "active_rods": 9,
+        "active_flags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "object_orders": [
+          -5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "period_um": 10,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 10.861072493485162,
+        "minimum_retention": 0.8436125613666011,
+        "maximum_fwhm_ratio": 0.9999125975911216,
+        "maximum_ee90_ratio": 16.888888888888886,
+        "maximum_halo": 0.12268090752248174,
+        "maximum_crosstalk": 0.18114244861693443,
+        "score": -12.025515325044058,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.8844156223945802,
+            "fwhm_um": 0.5225181049924847,
+            "ee90_um": 1.0,
+            "energy": 7.443843711912836,
+            "halo": 0.08849132481147712,
+            "peak": 0.7713179059124404,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.8618484476107319,
+            "fwhm_um": 0.7477855028077015,
+            "ee90_um": 19.0,
+            "energy": 11.00538834038868,
+            "halo": 0.10759275637451621,
+            "peak": 0.7744171032850997,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.851141414420352,
+            "fwhm_um": 0.9914809046293795,
+            "ee90_um": 19.625,
+            "energy": 14.495972373394011,
+            "halo": 0.11655784854048591,
+            "peak": 0.7598806767662664,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.8444718758713328,
+            "fwhm_um": 1.4926913896558645,
+            "ee90_um": 20.0,
+            "energy": 21.573893799429655,
+            "halo": 0.12248264505961612,
+            "peak": 0.743846750927577,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.8438723467314735,
+            "fwhm_um": 2.0019398468487224,
+            "ee90_um": 20.125,
+            "energy": 28.744776305641665,
+            "halo": 0.12263983050017314,
+            "peak": 0.739117752986267,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.8436125613666011,
+            "fwhm_um": 3.0052001295730606,
+            "ee90_um": 20.125,
+            "energy": 43.10389181221397,
+            "halo": 0.12268090752248174,
+            "peak": 0.7392902851365857,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ],
+        "search_id": 95,
+        "design": {
+          "centres_mm": [
+            -5.325,
+            -3.195,
+            -2.13,
+            -1.065,
+            0.0,
+            1.065,
+            2.13,
+            3.195,
+            5.325
+          ],
+          "layers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "widths_mm": [
+            0.1,
+            0.1
+          ],
+          "depths_mm": [
+            0.05,
+            0.05
+          ],
+          "relative_phase": 0.0,
+          "tooth_pitch_mm": 0.75,
+          "z_mm": [
+            -2.0,
+            2.0
+          ],
+          "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+          "rod_count": 9,
+          "active_rods": 9,
+          "active_flags": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "object_orders": [
+            -5,
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "period_um": 10,
+          "profile": "triangle",
+          "tip_mm": 0.02,
+          "process": "precision"
+        },
+        "mechanics": {
+          "working_stress_mpa": 100.0,
+          "mass_to_minimum_core_ratio": 1.8750000000000002,
+          "force_per_rod_n": 0.4,
+          "maximum_active_2g_deflection_um": 7.417831500000001,
+          "maximum_installed_2g_deflection_um": 7.417831500000001,
+          "minimum_string_frequency_hz": 287.498796101312,
+          "displacement_assumption_g": 2.0,
+          "dynamic_model_ok": true,
+          "required_material_proof_stress_mpa": 300.0,
+          "minimum_same_layer_clearance_mm": 1.8299999999999998,
+          "stroke_margin_mm": 18.650000000000002,
+          "cross_layer_rod_clearance_mm": 3.73,
+          "stage_lane_clearance_mm": 1.8,
+          "stage_to_50mm_opening_clearance_mm": 1.9,
+          "conventional_same_x_slider_clearance_mm": -5.92,
+          "feasible": true
+        },
+        "manufacturing": {
+          "process": "precision",
+          "edge_tolerance_mm": 0.01,
+          "foil_thickness_mm": 0.05,
+          "tip_mm": 0.02,
+          "minimum_corner_radius_mm": 0.05,
+          "minimum_width_after_error_mm": 0.08,
+          "minimum_margin": 1.0,
+          "feasible": true,
+          "corner_deviation_bound_mm": 0.0001100132667696152
+        }
+      },
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 7.417831500000001,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 1.8299999999999998,
+        "stroke_margin_mm": 18.650000000000002,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -5.92,
+        "feasible": true
+      }
+    },
+    {
+      "period_um": 15,
+      "mode": "detection",
+      "available": true,
+      "search_id": 4007,
+      "design": {
+        "centres_mm": [
+          -3.5500000000000003,
+          -2.13,
+          -1.42,
+          -0.71,
+          0.0,
+          0.71,
+          1.42,
+          2.13,
+          3.5500000000000003
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+        "rod_count": 9,
+        "active_rods": 9,
+        "active_flags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "object_orders": [
+          -5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "period_um": 15,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 10.589957525416708,
+        "minimum_retention": 0.7656621299529406,
+        "maximum_fwhm_ratio": 0.9947049634899192,
+        "maximum_ee90_ratio": 26.22222222222222,
+        "maximum_halo": 0.18357301364150505,
+        "maximum_crosstalk": 0.18790954212758745,
+        "score": -16.043452925049074,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.8679885057418251,
+            "fwhm_um": 0.5167634601963155,
+            "ee90_um": 1.25,
+            "energy": 7.305581919714513,
+            "halo": 0.09785604876113131,
+            "peak": 0.7596540408095928,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.8271294708397148,
+            "fwhm_um": 0.7315855645284591,
+            "ee90_um": 29.500000000000004,
+            "energy": 10.562043778818435,
+            "halo": 0.13038066633112075,
+            "peak": 0.745086029207656,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.8015735500535486,
+            "fwhm_um": 0.9635762833860652,
+            "ee90_um": 30.375,
+            "energy": 13.651771421242406,
+            "halo": 0.1521988506963628,
+            "peak": 0.7110852866052685,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.7768130008026736,
+            "fwhm_um": 1.4516654622716887,
+            "ee90_um": 31.375,
+            "energy": 19.845398834675457,
+            "halo": 0.17399497187535068,
+            "peak": 0.6652234484665536,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.7681667217189431,
+            "fwhm_um": 1.9560951560433004,
+            "ee90_um": 31.875,
+            "energy": 26.166019856881718,
+            "halo": 0.18173200011103402,
+            "peak": 0.6422088870484072,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.7656621299529406,
+            "fwhm_um": 2.98954877893161,
+            "ee90_um": 32.75,
+            "energy": 39.12105998129992,
+            "halo": 0.18357301364150505,
+            "peak": 0.6264537098371735,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ],
+        "search_id": 4007,
+        "design": {
+          "centres_mm": [
+            -3.5500000000000003,
+            -2.13,
+            -1.42,
+            -0.71,
+            0.0,
+            0.71,
+            1.42,
+            2.13,
+            3.5500000000000003
+          ],
+          "layers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "widths_mm": [
+            0.1,
+            0.1
+          ],
+          "depths_mm": [
+            0.05,
+            0.05
+          ],
+          "relative_phase": 0.0,
+          "tooth_pitch_mm": 0.75,
+          "z_mm": [
+            -2.0,
+            2.0
+          ],
+          "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+          "rod_count": 9,
+          "active_rods": 9,
+          "active_flags": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "object_orders": [
+            -5,
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "period_um": 15,
+          "profile": "triangle",
+          "tip_mm": 0.02,
+          "process": "precision"
+        },
+        "mechanics": {
+          "working_stress_mpa": 100.0,
+          "mass_to_minimum_core_ratio": 1.8750000000000002,
+          "force_per_rod_n": 0.4,
+          "maximum_active_2g_deflection_um": 7.417831500000001,
+          "maximum_installed_2g_deflection_um": 7.417831500000001,
+          "minimum_string_frequency_hz": 287.498796101312,
+          "displacement_assumption_g": 2.0,
+          "dynamic_model_ok": true,
+          "required_material_proof_stress_mpa": 300.0,
+          "minimum_same_layer_clearance_mm": 1.1199999999999999,
+          "stroke_margin_mm": 20.425,
+          "cross_layer_rod_clearance_mm": 3.73,
+          "stage_lane_clearance_mm": 1.8,
+          "stage_to_50mm_opening_clearance_mm": 1.9,
+          "conventional_same_x_slider_clearance_mm": -6.63,
+          "feasible": true
+        },
+        "manufacturing": {
+          "process": "precision",
+          "edge_tolerance_mm": 0.01,
+          "foil_thickness_mm": 0.05,
+          "tip_mm": 0.02,
+          "minimum_corner_radius_mm": 0.05,
+          "minimum_width_after_error_mm": 0.08,
+          "minimum_margin": 1.0,
+          "feasible": true,
+          "corner_deviation_bound_mm": 0.0001100132667696152
+        }
+      },
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 7.417831500000001,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 1.1199999999999999,
+        "stroke_margin_mm": 20.425,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -6.63,
+        "feasible": true
+      }
+    },
+    {
+      "period_um": 20,
+      "mode": "detection",
+      "available": true,
+      "search_id": 7919,
+      "design": {
+        "centres_mm": [
+          -2.6625,
+          -1.5975,
+          -1.065,
+          -0.5325,
+          0.0,
+          0.5325,
+          1.065,
+          1.5975,
+          2.6625
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+        "rod_count": 9,
+        "active_rods": 9,
+        "active_flags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "object_orders": [
+          -5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "period_um": 20,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 10.46717942969858,
+        "minimum_retention": 0.6886914419174845,
+        "maximum_fwhm_ratio": 0.97124319568641,
+        "maximum_ee90_ratio": 34.66666666666666,
+        "maximum_halo": 0.24339996121527352,
+        "maximum_crosstalk": 0.18133004858954505,
+        "score": -18.728756243640383,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.8607067804899579,
+            "fwhm_um": 0.5142465615238125,
+            "ee90_um": 1.875,
+            "energy": 7.244293964871257,
+            "halo": 0.10110139367494297,
+            "peak": 0.7549784438442896,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.8083500338770672,
+            "fwhm_um": 0.7226989178698514,
+            "ee90_um": 39.0,
+            "energy": 10.322239440641876,
+            "halo": 0.1398437989032694,
+            "peak": 0.7319664369095309,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.7694609044311431,
+            "fwhm_um": 0.943172246256978,
+            "ee90_um": 40.125,
+            "energy": 13.104854051352703,
+            "halo": 0.17090136280551632,
+            "peak": 0.686192241195629,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.7238374419736638,
+            "fwhm_um": 1.4059784909120605,
+            "ee90_um": 41.25,
+            "energy": 18.492021519459065,
+            "halo": 0.21110322398582057,
+            "peak": 0.6149062348636347,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.7023157937721712,
+            "fwhm_um": 1.8960508054174516,
+            "ee90_um": 41.875,
+            "energy": 23.922943400258347,
+            "halo": 0.23070591575376262,
+            "peak": 0.5725164285837584,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.6886914419174845,
+            "fwhm_um": 2.9190353082412943,
+            "ee90_um": 42.875,
+            "energy": 35.18828756689035,
+            "halo": 0.24339996121527352,
+            "peak": 0.5337963173205661,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ],
+        "search_id": 7919,
+        "design": {
+          "centres_mm": [
+            -2.6625,
+            -1.5975,
+            -1.065,
+            -0.5325,
+            0.0,
+            0.5325,
+            1.065,
+            1.5975,
+            2.6625
+          ],
+          "layers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "widths_mm": [
+            0.1,
+            0.1
+          ],
+          "depths_mm": [
+            0.05,
+            0.05
+          ],
+          "relative_phase": 0.0,
+          "tooth_pitch_mm": 0.75,
+          "z_mm": [
+            -2.0,
+            2.0
+          ],
+          "layout": "movable_-5,-3,-2,-1,0,1,2,3,5",
+          "rod_count": 9,
+          "active_rods": 9,
+          "active_flags": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "object_orders": [
+            -5,
+            -3,
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "period_um": 20,
+          "profile": "triangle",
+          "tip_mm": 0.02,
+          "process": "precision"
+        },
+        "mechanics": {
+          "working_stress_mpa": 100.0,
+          "mass_to_minimum_core_ratio": 1.8750000000000002,
+          "force_per_rod_n": 0.4,
+          "maximum_active_2g_deflection_um": 7.417831500000001,
+          "maximum_installed_2g_deflection_um": 7.417831500000001,
+          "minimum_string_frequency_hz": 287.498796101312,
+          "displacement_assumption_g": 2.0,
+          "dynamic_model_ok": true,
+          "required_material_proof_stress_mpa": 300.0,
+          "minimum_same_layer_clearance_mm": 0.7649999999999999,
+          "stroke_margin_mm": 21.3125,
+          "cross_layer_rod_clearance_mm": 3.73,
+          "stage_lane_clearance_mm": 1.8,
+          "stage_to_50mm_opening_clearance_mm": 1.9,
+          "conventional_same_x_slider_clearance_mm": -6.985,
+          "feasible": true
+        },
+        "manufacturing": {
+          "process": "precision",
+          "edge_tolerance_mm": 0.01,
+          "foil_thickness_mm": 0.05,
+          "tip_mm": 0.02,
+          "minimum_corner_radius_mm": 0.05,
+          "minimum_width_after_error_mm": 0.08,
+          "minimum_margin": 1.0,
+          "feasible": true,
+          "corner_deviation_bound_mm": 0.0001100132667696152
+        }
+      },
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 7.417831500000001,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 0.7649999999999999,
+        "stroke_margin_mm": 21.3125,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -6.985,
+        "feasible": true
+      }
+    },
+    {
+      "period_um": 30,
+      "mode": "detection",
+      "available": true,
+      "search_id": 11852,
+      "design": {
+        "centres_mm": [
+          -2.4850000000000003,
+          -2.13,
+          -1.065,
+          -0.355,
+          0.0,
+          0.355,
+          1.065,
+          2.13,
+          2.4850000000000003
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-7,-6,-3,-1,0,1,3,6,7",
+        "rod_count": 9,
+        "active_rods": 9,
+        "active_flags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "object_orders": [
+          -7,
+          -6,
+          -3,
+          -1,
+          0,
+          1,
+          3,
+          6,
+          7
+        ],
+        "period_um": 30,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 5.620802110981657,
+        "minimum_retention": 0.6705263383245845,
+        "maximum_fwhm_ratio": 0.9523111907876749,
+        "maximum_ee90_ratio": 31.0,
+        "maximum_halo": 0.2469048137318016,
+        "maximum_crosstalk": 0.1170246775136636,
+        "score": -22.130219952045586,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.8615217002698942,
+            "fwhm_um": 0.5145351359711272,
+            "ee90_um": 1.75,
+            "energy": 7.251152884281984,
+            "halo": 0.1009214759931878,
+            "peak": 0.7553373315164547,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.8110871609995602,
+            "fwhm_um": 0.7240050072323504,
+            "ee90_um": 29.500000000000004,
+            "energy": 10.357191231764267,
+            "halo": 0.13895371780350993,
+            "peak": 0.7334123298115576,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.7753272512776754,
+            "fwhm_um": 0.9470476812341129,
+            "ee90_um": 42.625,
+            "energy": 13.204765065409036,
+            "halo": 0.1685306459960016,
+            "peak": 0.6895725218642175,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.7363039845542065,
+            "fwhm_um": 1.4199577351779786,
+            "ee90_um": 58.125,
+            "energy": 18.810506804005918,
+            "halo": 0.20279887501402907,
+            "peak": 0.6243413923009478,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.7137783163660439,
+            "fwhm_um": 1.9124632177134195,
+            "ee90_um": 58.87500000000001,
+            "energy": 24.313390662969848,
+            "halo": 0.21871826823211105,
+            "peak": 0.5882692700944081,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.6705263383245845,
+            "fwhm_um": 2.8233962817909357,
+            "ee90_um": 60.0,
+            "energy": 34.260152193043346,
+            "halo": 0.2469048137318016,
+            "peak": 0.5460903987650028,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ],
+        "search_id": 11852,
+        "design": {
+          "centres_mm": [
+            -2.4850000000000003,
+            -2.13,
+            -1.065,
+            -0.355,
+            0.0,
+            0.355,
+            1.065,
+            2.13,
+            2.4850000000000003
+          ],
+          "layers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "widths_mm": [
+            0.1,
+            0.1
+          ],
+          "depths_mm": [
+            0.05,
+            0.05
+          ],
+          "relative_phase": 0.0,
+          "tooth_pitch_mm": 0.75,
+          "z_mm": [
+            -2.0,
+            2.0
+          ],
+          "layout": "movable_-7,-6,-3,-1,0,1,3,6,7",
+          "rod_count": 9,
+          "active_rods": 9,
+          "active_flags": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "object_orders": [
+            -7,
+            -6,
+            -3,
+            -1,
+            0,
+            1,
+            3,
+            6,
+            7
+          ],
+          "period_um": 30,
+          "profile": "triangle",
+          "tip_mm": 0.02,
+          "process": "precision"
+        },
+        "mechanics": {
+          "working_stress_mpa": 100.0,
+          "mass_to_minimum_core_ratio": 1.8750000000000002,
+          "force_per_rod_n": 0.4,
+          "maximum_active_2g_deflection_um": 7.417831500000001,
+          "maximum_installed_2g_deflection_um": 7.417831500000001,
+          "minimum_string_frequency_hz": 287.498796101312,
+          "displacement_assumption_g": 2.0,
+          "dynamic_model_ok": true,
+          "required_material_proof_stress_mpa": 300.0,
+          "minimum_same_layer_clearance_mm": 0.41,
+          "stroke_margin_mm": 21.490000000000002,
+          "cross_layer_rod_clearance_mm": 3.73,
+          "stage_lane_clearance_mm": 1.8,
+          "stage_to_50mm_opening_clearance_mm": 1.9,
+          "conventional_same_x_slider_clearance_mm": -6.985,
+          "feasible": true
+        },
+        "manufacturing": {
+          "process": "precision",
+          "edge_tolerance_mm": 0.01,
+          "foil_thickness_mm": 0.05,
+          "tip_mm": 0.02,
+          "minimum_corner_radius_mm": 0.05,
+          "minimum_width_after_error_mm": 0.08,
+          "minimum_margin": 1.0,
+          "feasible": true,
+          "corner_deviation_bound_mm": 0.0001100132667696152
+        }
+      },
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 7.417831500000001,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 0.41,
+        "stroke_margin_mm": 21.490000000000002,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -6.985,
+        "feasible": true
+      }
+    },
+    {
+      "period_um": 40,
+      "mode": "detection",
+      "available": true,
+      "search_id": 15439,
+      "design": {
+        "centres_mm": [
+          -1.86375,
+          -1.5975,
+          -1.33125,
+          -0.26625,
+          0.0,
+          0.26625,
+          1.33125,
+          1.5975,
+          1.86375
+        ],
+        "layers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "widths_mm": [
+          0.1,
+          0.1
+        ],
+        "depths_mm": [
+          0.05,
+          0.05
+        ],
+        "relative_phase": 0.0,
+        "tooth_pitch_mm": 0.75,
+        "z_mm": [
+          -2.0,
+          2.0
+        ],
+        "layout": "movable_-7,-6,-5,-1,0,1,5,6,7",
+        "rod_count": 9,
+        "active_rods": 9,
+        "active_flags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "object_orders": [
+          -7,
+          -6,
+          -5,
+          -1,
+          0,
+          1,
+          5,
+          6,
+          7
+        ],
+        "period_um": 40,
+        "profile": "triangle",
+        "tip_mm": 0.02,
+        "process": "precision"
+      },
+      "nominal": {
+        "suppression_db": 5.09509585962253,
+        "minimum_retention": 0.6746211246247443,
+        "maximum_fwhm_ratio": 0.9858178003534012,
+        "maximum_ee90_ratio": 31.352941176470587,
+        "maximum_halo": 0.24566349502769194,
+        "maximum_crosstalk": 0.1425447976879167,
+        "score": -23.143284313959498,
+        "feasible": true,
+        "defects": [
+          {
+            "defect_um": 0.5,
+            "retention": 0.8579021213470074,
+            "fwhm_um": 0.513278221592819,
+            "ee90_um": 1.875,
+            "energy": 7.220688044988494,
+            "halo": 0.10222319579594613,
+            "peak": 0.7532175533255218,
+            "baseline_fwhm_um": 0.5405287491215873,
+            "baseline_ee90_um": 0.75
+          },
+          {
+            "defect_um": 0.75,
+            "retention": 0.8008391640645389,
+            "fwhm_um": 0.7191737965570065,
+            "ee90_um": 13.625,
+            "energy": 10.226329261433303,
+            "halo": 0.14310298013198525,
+            "peak": 0.7269059625429426,
+            "baseline_fwhm_um": 0.772637122687836,
+            "baseline_ee90_um": 1.1250000000000002
+          },
+          {
+            "defect_um": 1.0,
+            "retention": 0.7564765464096916,
+            "fwhm_um": 0.9348710637970246,
+            "ee90_um": 39.0,
+            "energy": 12.883714659030453,
+            "halo": 0.1776016573388011,
+            "peak": 0.676405133815928,
+            "baseline_fwhm_um": 1.0167200132369887,
+            "baseline_ee90_um": 1.375
+          },
+          {
+            "defect_um": 1.5,
+            "retention": 0.706183467949403,
+            "fwhm_um": 1.3901585046817013,
+            "ee90_um": 66.625,
+            "energy": 18.041011874710016,
+            "halo": 0.2253749362745452,
+            "peak": 0.5952495938670701,
+            "baseline_fwhm_um": 1.5110323810686184,
+            "baseline_ee90_um": 2.125
+          },
+          {
+            "defect_um": 2.0,
+            "retention": 0.6905904021285549,
+            "fwhm_um": 1.8992697810684247,
+            "ee90_um": 67.375,
+            "energy": 23.52354204388348,
+            "halo": 0.24138381222948127,
+            "peak": 0.5488511355312456,
+            "baseline_fwhm_um": 2.008233481044767,
+            "baseline_ee90_um": 2.75
+          },
+          {
+            "defect_um": 3.0,
+            "retention": 0.6746211246247443,
+            "fwhm_um": 2.9628387406005174,
+            "ee90_um": 69.125,
+            "energy": 34.46937291089314,
+            "halo": 0.24566349502769194,
+            "peak": 0.5209458447397487,
+            "baseline_fwhm_um": 3.0054628142628217,
+            "baseline_ee90_um": 4.25
+          }
+        ],
+        "search_id": 15439,
+        "design": {
+          "centres_mm": [
+            -1.86375,
+            -1.5975,
+            -1.33125,
+            -0.26625,
+            0.0,
+            0.26625,
+            1.33125,
+            1.5975,
+            1.86375
+          ],
+          "layers": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "widths_mm": [
+            0.1,
+            0.1
+          ],
+          "depths_mm": [
+            0.05,
+            0.05
+          ],
+          "relative_phase": 0.0,
+          "tooth_pitch_mm": 0.75,
+          "z_mm": [
+            -2.0,
+            2.0
+          ],
+          "layout": "movable_-7,-6,-5,-1,0,1,5,6,7",
+          "rod_count": 9,
+          "active_rods": 9,
+          "active_flags": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "object_orders": [
+            -7,
+            -6,
+            -5,
+            -1,
+            0,
+            1,
+            5,
+            6,
+            7
+          ],
+          "period_um": 40,
+          "profile": "triangle",
+          "tip_mm": 0.02,
+          "process": "precision"
+        },
+        "mechanics": {
+          "working_stress_mpa": 100.0,
+          "mass_to_minimum_core_ratio": 1.8750000000000002,
+          "force_per_rod_n": 0.4,
+          "maximum_active_2g_deflection_um": 7.417831500000001,
+          "maximum_installed_2g_deflection_um": 7.417831500000001,
+          "minimum_string_frequency_hz": 287.498796101312,
+          "displacement_assumption_g": 2.0,
+          "dynamic_model_ok": true,
+          "required_material_proof_stress_mpa": 300.0,
+          "minimum_same_layer_clearance_mm": 0.23249999999999998,
+          "stroke_margin_mm": 22.111250000000002,
+          "cross_layer_rod_clearance_mm": 3.73,
+          "stage_lane_clearance_mm": 1.8,
+          "stage_to_50mm_opening_clearance_mm": 1.9,
+          "conventional_same_x_slider_clearance_mm": -7.5175,
+          "feasible": true
+        },
+        "manufacturing": {
+          "process": "precision",
+          "edge_tolerance_mm": 0.01,
+          "foil_thickness_mm": 0.05,
+          "tip_mm": 0.02,
+          "minimum_corner_radius_mm": 0.05,
+          "minimum_width_after_error_mm": 0.08,
+          "minimum_margin": 1.0,
+          "feasible": true,
+          "corner_deviation_bound_mm": 0.0001100132667696152
+        }
+      },
+      "mechanics": {
+        "working_stress_mpa": 100.0,
+        "mass_to_minimum_core_ratio": 1.8750000000000002,
+        "force_per_rod_n": 0.4,
+        "maximum_active_2g_deflection_um": 7.417831500000001,
+        "maximum_installed_2g_deflection_um": 7.417831500000001,
+        "minimum_string_frequency_hz": 287.498796101312,
+        "displacement_assumption_g": 2.0,
+        "dynamic_model_ok": true,
+        "required_material_proof_stress_mpa": 300.0,
+        "minimum_same_layer_clearance_mm": 0.23249999999999998,
+        "stroke_margin_mm": 22.111250000000002,
+        "cross_layer_rod_clearance_mm": 3.73,
+        "stage_lane_clearance_mm": 1.8,
+        "stage_to_50mm_opening_clearance_mm": 1.9,
+        "conventional_same_x_slider_clearance_mm": -7.5175,
+        "feasible": true
+      }
+    }
+  ],
+  "caveat": "One fixed geometry; positions alone change. Metrology gate also EE90 <=2x baseline. Detection does not certify defect-size fidelity. Perturbation sampling is not an exhaustive tolerance guarantee."
+}

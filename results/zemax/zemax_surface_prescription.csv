@@ -1,0 +1,6 @@
+﻿surface,comment,type,focal_length_mm,thickness_mm,z_mm
+1,PERIODIC OBJECT UDA,standard,,50.0,0.0
+2,"OBJECTIVE f=50 mm, NA=0.10",paraxial,50.0,50.0,50.0
+3,OBJECTIVE BFP: EQUIVALENT FILTER UDA,standard,,1000.0,100.0
+4,TUBE LENS f=1000 mm,paraxial,1000.0,1000.0,1100.0
+5,20X IMAGE,image,,0.0,2100.0

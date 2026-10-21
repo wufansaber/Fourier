@@ -1,0 +1,13 @@
+{
+  "power_W": 0.10784807787954795,
+  "roi_power_W": 0.06908115264774821,
+  "central_peak_W_per_mm2": 0.01836384717516348,
+  "nx": 2048,
+  "dx_um": 5.001567752186631,
+  "model": "real_defect_open",
+  "sampling": 2048,
+  "end_surface": 28,
+  "source": "probe_real_pop.py, explicit IAS_PhysicalOpticsPropagation and TopHat; output copied from diagnostics/scan_s28",
+  "messages": [],
+  "elapsed_s": null
+}

@@ -1,0 +1,127 @@
+{
+  "rows": [
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 1,
+      "charge_gain": 1.0,
+      "normalized_max_error": 0.0,
+      "normalized_l2_error": 0.0,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 25,
+      "charge_gain": 25.0,
+      "normalized_max_error": 4.440891962928041e-16,
+      "normalized_l2_error": 4.083359130551205e-16,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 256,
+      "charge_gain": 256.0,
+      "normalized_max_error": 3.663735869415634e-15,
+      "normalized_l2_error": 3.0806572913913652e-15,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 1,
+      "charge_gain": 0.9996304444672018,
+      "normalized_max_error": 0.0,
+      "normalized_l2_error": 0.0,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 25,
+      "charge_gain": 20.250636359773903,
+      "normalized_max_error": 2.2204459814640206e-16,
+      "normalized_l2_error": 1.3780686889153657e-16,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "prescribed_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 256,
+      "charge_gain": 26.611675485780673,
+      "normalized_max_error": 5.551114953660051e-16,
+      "normalized_l2_error": 3.3250265051676177e-16,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 1,
+      "charge_gain": 1.0,
+      "normalized_max_error": 0.0,
+      "normalized_l2_error": 0.0,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 25,
+      "charge_gain": 25.0,
+      "normalized_max_error": 1.1102230246251565e-16,
+      "normalized_l2_error": 1.626023854304779e-16,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "equal_exposure_per_stage",
+      "stages": 256,
+      "charge_gain": 256.0,
+      "normalized_max_error": 1.4988010832439613e-15,
+      "normalized_l2_error": 1.952460079744811e-15,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 1,
+      "charge_gain": 0.9996304444672018,
+      "normalized_max_error": 2.117582368135751e-22,
+      "normalized_l2_error": 2.9528859148616124e-22,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 25,
+      "charge_gain": 20.250636359773903,
+      "normalized_max_error": 5.551115123125783e-17,
+      "normalized_l2_error": 7.366696918233296e-17,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    },
+    {
+      "input_case": "fixed_optical_point_image",
+      "exposure_mode": "fixed_25stage_exposure_envelope",
+      "stages": 256,
+      "charge_gain": 26.611675485780673,
+      "normalized_max_error": 4.440892098500626e-16,
+      "normalized_l2_error": 4.2155177123959137e-16,
+      "output_pitch_object_um": 0.25,
+      "motion_blur_added_pixels": 0.0
+    }
+  ],
+  "maximum_normalized_error": 3.663735869415634e-15,
+  "finding": "Same optical input + exact one-row/clock motion = same normalized image for 1,25,256 stages.",
+  "limits": "Ideal matched motion, perfect charge transfer, no saturation/noise; optical acceptance evaluated separately."
+}

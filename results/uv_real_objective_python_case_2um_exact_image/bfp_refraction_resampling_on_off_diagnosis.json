@@ -1,0 +1,73 @@
+{
+  "expected_order_centres_mm": [
+    -15.496990102237959,
+    -10.331326734825305,
+    -5.165663367412653,
+    0.0,
+    5.165663367412653,
+    10.331326734825305,
+    15.496990102237959
+  ],
+  "python_input_ratios_at_expected_centres": [
+    0.014295526780188084,
+    0.0089900316670537,
+    0.19422563910484314,
+    1.0,
+    0.19419604539871216,
+    0.008983602747321129,
+    0.014299632981419563
+  ],
+  "resampling_on_ratios_at_expected_centres": [
+    2.1633848190405974e-11,
+    6.88289838004176e-11,
+    8.40421813275814e-10,
+    0.9371705708380882,
+    8.404218132742742e-10,
+    6.882898380053931e-11,
+    2.1633848190311236e-11
+  ],
+  "resampling_off_ratios_at_expected_centres": [
+    2.1165387247911785e-05,
+    2.323187262129516e-05,
+    1.7910050959076568e-05,
+    1.0,
+    1.7977309541266575e-05,
+    2.3556037428828875e-05,
+    2.1361431406992413e-05
+  ],
+  "largest_separated_peaks_with_resampling_off": [
+    {
+      "y_mm": 0.0,
+      "relative_intensity": 1.0
+    },
+    {
+      "y_mm": -7.58787261158913,
+      "relative_intensity": 0.1539986695695224
+    },
+    {
+      "y_mm": 7.587872611589134,
+      "relative_intensity": 0.153976959212596
+    },
+    {
+      "y_mm": -15.175745223178264,
+      "relative_intensity": 0.005524371956335738
+    },
+    {
+      "y_mm": 15.17574522317826,
+      "relative_intensity": 0.0055187494759185276
+    },
+    {
+      "y_mm": 0.7587872611589148,
+      "relative_intensity": 0.004665963109858943
+    },
+    {
+      "y_mm": -0.7587872611589148,
+      "relative_intensity": 0.004665744792400899
+    },
+    {
+      "y_mm": 7.082014437483188,
+      "relative_intensity": 0.0036017643959911235
+    }
+  ],
+  "conclusion": "ON erases the undersampled carrier; OFF retains aliased energy at incorrect BFP coordinates. Neither setting is a valid reconstruction of the 2 um orders."
+}
